@@ -7,11 +7,16 @@
 
 [View the live project here!](Link to live project)
 
-This is my first milestone project at Code Institute, It's the main website of a imaginary bakery called Tony's Bakery. It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential customers.
+## Description
+
+> Pasta Palace is a website for a restaurant with the goal to reach out to the local community to showcase their menu and to add the posibility for customers to book a table or order food for take away. This is reached with a neat design with only relevant features and intuitive interactivity to get a clear and good user experience. 
+
+
 ------------
 ## Project Goal
 
->   
+> The main goal for this project is to create a well designed, structured and interactive website with key features within the scope. Structured and high quality code.
+> These goals will align with the overall business goals.
 
 ---
 
