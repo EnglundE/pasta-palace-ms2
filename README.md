@@ -15,14 +15,14 @@
 ------------
 ## Project Goal
 
-> The main goal for this project is to create a well designed, structured and interactive website with key features within the scope. Structured and high quality code.
+> The main goal for this project is to create a well designed, structured and interactive website with key features within the scope (HTML, CSS and Javascript) to meet the customer needs. Structured and high quality code.
 > These goals will align with the overall business goals.
 
 ---
 
 ## User Experience (UX)
 
-## User stories to support Project Goal
+## User stories
   
 - ### First time Visitors Goals
 > 1. 
@@ -45,9 +45,15 @@
 > 3. 
 
 
+- ### Business Goals
+> To reach more potential customers in the area of Stockholm with our products and services with a clean, responsive and intuitive way for a good user experience and willingness to buy.
 
 - ### Strategy
->  
+> To align with the Business goals potential customer research has been done to answer some questions:
+> * What do you most use this kind of website for? 
+> * What do you do before/after using this kind of website?
+> * What makes a good experience?
+> * What do you expect when visiting this kind of website? 
 
 - ### Scope
 > 
