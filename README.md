@@ -9,7 +9,7 @@
 
 ## Description
 
-> Pasta Palace is a website for a restaurant with the goal to reach out to the local community to showcase their menu and to add the posibility for customers to book a table or order food for take away. This is reached with a neat design with only relevant features and intuitive interactivity to get a clear and good user experience. 
+> Pasta Palace is a website for a restaurant with the goal to reach out to the local community to showcase their menu and to add the possibility for customers to book a table or order food for take away. This is reached with a neat design with only relevant features and intuitive interactivity to get a clear and good user experience. 
 
 
 ------------
@@ -46,7 +46,7 @@
 
 
 - ### Business Goals
-> To reach more potential customers in the area of Stockholm with our products and services with a clean, responsive and intuitive way for a good user experience and willingness to buy.
+> To reach more potential customers in the area of Stockholm with our products and services to book a table, order take away food and look into our menu with a clean, responsive and intuitive way for a good user experience and willingness to buy and visit the restaurant.
 
 - ### Strategy
 > To align with the Business goals potential customer research has been done to answer some questions:
@@ -54,6 +54,8 @@
 > * What do you do before/after using this kind of website?
 > * What makes a good experience?
 > * What do you expect when visiting this kind of website? 
+
+> The result from this research is a website with only a few key functions to accomplish what the customers are looking for. A simple, not so busy site with clear steps to take to do what we want.
 
 - ### Scope
 > 
@@ -70,13 +72,7 @@
 
 
 ## Wireframes
-  - All wireframes is described below and can be found on this [Link](Link to the Wireframes document on Github)
-> 1. 
-> * 
-> 2. 
-> * 
-> 3. 
-> * 
+  - Wireframes for desktop, mobile and tablet can be found here: [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/wireframes/Pasta%20palace%20wireframes.png)
 
 
 ---
