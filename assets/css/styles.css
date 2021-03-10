@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #8EA8C4;
+    border-bottom: solid #0C2C42 1px;
+}
+
+.navbar-toggler {
+    float: left;
+}
+
+.nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Hidden to be shown when something is added to the basket. Done with JS
+.basket {
+    visibility: hidden;
+} */
