@@ -63,7 +63,7 @@
 > * Interactive Menu to view only the section of your choice (Starter, Main courses, Dessert, Drinks).
 > * Add to basket function for the menu.
 > * Showcase a Gallery of images in a slide show.
-> * Book a table function generating an email.
+> * Book a table function generating an email to the restaurant.
 > * EmailJS function to the contact form.
 
 > Features out of scope for the first release:
@@ -71,7 +71,9 @@
 > * The possibility to see available slots to book a table function in real time.
 
 - ### Structure
-> 
+> * Its a one page website with different sections, all sections will have centralized content.
+> * It will be a natural flow with a big hero image at the top to create interest, below that the Menu followed by a Gallery, Book a table and last contact.
+> * Only short and relevant information in form of text throughout the website to not distract the customer.
 
 - ### Skeleton
 > 
@@ -181,7 +183,7 @@
 > * 
 > * 
 
-- #### problems/bugs found during testing
+- #### problems/bugs
 > 1. 
 > 2. 
 > 3.  
@@ -214,8 +216,8 @@ By forking the GitHub repository you can make a copy of the original repository 
 - ### Making a Local Clone
 
 > 1. Log in to GitHub and locate the Repository.
-> 2. Below "settings", klick on the "Code" dropdown.
-> 3. To clone the repository using HTTPS, under clode with HTTPS, copy the link.
+> 2. Below "settings", click on the "Code" dropdown.
+> 3. To clone the repository using HTTPS, under clone with HTTPS, copy the link.
 > 4. Open Git Bash.
 > 5. Change the current working directory to the location where you want the cloned directory to be made.
 > 6. Type "git clone, and then paste the URL you copied in step 3.
