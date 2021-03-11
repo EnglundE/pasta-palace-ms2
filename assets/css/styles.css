@@ -22,23 +22,6 @@ html > body {
     font-size: x-large;
 }
 
-/* Hidden to be shown when something is added to the basket. Done with JS
-.basket {
-    visibility: hidden;
-} */
-
-.fas {
-    background-color: black;
-    color: #E6F4F1;
-    
-}
-
-.basket {
-    margin-right: 15px;
-    background-color: black;
-    font-size: large;
-}
-
 a:hover {
     color: #E6F4F1 !important;
     text-decoration: underline;
@@ -67,5 +50,19 @@ a:hover {
     font-family: "Akaya Telivigala", cursive;
   }
 
+  .hero-description {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #669999;
+    font-weight: bold;
+    border: groove 3px #E6F4F1;   
+  }
 
+  .row > .hero-description {
+    width: fit-content;
+    background-color: #E6F4F1;
+}
 
