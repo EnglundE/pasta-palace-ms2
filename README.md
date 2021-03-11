@@ -245,7 +245,7 @@ All credits are also in the code above each code snippet.
 
 #### Media
 
-> * 
+> * Credit to Nick Karvounis at Unsplash for hero image: https://unsplash.com/photos/Ciqxn7FE4vE
 > * 
 > * 
 > * 
