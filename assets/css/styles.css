@@ -82,14 +82,14 @@ li {
 
 }
 
-.starters {
+#starters {
     text-align: center;
     list-style-position: inside;
     border-top: solid 1px;
     border-bottom: solid 1px;
 }
 
-.main-courses {
+#main-courses {
     text-align: center;
     list-style-position: inside;
     border-top: solid 1px;
@@ -97,7 +97,7 @@ li {
 }
 
 
-.menu-items {
+#menu-items {
     height: 500px;
 }
 
