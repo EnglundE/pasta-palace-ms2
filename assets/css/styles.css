@@ -82,14 +82,9 @@ li {
 
 }
 
-#starters {
-    text-align: center;
-    list-style-position: inside;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
-}
 
-#main-courses {
+
+.menu-list {
     text-align: center;
     list-style-position: inside;
     border-top: solid 1px;
