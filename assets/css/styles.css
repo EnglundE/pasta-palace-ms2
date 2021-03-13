@@ -77,7 +77,30 @@ a:hover {
     margin-top: 2em;
 }
 
+li {
+    margin-top: 1em;
 
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+
+.menu-items {
+    height: 500px;
+}
+
+.btn {
+    margin: 0.5em;
+}
+
+.fa-euro-sign {
+    margin-left: 4em;
+}
 
 
 /* Menu section /*/
