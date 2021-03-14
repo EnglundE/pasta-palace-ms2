@@ -4,38 +4,41 @@ $('a[href^="#menu"]').click(function () {
     let findPage = document.getElementById("menu-section");
     findPage.scrollIntoView();
 });
+$('a[href^="#gallery"]').click(function () {
+    let findPage = document.getElementById("gallery-section");
+    findPage.scrollIntoView();
+});
 
 
 
 
 $("#main-button").click(function () {
     const main = document.getElementById("main-button");
-    main.classList.remove("btn-light");
     main.classList.add("btn-success");
     document.getElementById("menu-cat").innerHTML = `<ol class="menu-list">
 <li><b>Saltimbocca</b><i class="fas fa-euro-sign">14</i>
 <button type="button" class="btn-secondary">-</button> <span>0</span>
                             <button type="button" class="btn-secondary">+</button>
-                            <br>
-    Chicken Breast topped with Parma Ham, Mushrooms and White Wine Sauce
+                            
+    <p>Chicken Breast topped with Parma Ham, Mushrooms and White Wine Sauce</p>
 </li>
 <li><b>Panchetta</b><i class="fas fa-euro-sign">17</i>
 <button type="button" class="btn-secondary">-</button> <span>0</span>
                             <button type="button" class="btn-secondary">+</button>
-                            <br>
-    Roasted Pork Belly with Roasted Beetroot, Lentils and Apple Sauce
+                            
+    <p>Roasted Pork Belly with Roasted Beetroot, Lentils and Apple Sauce</p>
 </li>
 <li><b>Paccheri</b><i class="fas fa-euro-sign">15</i>
 <button type="button" class="btn-secondary">-</button> <span>0</span>
                             <button type="button" class="btn-secondary">+</button>
-                            <br>
-    Large, Flat Pasta Tubes with Rabbit Ragû
+                            
+    <p>Large, Flat Pasta Tubes with Rabbit Ragû</p>
 </li>
 <li><b>Merluzzo</b><i class="fas fa-euro-sign">19</i>
 <button type="button" class="btn-secondary">-</button> <span>0</span>
                             <button type="button" class="btn-secondary">+</button>
-                            <br>
-    Cod Fillet Wrapped in Parma Ham on a Bed of Mild Salsa
+                            
+    <p>Cod Fillet Wrapped in Parma Ham on a Bed of Mild Salsa</p>
 </li>
 </ol>`
     const starters = document.getElementById("starters-button");
@@ -54,32 +57,32 @@ $("#dessert-button").click(function () {
     <li><b>Nutella Bella</b><i class="fas fa-euro-sign">5</i>
     <button type="button" class="btn-secondary">-</button> <span>0</span>
                             <button type="button" class="btn-secondary">+</button>
-                            <br>
-        Buttery Nutella Filled Dough, Topped with Strawberries
+                            
+        <p>Buttery Nutella Filled Dough, Topped with Strawberries</p>
     </li>
     <li><b>Warm Salted Caramel Apple</b><i class="fas fa-euro-sign">4</i>
     <button type="button" class="btn-secondary">-</button> <span>0</span>
                             <button type="button" class="btn-secondary">+</button>
-                            <br>
-        Warm Strudel Served With Vanilla Ice Cream
+                            
+        <p>Warm Strudel Served With Vanilla Ice Cream</p>
     </li>
     <li><b>Nutella Donuts</b><i class="fas fa-euro-sign">8</i>
     <button type="button" class="btn-secondary">-</button> <span>0</span>
                             <button type="button" class="btn-secondary">+</button>
-                            <br>
-        Four Donuts Filled With Nutella
+                            
+        <p>Four Donuts Filled With Nutella</p>
     </li>
     <li><b>Key Lime Pie</b><i class="fas fa-euro-sign">9</i>
     <button type="button" class="btn-secondary">-</button> <span>0</span>
                             <button type="button" class="btn-secondary">+</button>
-                            <br>
-        Our Famous homemade Key Lime Pie
+                            
+        <p>Our Famous homemade Key Lime Pie</p>
     </li>
     <li><b>Cheesecake</b><i class="fas fa-euro-sign">7</i>
     <button type="button" class="btn-secondary">-</button> <span>0</span>
                             <button type="button" class="btn-secondary">+</button>
-                            <br>
-        Rich and heavenly
+                            
+        <p>Rich and heavenly</p>
     </li>
 </ol>`
     const main = document.getElementById("main-button");
@@ -146,38 +149,38 @@ $("#starters-button").click(function () {
     <li><b>Tuna Tartare</b><i class="fas fa-euro-sign">5</i>
         <button type="button" class="btn-secondary">-</button> <span>0</span>
         <button type="button" class="btn-secondary">+</button>
-        <br>
-        Avocado, Cucumber Sorbet, Mango & Pane Carasau
+        
+        <p>Avocado, Cucumber Sorbet, Mango & Pane Carasau</p>
     </li>
     <li><b>Scallop Gratin</b><i class="fas fa-euro-sign">4</i>
         <button type="button" class="btn-secondary">-</button> <span>0</span>
         <button type="button" class="btn-secondary">+</button>
-        <br>
-        Carrot, Ginger & Smoked Mackerel
+        
+        <p>Carrot, Ginger & Smoked Mackerel</p>
     </li>
     <li><b>Spicy Willy</b><i class="fas fa-euro-sign">8</i>
         <button type="button" class="btn-secondary">-</button> <span>0</span>
         <button type="button" class="btn-secondary">+</button>
-        <br>
-        Spicy Sausages Grilled And Served with Mint Mayo
+        
+        <p>Spicy Sausages Grilled And Served with Mint Mayo</p>
     </li>
     <li><b>Cheesy Willy's</b><i class="fas fa-euro-sign">9</i>
         <button type="button" class="btn-secondary">-</button> <span>0</span>
         <button type="button" class="btn-secondary">+</button>
-        <br>
-        Sausages Stuffed With Cheese & Onion
+        
+        <p>Sausages Stuffed With Cheese & Onion</p>
     </li>
     <li><b>Loli...pop</b><i class="fas fa-euro-sign">7</i>
         <button type="button" class="btn-secondary">-</button> <span>0</span>
         <button type="button" class="btn-secondary">+</button>
-        <br>
-        Chicken Lollipops Marinated in Asian Spices
+        
+        <p>Chicken Lollipops Marinated in Asian Spices</p>
     </li>
     <li><b>Schrimp Chips</b><i class="fas fa-euro-sign">5</i>
         <button type="button" class="btn-secondary">-</button> <span>0</span>
         <button type="button" class="btn-secondary">+</button>
-        <br>
-        large Basked of Scrimp Chips
+        
+        <p>large Basked of Scrimp Chips</p>
     </li>
 </ol>`
     const main = document.getElementById("main-button");

@@ -247,10 +247,10 @@ All credits are also in the code above each code snippet.
 
 > * Credit to Nick Karvounis at Unsplash for hero image: https://unsplash.com/photos/Ciqxn7FE4vE
 > * Credit for Hero image to adamdehaven at Github: https://gist.github.com/adamdehaven/dceabb07450295fec6fc
-> * 
-> * 
-> * 
-> * 
+> * Credit for slideshow image to Klaus Nielsen at Pexels: https://www.pexels.com/sv-se/foto/mat-man-manniskor-kvinna-6287545/
+> * Credit for slideshow image to Jan Nguyen at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-maltid-pasta-1001773/
+> * Credit for slideshow image to Lgh_9 at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-lunch-maltid-1256875/
+> * Credit for slideshow image to Engin Akyurt at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-halsosam-italienska-1487511/
 > * 
 > * 
 > * 

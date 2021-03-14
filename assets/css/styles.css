@@ -19,7 +19,7 @@ html > body {
 
 .navbar {
     background-color: white; 
-    opacity: 0.7;
+    
 }
 
 .nav-link {
@@ -43,7 +43,7 @@ a:hover {
     background: url('../images/hero-image.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
   }
   
@@ -79,21 +79,18 @@ a:hover {
 
 li {
     margin-top: 1em;
-
 }
 
-
+p {
+font-weight: 500;
+}
 
 .menu-list {
     text-align: center;
     list-style-position: inside;
     border-top: solid 1px;
     border-bottom: solid 1px;
-}
-
-
-#menu-items {
-    height: 500px;
+    
 }
 
 .btn {
@@ -101,7 +98,7 @@ li {
 }
 
 .fa-euro-sign {
-    margin-left: 4em;
+    margin-left: 1em;
 }
 
 
@@ -109,7 +106,22 @@ li > button {
     background-color: white;
 }
 
+#menu-cat {
+    height: 35em;
+}
+
 /* Menu section /*/
 
+/* Gallery section */
 
+.text-center {
+--bs-gutter-x: 0;  
+}
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:min-content;
+}
