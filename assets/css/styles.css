@@ -105,6 +105,10 @@ li {
 }
 
 
+li > button {
+    background-color: white;
+}
+
 /* Menu section /*/
 
 
