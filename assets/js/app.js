@@ -1,4 +1,4 @@
-
+// Scroll to nav function
 
 $('a[href^="#menu"]').click(function () {
     let findPage = document.getElementById("menu-section");
@@ -9,8 +9,17 @@ $('a[href^="#gallery"]').click(function () {
     findPage.scrollIntoView();
 });
 
+// Scroll to nav function //
 
 
+// Nav icon on smaller screens collapse when clicking a link
+$('.navbar-collapse a').click(function () {
+    $(".navbar-collapse").collapse('hide');
+});
+// Nav icon on smaller screens collapse when clicking a link //
+
+
+// menu choice section
 
 $("#main-button").click(function () {
     const main = document.getElementById("main-button");
@@ -191,3 +200,6 @@ $("#starters-button").click(function () {
     dessert.classList.remove("btn-success");
 
 });
+
+
+// menu choice section //
