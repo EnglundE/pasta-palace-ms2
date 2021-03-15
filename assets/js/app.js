@@ -13,6 +13,8 @@ $('a[href^="#gallery"]').click(function () {
 
 
 // Nav icon on smaller screens collapse when clicking a link
+
+// credit to Marta Szymanska at Mdbootstrap for hamburger collapse code: https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/
 $('.navbar-collapse a').click(function () {
     $(".navbar-collapse").collapse('hide');
 });
@@ -49,7 +51,7 @@ $("#main-button").click(function () {
                             
     <p>Cod Fillet Wrapped in Parma Ham on a Bed of Mild Salsa</p>
 </li>
-</ol>`
+</ol>`;
     const starters = document.getElementById("starters-button");
     starters.classList.remove("btn-success");
     const dessert = document.getElementById("dessert-button");
@@ -93,7 +95,7 @@ $("#dessert-button").click(function () {
                             
         <p>Rich and heavenly</p>
     </li>
-</ol>`
+</ol>`;
     const main = document.getElementById("main-button");
     main.classList.remove("btn-success");
     const starters = document.getElementById("starters-button");
@@ -140,7 +142,7 @@ $("#drinks-button").click(function () {
         <button type="button" class="btn-secondary">-</button> <span>0</span>
         <button type="button" class="btn-secondary">+</button>
     </li>
-</ol>`
+</ol>`;
     const main = document.getElementById("main-button");
     main.classList.remove("btn-success");
     const starters = document.getElementById("starters-button");
@@ -191,7 +193,7 @@ $("#starters-button").click(function () {
         
         <p>large Basked of Scrimp Chips</p>
     </li>
-</ol>`
+</ol>`;
     const main = document.getElementById("main-button");
     main.classList.remove("btn-success");
     const drinks = document.getElementById("drinks-button");
