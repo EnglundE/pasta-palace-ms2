@@ -4,6 +4,7 @@ body, html {
 
 html > body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
 }
 
 
@@ -18,7 +19,7 @@ html > body {
 }
 
 .navbar {
-    background-color: white; 
+    background-color: #f0f0f0; 
     
 }
 
@@ -101,11 +102,6 @@ font-weight: 500;
     margin-left: 1em;
 }
 
-
-li > button {
-    background-color: white;
-}
-
 #menu-cat {
     height: 35em;
 }
@@ -118,7 +114,7 @@ li > button {
 --bs-gutter-x: 0;  
 }
 
-.gallery-button {
+.btn-container {
     text-align: center;
 }
 
@@ -127,5 +123,6 @@ li > button {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    height:min-content;
+    object-fit: cover;
 }
+
