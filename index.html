@@ -130,46 +130,81 @@
 
     <!-- Menu section /-->
 
-
-    <!-- Credit for slideshow image to Klaus Nielsen at Pexels: https://www.pexels.com/sv-se/foto/mat-man-manniskor-kvinna-6287545/ -->
     <section id="gallery-section">
-        <div class="container img-container">
-            <div class="row text-center slide">
-                <h2 class="menu-header">Gallery</h2>
-                <div class="gallery-img slide">
-                    <img src="assets/images/slideshow1.jpg" alt="xxxx" class="img-thumbnail center">
-                </div>
-            </div>
-
-            <div class="slide">
-                <img src="assets/images/slideshow2.jpg" alt="xxxx" class="img-thumbnail center">
-            </div>
-            <div class="slide">
-                <img src="assets/images/slideshow3.jpg" alt="xxxx" class="img-thumbnail center">
-            </div>
-            <div class="slide">
-                <img src="assets/images/slideshow4.jpg" alt="xxxx" class="img-thumbnail center">
+        <div class="container gallery-container">
+            <div class="row">
+                <h2 class="gallery-header">Gallery</h2>
             </div>
         </div>
-
-        <div class="btn-container">
-            <button type="button" class="btn-secondary prevBtn">Previous</button>
-            <button type="button" class="btn-secondary nextBtn">Next</button>
-        </div>
-
-
-
     </section>
 
 
+    <section id="book-section">
+        <div class="container book-container">
+            <div class="row">
+                <h2 class="book-header">Book a table</h2>
+            </div>
+        </div>
+        <div class="datePicker">
+            <p><label for="start">Choose a date:</label></p>
+            <input type="date" id="start" name="trip-start" min="2021-20-03" max="2021-12-31">
+        </div>
+
+        <div class="container bookTable">
+            <form class="row g-3">
+                <div class="col-md-3">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="password" class="form-control" id="Fullname" placeholder="John example">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Example@example.se">
+                </div>
+                <div class="col-3">
+                    <label for="PhoneNumber" class="form-label">Phone Number</label>
+                    <input type="number" class="form-control" id="phoneNumber" placeholder="+4672111111">
+                </div>
+                <div class="col-3">
+                    <label for="inputAddress2" class="form-label">Table for</label>
+                    <input type="number" class="form-control" id="inputAddress2">
+                </div>
+
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Time</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>16.00</option>
+                        <option>16.30</option>
+                        <option>17.00</option>
+                        <option>17.30</option>
+                        <option>18.00</option>
+                        <option>18.30</option>
+                        <option>19.00</option>
+                        <option>19.30</option>
+                        <option>20.00</option>
+                        <option>20.30</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-success" id="bookBtn">Book</button>
+                </div>
+        </div>
+        </form>
+
+        <div class="popUp" id="myPopUp">
+            <div class="popUp-content">
+                <span class="close">&times;</span>
+                <p>Thanks for you booking. We will confirm your booking as soon as possible by sending a confirmation
+                    email to you.
+                    Welcome!
+
+                    Best Regards
+                    Stockholm Pasta Palace!
+                </p>
+            </div>
+        </div>
 
 
-
-
-
-
-
-
+    </section>
 
 
 

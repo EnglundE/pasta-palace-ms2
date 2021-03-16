@@ -110,19 +110,57 @@ font-weight: 500;
 
 /* Gallery section */
 
-.text-center {
---bs-gutter-x: 0;  
+.gallery-container {
+    text-align: center;
+    margin-top: 2em;
 }
 
-.btn-container {
+.gallery-header {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.gallery-choice {
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* Gallery /*/
+
+/* Book a table section */
+
+.book-container {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.book-header {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.book-choice {
+    text-align: center;
+    margin-top: 2em;
+    
+}
+
+.datePicker {
+    margin-bottom: 2em;
+    margin-top: 2em;
     text-align: center;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    object-fit: cover;
+.bookTable {
+    visibility: hidden;
 }
+
+#bookBtn {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+
+  
+/* Book a table section /*/
 
