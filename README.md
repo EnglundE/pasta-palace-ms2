@@ -236,8 +236,8 @@ All credits are also in the code above each code snippet.
 
 #### Code
 
-> * credit to Marta Szymanska at Mdbootstrap for hamburger collapse code: https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/
-> * 
+> * Credit to Marta Szymanska at Mdbootstrap for hamburger collapse code: https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/
+> * Credit to mdbootstrap for contact form code: https://mdbootstrap.com/docs/b4/jquery/forms/contact/
 > * 
 > * 
 > * 
@@ -256,7 +256,7 @@ All credits are also in the code above each code snippet.
 > * Credit for slideshow image to Jan Nguyen at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-maltid-pasta-1001773/
 > * Credit for slideshow image to Lgh_9 at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-lunch-maltid-1256875/
 > * Credit for slideshow image to Engin Akyurt at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-halsosam-italienska-1487511/
-> * 
+> * Credit for contact image to Louis Hansel at Unsplash: https://unsplash.com/photos/qbC9hh0aRiY
 > * 
 > * 
 > * 
