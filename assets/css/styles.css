@@ -107,7 +107,7 @@ font-weight: 500;
 }
 
 #small {
-    width: 30rem;
+    max-width: 30rem;
     text-align: left;
 }
 
@@ -195,9 +195,9 @@ font-weight: 500;
     position: fixed; 
     z-index: 1; 
     padding-top: 100px; 
-    left: 25%;
-    top: 50%;
-    width: 50%; 
+    left: 0;
+    top: 20%;
+    width: 100%; 
     height: 100%; 
     overflow: auto; 
   }

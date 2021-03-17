@@ -71,15 +71,20 @@
 > * The possibility to see available slots to book a table function in real time.
 
 - ### Structure
-> * Its a one page website with different sections, all sections will have centralized content.
+> * All interactions will only happen on intuitive and on user action with a clear feedback what is happening.
 > * It will be a natural flow with a big hero image at the top to create interest, below that the Menu followed by a Gallery, Book a table and last contact.
 > * Only short and relevant information in form of text throughout the website to not distract the customer.
 
 - ### Skeleton
-> 
+> * A big navigation bar will be visible on top of the page all the time, even when scrolling.
+> * All content will be on the main page.
+> * Some content will only be visible upon user actions to make the site less busy and only showing what the user decide to show to create a neat and smooth experience.
 
 - ### Surface
->
+> * A light color scheme is be used throughout the website as background and darker colors for the text and content.
+> * Roboto is used as font, an easy to read and very common font for websites.
+> * A cursive Akaya Telivigala is used for title/name of the restaurant to stand out.  
+> * The order of the content is based on what i think is expected from a website like this.
 
 
 
