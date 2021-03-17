@@ -9,6 +9,11 @@ $('a[href^="#gallery"]').click(function () {
     findPage.scrollIntoView();
 });
 
+$('a[href^="#bookatable"]').click(function () {
+    let findPage = document.getElementById("book-section");
+    findPage.scrollIntoView();
+});
+
 // Scroll to nav function //
 
 
