@@ -206,3 +206,23 @@ $("#starters-button").click(function () {
 
 // menu choice section //
 
+// Book a table section 
+
+$("#bookBtn").click(function (event) {
+    event.preventDefault();
+    document.getElementById("myPopUp").style.display = "block";
+});
+
+$(".close").click(function () {
+    document.getElementById("myPopUp").style.display = "none";
+});
+
+$(window).click(function (event) {
+    let myPop = document.getElementById("myPopUp")
+    if (event.target == myPop) {
+        myPop.style.display = "none";
+    }
+})
+
+
+// Book a table section //
