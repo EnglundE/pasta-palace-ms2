@@ -35,6 +35,20 @@ a:hover {
     text-decoration: underline;
 }
 
+.cart {
+    margin-right: 2em;
+    font-size: x-large;
+    cursor: pointer;
+    color: #295C5D;
+    
+}
+
+.fa-shopping-basket:hover {
+     text-decoration: underline;
+}
+
+
+
 
 
 /*Credit for Hero image to adam dehaven at Github: https://gist.github.com/adamdehaven/dceabb07450295fec6fc*/
@@ -92,6 +106,7 @@ font-weight: 500;
     border-top: solid 1px;
     border-bottom: solid 1px;
     
+    
 }
 
 .btn {
@@ -110,6 +125,14 @@ font-weight: 500;
     max-width: 30rem;
     text-align: left;
 }
+
+.btn-secondary {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+
 
 /* Menu section /*/
 
@@ -201,11 +224,6 @@ font-weight: 500;
     height: 100%; 
     overflow: auto; 
   }
-
- 
-
-  
-
   
 /* Book a table section /*/
 
@@ -220,4 +238,6 @@ font-weight: 500;
     font-weight: bold;
     font-size: x-large;
 }
+
+
 

@@ -234,6 +234,11 @@ By forking the GitHub repository you can make a copy of the original repository 
 
 All credits are also in the code above each code snippet.
 
+#### General
+
+> * W3Schools.com for overall guidance how to solve some parts.
+> * 
+
 #### Code
 
 > * Credit to Marta Szymanska at Mdbootstrap for hamburger collapse code: https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/

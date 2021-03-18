@@ -26,35 +26,36 @@
 <body>
 
     <!-- Navigation -->
-
-    <nav class="navbar navbar-expand-md navbar-light fixed-top">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav" id="anchor-navs">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#menu">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#gallery">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#bookatable">Book a table</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav" id="anchor-navs">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bookatable">Book a table</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="cart.html" class="cart"><i class="fas fa-shopping-basket"><span>0</span></i></a>
             </div>
-
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- Navigation /-->
 
@@ -78,7 +79,7 @@
     <section id="menu-section">
         <div class="container menu-container">
             <div class="row">
-                <h2 class="menu-header">Menu</h2>
+                <h2 class="menu-header"><i class="fas fa-utensils"></i>Menu</h2>
                 <p>We offer authentic dishes with a fusion from the Italian and the Swedish kitchen. <br>
                     A tasty experience with pasta in the center.</p>
             </div>
@@ -97,33 +98,27 @@
                     <div class="col-sm" id="menu-cat">
                         <ol class="menu-list">
                             <li><b>Tuna Tartare</b><i class="fas fa-euro-sign">5</i>
-                                <button type="button" class="btn-secondary">-</button> <span>0</span>
-                                <button type="button" class="btn-secondary">+</button>
+                                <button type="button" class="btn-secondary">Add to cart</button>
                                 <p>Avocado, Cucumber Sorbet, Mango & Pane Carasau</p>
                             </li>
                             <li><b>Scallop Gratin</b><i class="fas fa-euro-sign">4</i>
-                                <button type="button" class="btn-secondary">-</button> <span>0</span>
-                                <button type="button" class="btn-secondary">+</button>
+                                <button type="button" class="btn-secondary">Add to cart</button>
                                 <p>Carrot, Ginger & Smoked Mackerel</p>
                             </li>
                             <li><b>Spicy Willy</b><i class="fas fa-euro-sign">8</i>
-                                <button type="button" class="btn-secondary">-</button> <span>0</span>
-                                <button type="button" class="btn-secondary">+</button>
+                                <button type="button" class="btn-secondary">Add to cart</button>
                                 <p>Spicy Sausages Grilled And Served with Mint Mayo</p>
                             </li>
                             <li><b>Cheesy Willy's</b><i class="fas fa-euro-sign">9</i>
-                                <button type="button" class="btn-secondary">-</button> <span>0</span>
-                                <button type="button" class="btn-secondary">+</button>
+                                <button type="button" class="btn-secondary">Add to cart</button>
                                 <p>Sausages Stuffed With Cheese & Onion</p>
                             </li>
                             <li><b>Loli...pop</b><i class="fas fa-euro-sign">7</i>
-                                <button type="button" class="btn-secondary">-</button> <span>0</span>
-                                <button type="button" class="btn-secondary">+</button>
+                                <button type="button" class="btn-secondary">Add to cart</button>
                                 <p>Chicken Lollipops Marinated in Asian Spices</p>
                             </li>
                             <li><b>Schrimp Chips</b><i class="fas fa-euro-sign">5</i>
-                                <button type="button" class="btn-secondary">-</button> <span>0</span>
-                                <button type="button" class="btn-secondary">+</button>
+                                <button type="button" class="btn-secondary">Add to cart</button>
                                 <p>large Basked of Scrimp Chips</p>
                             </li>
                         </ol>
@@ -140,7 +135,7 @@
     <section id="gallery-section">
         <div class="container gallery-container">
             <div class="row">
-                <h2 class="gallery-header">Gallery</h2>
+                <h2 class="gallery-header"><i class="fas fa-images"></i>Gallery</h2>
             </div>
         </div>
     </section>
@@ -160,72 +155,97 @@
             <input type="date" id="start" name="trip-start" min="2021-20-03" max="2022-12-31">
         </div>
 
-        <div class="container bookTable">
-            <form method="post" class="row g-3">
-                <div class="col-md-6">
-                    <label for="fullName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="Fullname" placeholder="John example">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Example@example.se">
-                </div>
-                <div class="col-md-6">
-                    <label for="PhoneNumber" class="form-label">Phone Number</label>
-                    <input type="number" class="form-control" id="phoneNumber" placeholder="+4672111111">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputAddress2" class="form-label">Table for</label>
-                    <input type="number" class="form-control" id="inputAddress2" placeholder="2">
-                </div>
+        <!-- Credit to mdbootstrap for below form: https://mdbootstrap.com/docs/b4/jquery/forms/contact/-->
 
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">Time</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>16.00</option>
-                        <option>16.30</option>
-                        <option>17.00</option>
-                        <option>17.30</option>
-                        <option>18.00</option>
-                        <option>18.30</option>
-                        <option>19.00</option>
-                        <option>19.30</option>
-                        <option>20.00</option>
-                        <option>20.30</option>
-                    </select>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-success" id="bookBtn">Book</button>
-                </div>
-            </form>
-        </div>
-
-        <div class="container popUp-container">
-            <div class="popUp" id="myPopUp">
-                <div class="popUp-content">
-                    <span class="close">&times;</span>
-                    <p>Thanks for you booking. We will confirm your booking as soon as possible by sending a
-                        confirmation
-                        email to you.
-                        Welcome!
-                        <br>
-                        <br>
-                        In case of any questions please contact us on +46738441224
-                        <br>
-                        <br>
-                        Best Regards
-                        Stockholm Pasta Palace!
-                    </p>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name" class="">Your name</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email" class="">Your email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <label for="subject" class="">Phone Number</label>
+                                    <input type="number" id="subject" name="subject" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="inputAddress2" class="form-label">Table for</label>
+                                    <input type="number" class="form-control" id="inputAddress2" placeholder="2">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form">
+                                    <label for="inputState" class="form-label">Time</label>
+                                    <select id="inputState" class="form-select">
+                                        <option selected>16.00</option>
+                                        <option>16.30</option>
+                                        <option>17.00</option>
+                                        <option>17.30</option>
+                                        <option>18.00</option>
+                                        <option>18.30</option>
+                                        <option>19.00</option>
+                                        <option>19.30</option>
+                                        <option>20.00</option>
+                                        <option>20.30</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-success" id="bookBtn">Book</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </section>
+
+
+    <div class="container popUp-container">
+        <div class="popUp" id="myPopUp">
+            <div class="popUp-content">
+                <span class="close">&times;</span>
+                <p>Thanks for you booking. We will confirm your booking as soon as possible by sending a
+                    confirmation
+                    email to you.
+                    Welcome!
+                    <br>
+                    <br>
+                    In case of any questions please contact us on +46738441224
+                    <br>
+                    <br>
+                    Best Regards <br>
+                    Stockholm Pasta Palace!
+                </p>
+            </div>
+        </div>
+    </div>
     </section>
 
     <!-- Book a table section /-->
     <section id="contact-section">
         <div class="container" id="contact-container">
             <div class="row">
-                <h2 class="contact-header">Contact</h2>
+                <h2 class="contact-header"><i class="fas fa-id-badge"></i>
+
+                    Contact</h2>
             </div>
             <div class="row">
                 <img src="assets/images/contact-image.jpg" alt="...">
@@ -237,7 +257,7 @@
     <!-- Credit to mdbootstrap for below form: https://mdbootstrap.com/docs/b4/jquery/forms/contact/-->
     <section class="contact-section">
         <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
-            directly. Our team will come back to you within
+            directly. <br> Our team will come back to you within
             a matter of hours to help you.</p>
         <div class="container">
             <div class="row justify-content-center">
@@ -286,9 +306,11 @@
 
 
         </div>
-
     </section>
 
+    <footer>
+
+    </footer>
 
 
     <script src="assets/js/app.js"></script>
