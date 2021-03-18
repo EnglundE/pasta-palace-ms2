@@ -151,33 +151,27 @@ $("#starters-button").click(function () {
     starters.classList.add("btn-success");
     document.getElementById("menu-cat").innerHTML = `<ol class="menu-list">
     <li><b>Tuna Tartare</b><i class="fas fa-euro-sign">5</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-        
+        <button type="button" class="btn-secondary">Add to cart</button>
         <p>Avocado, Cucumber Sorbet, Mango & Pane Carasau</p>
     </li>
     <li><b>Scallop Gratin</b><i class="fas fa-euro-sign">4</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-        
+        <button type="button" class="btn-secondary">Add to cart</button>
         <p>Carrot, Ginger & Smoked Mackerel</p>
     </li>
     <li><b>Spicy Willy</b><i class="fas fa-euro-sign">8</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-        
+        <button type="button" class="btn-secondary">Add to cart</button>
         <p>Spicy Sausages Grilled And Served with Mint Mayo</p>
     </li>
     <li><b>Cheesy Willy's</b><i class="fas fa-euro-sign">9</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-        
+        <button type="button" class="btn-secondary">Add to cart</button>
         <p>Sausages Stuffed With Cheese & Onion</p>
     </li>
     <li><b>Loli...pop</b><i class="fas fa-euro-sign">7</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-        
+        <button type="button" class="btn-secondary">Add to cart</button>
         <p>Chicken Lollipops Marinated in Asian Spices</p>
     </li>
     <li><b>Schrimp Chips</b><i class="fas fa-euro-sign">5</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-        
+        <button type="button" class="btn-secondary">Add to cart</button>
         <p>large Basked of Scrimp Chips</p>
     </li>
 </ol>`;
@@ -323,6 +317,13 @@ for (let i = 0; i < carts.length; i++) {
     });
 };
 
+function loadCartNumbers() {
+    let productNumbers = localStorage.getItem("cartNumbers");
+    if (productNumbers) {
+        document.querySelector(".cart span").textContent = productNumbers;
+    }
+}
+
 
 // Local Storage
 function cartNumbers() {
@@ -336,18 +337,10 @@ function cartNumbers() {
         localStorage.setItem("cartNumbers", 1);
         document.querySelector(".cart span").textContent = 1;
     }
-
+    console.log("working")
 }
 
-
-// $(".addBtn").click(function () {
-//     let oldNumber = document.getElementById("bada").innerHTML;
-//     document.getElementById("bada").innerHTML = ++oldNumber;
-// });
-
-// increment add item to purchase //
-
-
+loadCartNumbers();
 
 
 
