@@ -38,23 +38,19 @@ $("#main-button").click(function () {
     main.classList.add("btn-success");
     document.getElementById("menu-cat").innerHTML = `<ol class="menu-list">
 <li><b>Saltimbocca</b><i class="fas fa-euro-sign">14</i>
-<button type="button" class="btn-secondary">Add to cart</button>
-                            
+<button type="button" class="btn-secondary">Add to cart</button>                     
     <p>Chicken Breast topped with Parma Ham, Mushrooms and White Wine Sauce</p>
 </li>
 <li><b>Panchetta</b><i class="fas fa-euro-sign">17</i>
-<button type="button" class="btn-secondary">Add to cart</button>
-                            
+<button type="button" class="btn-secondary">Add to cart</button>                    
     <p>Roasted Pork Belly with Roasted Beetroot, Lentils and Apple Sauce</p>
 </li>
 <li><b>Paccheri</b><i class="fas fa-euro-sign">15</i>
-<button type="button" class="btn-secondary">Add to cart</button>
-                            
+<button type="button" class="btn-secondary">Add to cart</button>                   
     <p>Large, Flat Pasta Tubes with Rabbit Ragû</p>
 </li>
 <li><b>Merluzzo</b><i class="fas fa-euro-sign">19</i>
-<button type="button" class="btn-secondary">Add to cart</button>
-                            
+<button type="button" class="btn-secondary">Add to cart</button>                   
     <p>Cod Fillet Wrapped in Parma Ham on a Bed of Mild Salsa</p>
 </li>
 </ol>`;
@@ -72,28 +68,23 @@ $("#dessert-button").click(function () {
     dessert.classList.add("btn-success");
     document.getElementById("menu-cat").innerHTML = `<ol class="menu-list">
     <li><b>Nutella Bella</b><i class="fas fa-euro-sign">5</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-                            
+    <button type="button" class="btn-secondary">Add to cart</button>             
         <p>Buttery Nutella Filled Dough, Topped with Strawberries</p>
     </li>
     <li><b>Warm Salted Caramel Apple</b><i class="fas fa-euro-sign">4</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-                            
+    <button type="button" class="btn-secondary">Add to cart</button>               
         <p>Warm Strudel Served With Vanilla Ice Cream</p>
     </li>
     <li><b>Nutella Donuts</b><i class="fas fa-euro-sign">8</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-                            
+    <button type="button" class="btn-secondary">Add to cart</button>                    
         <p>Four Donuts Filled With Nutella</p>
     </li>
     <li><b>Key Lime Pie</b><i class="fas fa-euro-sign">9</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-                            
+    <button type="button" class="btn-secondary">Add to cart</button>                    
         <p>Our Famous homemade Key Lime Pie</p>
     </li>
     <li><b>Cheesecake</b><i class="fas fa-euro-sign">7</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-                        
+    <button type="button" class="btn-secondary">Add to cart</button>              
         <p>Rich and heavenly</p>
     </li>
 </ol>`;
@@ -142,7 +133,6 @@ $("#drinks-button").click(function () {
     starters.classList.remove("btn-success");
     const dessert = document.getElementById("dessert-button");
     dessert.classList.remove("btn-success");
-
 });
 
 $("#starters-button").click(function () {
@@ -321,11 +311,11 @@ function loadCartNumbers() {
     let productNumbers = localStorage.getItem("cartNumbers");
     if (productNumbers) {
         document.querySelector(".cart span").textContent = productNumbers;
-    }
-}
+    };
+};
 
 
-// Local Storage
+
 function cartNumbers() {
     let productNumbers = localStorage.getItem("cartNumbers");
     productNumbers = parseInt(productNumbers);
@@ -338,7 +328,7 @@ function cartNumbers() {
         document.querySelector(".cart span").textContent = 1;
     }
     console.log("working")
-}
+};
 
 loadCartNumbers();
 
