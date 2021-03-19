@@ -153,22 +153,23 @@
     <!-- Book a table section -->
 
     <section id="book-section">
-        <div class="container book-container">
-            <div class="row">
-                <h2 class="book-header">Book a table</h2>
-            </div>
-        </div>
-        <div class="datePicker">
-            <p><label for="start">Choose a date:</label></p>
-            <input type="date" id="start" name="trip-start" min="2021-20-03" max="2022-12-31">
-        </div>
+
 
         <!-- Credit to mdbootstrap for below form: https://mdbootstrap.com/docs/b4/jquery/forms/contact/-->
 
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" method="POST">
+                    <form id="booking-form" name="booking-form" method="POST">
+                        <div class="container book-container">
+                            <div class="row">
+                                <h2 class="book-header">Book a table</h2>
+                            </div>
+                        </div>
+                        <div class="datePicker">
+                            <p><label for="start">Choose a date:</label></p>
+                            <input type="date" id="start" name="trip-start" min="2021-20-03" max="2022-12-31">
+                        </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
@@ -280,13 +281,15 @@
                             <div class="col-md-6 mb-0">
                                 <div class="md-form">
                                     <label for="name" class="">Your name</label>
-                                    <input type="text" id="name" name="name" class="form-control">
+                                    <input type="text" id="name" name="name" class="form-control"
+                                        onkeydown="removeAlert()">
                                 </div>
                             </div>
                             <div class="col-md-6 mb-0">
                                 <div class="md-form">
                                     <label for="email" class="">Your email</label>
-                                    <input type="text" id="email" name="email" class="form-control">
+                                    <input type="text" id="email" name="email" class="form-control"
+                                        onkeydown="removeAlert()">
                                 </div>
                             </div>
                         </div>
@@ -294,7 +297,7 @@
                             <div class="md-form mb-0">
                                 <label for="message">Your message</label>
                                 <textarea type="text" id="message" name="message" rows="4"
-                                    class="form-control md-textarea"></textarea>
+                                    class="form-control md-textarea" onkeydown="removeAlert()"></textarea>
                                 <div class="text-left text-md-left">
                                     <button type="submit" class="btn btn-success">Send</button>
                                 </div>

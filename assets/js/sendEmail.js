@@ -1,4 +1,6 @@
 
+// Contact form
+
 window.onload = function emailJs() {
     document.getElementById('contactForm').addEventListener('submit', function (event) {
         event.preventDefault();
@@ -35,6 +37,13 @@ window.onload = function emailJs() {
         document.getElementById("msg").innerHTML = "";
     });
 }
+
+function removeAlert() {
+    document.getElementById("msg").classList.remove("errorMsg");
+    document.getElementById("msg").innerHTML = "";
+}
+
+// Contact form // 
 
 
 

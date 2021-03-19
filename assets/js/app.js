@@ -179,15 +179,7 @@ $("#starters-button").click(function () {
 
 
 // Book a table section
-// Form validation
 
-
-
-
-
-
-
-// Form validation //
 // Book a table section //
 
 
