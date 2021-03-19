@@ -190,117 +190,117 @@ $("#starters-button").click(function () {
 let products = [
     {
         name: "Tuna Tartare",
-        Price: 5,
+        price: 5,
         inCart: 0
     },
     {
         name: "Scallop Gratin",
-        Price: 4,
+        price: 4,
         inCart: 0
     },
     {
         name: "Spicy Willy",
-        Price: 8,
+        price: 8,
         inCart: 0
     },
     {
         name: "Cheesy Willy's",
-        Price: 9,
+        price: 9,
         inCart: 0
     },
     {
         name: "Loli...pop",
-        Price: 7,
+        price: 7,
         inCart: 0
     },
     {
         name: "Schrimp Chips",
-        Price: 5,
+        price: 5,
         inCart: 0
     },
     {
         name: "Saltimbocca",
-        Price: 14,
+        price: 14,
         inCart: 0
     },
     {
         name: "Panchetta",
-        Price: 17,
+        price: 17,
         inCart: 0
     },
     {
         name: "Paccheri",
-        Price: 15,
+        price: 15,
         inCart: 0
     },
     {
         name: "Merluzzo",
-        Price: 19,
+        price: 19,
         inCart: 0
     },
     {
         name: "Nutella Bella",
-        Price: 5,
+        price: 5,
         inCart: 0
     },
     {
         name: "Warm Salted Caramel Apple",
-        Price: 4,
+        price: 4,
         inCart: 0
     },
     {
         name: "Nutella Donuts",
-        Price: 8,
+        price: 8,
         inCart: 0
     },
     {
         name: "Key Lime Pie",
-        Price: 9,
+        price: 9,
         inCart: 0
     },
     {
         name: "Cheesecake",
-        Price: 7,
+        price: 7,
         inCart: 0
     },
     {
         name: "Coca Cola 33cl",
-        Price: 1,
+        price: 1,
         inCart: 0
     },
     {
         name: "Pepsi 33cl",
-        Price: 1,
+        price: 1,
         inCart: 0
     },
     {
         name: "Fanta 33cl",
-        Price: 1,
+        price: 1,
         inCart: 0
     },
     {
         name: "Coca Cola Zero 33cl",
-        Price: 1,
+        price: 1,
         inCart: 0
     },
     {
         name: "Pepsi Max 33cl",
-        Price: 1,
+        price: 1,
         inCart: 0
     },
     {
         name: "Coca Coal 1.5L",
-        Price: 2.5,
+        price: 2.5,
         inCart: 0
     },
     {
         name: "Pepsi Max 1.5L",
-        Price: 2.5,
+        price: 2.5,
         inCart: 0
     },
     {
         name: "Fanta 1.5L",
-        Price: 2.5,
+        price: 2.5,
         inCart: 0
     },
 ];
@@ -310,6 +310,7 @@ let carts = document.querySelectorAll(".btn-secondary");
 for (let i = 0; i < carts.length; i++) {
     carts[i].addEventListener("click", function () {
         cartNumbers(products[i]);
+        totalCost(products[i]);
     });
 }
 
@@ -354,6 +355,23 @@ function setItems(product) {
         }
     }
     localStorage.setItem("productsInCart", JSON.stringify(cartItems));
+}
+
+function totalCost(product) {
+
+    let cartCost = localStorage.getItem("totalCost");
+
+    console.log("My cartCost is", cartCost);
+    console.log(typeof cartCost);
+
+    if (cartCost != null) {
+        cartCost = parseInt(cartCost);
+        localStorage.setItem("totalCost", cartCost + product.price);
+    } else {
+        localStorage.setItem("totalCost", product.price);
+    }
+
+
 }
 
 
