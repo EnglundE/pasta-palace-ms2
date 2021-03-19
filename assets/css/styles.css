@@ -239,5 +239,7 @@ font-weight: 500;
     font-size: x-large;
 }
 
-
+.alert {
+    text-align: center;
+}
 

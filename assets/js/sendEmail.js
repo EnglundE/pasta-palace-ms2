@@ -1,19 +1,4 @@
-// function sendMail() {
-//     emailjs.send("service_m3l5pe2", "template_0alxi1v", {
-//         "from_name": contactForm.name.value,
-//         "from_email": contactForm.email.value,
-//         "message": contactForm.message.value
-//     })
-//         .then(
-//             function (response) {
-//                 console.log("SUCCESS", response.status, response.text);
-//             },
-//             function (error) {
-//                 console.log("FAILED", error);
-//             }
-//         );
 
-// };
 
 
 window.onload = function () {
@@ -21,16 +6,27 @@ window.onload = function () {
         event.preventDefault();
         emailjs.sendForm('service_m3l5pe2', 'template_0alxi1v', this)
             .then(function () {
-                console.log('SUCCESS!');
+
             }, function (error) {
                 console.log('FAILED...', error);
             });
+        document.getElementById("contactForm").reset();
     });
+
 }
 
 
 
+function alertDisplay(text) {
+    let alert = document.getElementsByClassName("alert");
+    alert.textContent = text;
+    alert.classList.add(`alert`);
 
+    setTimeout(function () {
+        alert.textContent = "";
+        alert.classList.remove(`alert`);
+    }, 1000);
+}
 
 
 
