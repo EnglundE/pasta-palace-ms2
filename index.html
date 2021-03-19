@@ -168,7 +168,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <form id="contact-form" name="contact-form" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
@@ -186,23 +186,23 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
-                                    <label for="subject" class="">Phone Number</label>
-                                    <input type="number" id="subject" name="subject" class="form-control">
+                                    <label for="phone" class="">Phone Number</label>
+                                    <input type="number" id="phone" name="phone" class="form-control">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <label for="inputAddress2" class="form-label">Table for</label>
-                                    <input type="number" class="form-control" id="inputAddress2" placeholder="2">
+                                    <label for="tableFor" class="form-label">Table for</label>
+                                    <input type="number" class="form-control" id="tableFor">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="md-form">
+                                <div class="md-form mb-0">
                                     <label for="inputState" class="form-label">Time</label>
                                     <select id="inputState" class="form-select">
-                                        <option selected>16.00</option>
+                                        <option selected></option>
                                         <option>16.30</option>
                                         <option>17.00</option>
                                         <option>17.30</option>
@@ -219,35 +219,39 @@
                         <div class="col-12">
                             <button type="submit" class="btn btn-success" id="bookBtn">Book</button>
                         </div>
+                        <div class="status"></div>
                     </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Modal credit: https://www.w3schools.com/howto/howto_css_modals.asp-->
+        <div class="container popUp-container">
+            <div class="popUp" id="myPopUp">
+                <div class="popUp-content">
+                    <span class="close">&times;</span>
+                    <p>Thanks for you booking. We will confirm your booking as soon as possible by sending a
+                        confirmation
+                        email to you.
+                        Welcome!
+                        <br>
+                        <br>
+                        In case of any questions please contact us on +46738441224
+                        <br>
+                        <br>
+                        Best Regards <br>
+                        Stockholm Pasta Palace!
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <div class="container popUp-container">
-        <div class="popUp" id="myPopUp">
-            <div class="popUp-content">
-                <span class="close">&times;</span>
-                <p>Thanks for you booking. We will confirm your booking as soon as possible by sending a
-                    confirmation
-                    email to you.
-                    Welcome!
-                    <br>
-                    <br>
-                    In case of any questions please contact us on +46738441224
-                    <br>
-                    <br>
-                    Best Regards <br>
-                    Stockholm Pasta Palace!
-                </p>
-            </div>
-        </div>
-    </div>
-    </section>
-
     <!-- Book a table section /-->
+
+    <!--Contact section -->
     <section id="contact-section">
         <div class="container" id="contact-container">
             <div class="row">
@@ -267,11 +271,11 @@
         <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
             directly. <br> Our team will come back to you within
             a matter of hours to help you.</p>
+        <p class="alert text-center w-responsive mx-auto mb-5" id="msg"></P>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 mb-md-0 mb-5">
-                    <p class="alert"></P>
-                    <form id="contactForm">
+                    <form id="contactForm" name="myForm">
                         <div class="row">
                             <div class="col-md-6 mb-0">
                                 <div class="md-form">
@@ -297,6 +301,15 @@
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+        </div>
+        <div class="container contact-container">
+            <div class="contact" id="myContact">
+                <div class="contact-content">
+                    <span class="close">&times;</span>
+                    <p>Thank you for your email. <br> We will get back to you as soon as possible.
+                    </p>
                 </div>
             </div>
         </div>

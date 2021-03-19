@@ -23,7 +23,6 @@ $('a[href^="#contact"]').click(function () {
 
 
 // Nav icon on smaller screens collapse when clicking a link
-
 // credit to Marta Szymanska at Mdbootstrap for hamburger collapse code: https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/
 $('.navbar-collapse a').click(function () {
     $(".navbar-collapse").collapse('hide');
@@ -175,11 +174,26 @@ $("#starters-button").click(function () {
 });
 
 
-// menu choice section replacing innerhtml //
+// menu choice section replacing innerHTML //
+
+
+
+// Book a table section
+// Form validation
+
+
+
+
+
+
+
+// Form validation //
+// Book a table section //
+
+
+
 
 // increment add item to purchase
-
-
 
 let products = [
     {
