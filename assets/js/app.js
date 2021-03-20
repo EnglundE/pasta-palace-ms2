@@ -382,21 +382,21 @@ loadCartNumbers();
 
 // Book a table section show popup on button click 
 
-$("#bookBtn").click(function (event) {
-    event.preventDefault();
-    document.getElementById("myPopUp").style.display = "block";
-});
+// $("#bookBtn").click(function (event) {
+//     event.preventDefault();
+//     document.getElementById("myPopUp").style.display = "block";
+// });
 
-$(".close").click(function () {
-    document.getElementById("myPopUp").style.display = "none";
-});
+// $(".close").click(function () {
+//     document.getElementById("myPopUp").style.display = "none";
+// });
 
-$(window).click(function (event) {
-    let myPop = document.getElementById("myPopUp");
-    if (event.target == myPop) {
-        myPop.style.display = "none";
-    }
-});
+// $(window).click(function (event) {
+//     let myPop = document.getElementById("myPopUp");
+//     if (event.target == myPop) {
+//         myPop.style.display = "none";
+//     }
+// });
 
 
 // Book a table section show popup on button click //

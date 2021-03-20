@@ -205,11 +205,11 @@ font-weight: 500;
   }
 
   .popUp-content {
-    background-color: white;
+    background-color: green;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 100%;
     
   }
 
@@ -218,12 +218,17 @@ font-weight: 500;
     position: fixed; 
     z-index: 1; 
     padding-top: 100px; 
-    left: 0;
+    left: 25%;
     top: 20%;
-    width: 100%; 
+    width: 50%; 
     height: 100%; 
     overflow: auto; 
   }
+
+  .errorMsg-booking {
+    background-color: rgb(255, 217, 0);
+    opacity: 0.7;
+}
 
   
   
@@ -242,7 +247,7 @@ font-weight: 500;
 }
 
 .contact-content {
-    background-color: white;
+    background-color: green;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
@@ -269,5 +274,14 @@ font-weight: 500;
 
 .alert {
     color: black;
-    width: 20%;
+    width: 25%;
 }
+
+#popUp-container {
+    text-align: center;
+    margin-top: 6em;
+    max-width: 40rem; 
+}
+
+
+

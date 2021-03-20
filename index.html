@@ -160,27 +160,32 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="booking-form" name="booking-form" method="POST">
+                    <form id="booking-form" name="booking-form">
                         <div class="container book-container">
                             <div class="row">
                                 <h2 class="book-header">Book a table</h2>
                             </div>
                         </div>
+
                         <div class="datePicker">
                             <p><label for="start">Choose a date:</label></p>
-                            <input type="date" id="start" name="trip-start" min="2021-20-03" max="2022-12-31">
+                            <input type="date" id="start" name="trip-start" min="2021-20-03" max="2022-12-31"
+                                onmousedown="alertRemove()">
                         </div>
+                        <p class="alert text-center w-responsive mx-auto mb-5" id="booking-msg"></P>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <label for="name" class="">Your name</label>
-                                    <input type="text" id="name" name="name" class="form-control">
+                                    <input type="text" id="name" name="name" class="form-control"
+                                        onkeydown="alertRemove()">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <label for="email" class="">Your email</label>
-                                    <input type="text" id="email" name="email" class="form-control">
+                                    <input type="text" id="email" name="email" class="form-control"
+                                        onkeydown="alertRemove()">
                                 </div>
                             </div>
                         </div>
@@ -188,7 +193,8 @@
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
                                     <label for="phone" class="">Phone Number</label>
-                                    <input type="number" id="phone" name="phone" class="form-control">
+                                    <input type="number" id="phone" name="phone" class="form-control"
+                                        onkeydown="alertRemove()">
                                 </div>
                             </div>
                         </div>
@@ -196,13 +202,14 @@
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <label for="tableFor" class="form-label">Table for</label>
-                                    <input type="number" class="form-control" id="tableFor">
+                                    <input type="number" class="form-control" id="tableFor" name="tableFor"
+                                        onkeydown="alertRemove()">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <label for="inputState" class="form-label">Time</label>
-                                    <select id="inputState" class="form-select">
+                                    <select id="inputState" class="form-select" name="inputState">
                                         <option selected></option>
                                         <option>16.30</option>
                                         <option>17.00</option>
@@ -228,7 +235,7 @@
 
 
         <!--Modal credit: https://www.w3schools.com/howto/howto_css_modals.asp-->
-        <div class="container popUp-container">
+        <div class="container popUp-container" id="popUp-container">
             <div class="popUp" id="myPopUp">
                 <div class="popUp-content">
                     <span class="close">&times;</span>
