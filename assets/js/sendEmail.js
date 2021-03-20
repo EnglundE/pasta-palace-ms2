@@ -38,8 +38,6 @@ window.onload = function () {
 
     $(".close").click(function () {
         document.getElementById("myPopUp").style.display = "none";
-        document.getElementById("booking-msg").classList.remove("errorMsg-booking");
-        document.getElementById("booking-msg").innerHTML = "";
     });
 }
 
@@ -78,16 +76,10 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 
 $(".close").click(function () {
     document.getElementById("myContact").style.display = "none";
-    document.getElementById("msg").classList.remove("errorMsg");
-    document.getElementById("msg").innerHTML = "";
 });
 
 
 // Contact form // 
-
-
-
-
 
 
 function removeAlert() {

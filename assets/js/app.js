@@ -345,14 +345,14 @@ function setItems(product) {
             cartItems = {
                 ...cartItems,
                 [product.name]: product
-            }
+            };
         }
         cartItems[product.name].inCart += 1;
     } else {
         product.inCart = 1;
         cartItems = {
             [product.name]: product
-        }
+        };
     }
     localStorage.setItem("productsInCart", JSON.stringify(cartItems));
 }
@@ -370,12 +370,31 @@ function totalCost(product) {
     } else {
         localStorage.setItem("totalCost", product.price);
     }
+}
 
-
+function displayCart() {
+    let cartItems = localStorage.getItem("productsInCart");
+    cartItems = JSON.parse(cartItems);
+    let productContainer = document.querySelector(".products");
+    if (cartItems && productContainer) {
+        productContainer.innerHTML = "";
+        Object.values(cartItems).map(item => {
+            productContainer.innerHTML += `
+            <div class="product">
+                <i class="fas fa-times-circle"></i>
+                <span>${item.name}</span>
+                <div class="price">${item.price}</div>
+                </div>
+                
+            `
+        });
+    }
 }
 
 
+
 loadCartNumbers();
+displayCart();
 
 
 
