@@ -139,6 +139,9 @@ font-weight: 500;
 
 /* Gallery section */
 
+/* Credit tofreeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org
+https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
+
 .gallery-header {
     font-weight: bold;
     font-size: x-large;

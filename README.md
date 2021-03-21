@@ -243,8 +243,8 @@ All credits are also in the code above each code snippet.
 
 > * Credit to Marta Szymanska at Mdbootstrap for hamburger collapse code: https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/
 > * Credit to mdbootstrap for contact form code: https://mdbootstrap.com/docs/b4/jquery/forms/contact/
-> * 
-> * 
+> * Credit tofreeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org, https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider
+> * // Credit to Telmo Sampaio: https://www.youtube.com/watch?v=B20Getj_Zk4&ab_channel=TelmoSampaio, https://www.youtube.com/watch?v=PoTGs38DR9E&ab_channel=TelmoSampaio,https://www.youtube.com/watch?v=tEAl7L62GEw&ab_channel=TelmoSampaio, https://www.youtube.com/watch?v=QNXQfdgIXLw&ab_channel=TelmoSampaio, https://www.youtube.com/watch?v=IY5UN82FZ2Q&ab_channel=TelmoSampaio 
 > * 
 
 
