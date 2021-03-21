@@ -176,16 +176,12 @@ $("#starters-button").click(function () {
 
 // menu choice section replacing innerHTML //
 
-
-
-// Book a table section
-
-// Book a table section //
-
-
-
-
-// increment add item to purchase
+// add item to cart and local storage
+// Credit to Telmo Sampaio: https://www.youtube.com/watch?v=B20Getj_Zk4&ab_channel=TelmoSampaio 
+// https://www.youtube.com/watch?v=PoTGs38DR9E&ab_channel=TelmoSampaio 
+// https://www.youtube.com/watch?v=tEAl7L62GEw&ab_channel=TelmoSampaio 
+// https://www.youtube.com/watch?v=QNXQfdgIXLw&ab_channel=TelmoSampaio
+// https://www.youtube.com/watch?v=IY5UN82FZ2Q&ab_channel=TelmoSampaio 
 
 let products = [
     {
@@ -376,46 +372,84 @@ function displayCart() {
     let cartItems = localStorage.getItem("productsInCart");
     cartItems = JSON.parse(cartItems);
     let productContainer = document.querySelector(".products");
+    let cartCost = localStorage.getItem("totalCost");
     if (cartItems && productContainer) {
         productContainer.innerHTML = "";
         Object.values(cartItems).map(item => {
             productContainer.innerHTML += `
-            <div class="product">
-                <i class="fas fa-times-circle"></i>
-                <span>${item.name}</span>
-                <div class="price">${item.price}</div>
-                </div>
-                
-            `
+        <div class="product">
+        <i class="fas fa-times-circle"></i>
+        <span>${item.name}</span>
+    <div class="price">£${item.price},00
+    </div>
+    <div class="quantity">
+        <i class="fas fa-minus-circle"></i>
+        <span>${item.inCart}</span>
+        <i class="fas fa-plus-circle"></i>
+    </div>
+    <div class="total">
+       <span>£${item.inCart * item.price},00</span>
+    </div>
+    </div>`
+
         });
+        productContainer.innerHTML += `
+        <div class="basketTotalContainer">
+        <h4 class="basketTotalTitle">
+        Basket Total
+        </h4>
+        <h4 class="basketTotal">
+        £${cartCost},00
+        </h4>
+        </div>
+        `
     }
 }
 
 
+// Gallery section
+const slides = document.querySelectorAll(".slide");
+const nextBtn = document.querySelector(".nextBtn");
+const prevBtn = document.querySelector(".prevBtn");
+slides.forEach(function (slide, index) {
+    slide.style.left = `${index * 100}%`;
+});
+let counter = 0;
+nextBtn.addEventListener("click", function () {
+    counter++;
+    carousel();
+});
 
-loadCartNumbers();
-displayCart();
+prevBtn.addEventListener("click", function () {
+    counter--;
+    carousel();
+});
+
+function carousel() {
+    if (counter < slides.length - 1) {
+        nextBtn.style.display = "block";
+    } else {
+        nextBtn.style.display = "none";
+    }
+    if (counter > 0) {
+        prevBtn.style.display = "block";
+    } else {
+        prevBtn.style.display = "none";
+    }
+    slides.forEach(function (slide) {
+        slide.style.transform = `translateX(-${counter * 100}%)`;
+    });
+}
+
+prevBtn.style.display = "none";
+// Gallery section //
+
+
+
+// Book a table section
+
+// Book a table section //
 
 
 
 
-// Book a table section show popup on button click 
-
-// $("#bookBtn").click(function (event) {
-//     event.preventDefault();
-//     document.getElementById("myPopUp").style.display = "block";
-// });
-
-// $(".close").click(function () {
-//     document.getElementById("myPopUp").style.display = "none";
-// });
-
-// $(window).click(function (event) {
-//     let myPop = document.getElementById("myPopUp");
-//     if (event.target == myPop) {
-//         myPop.style.display = "none";
-//     }
-// });
-
-
-// Book a table section show popup on button click //
