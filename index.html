@@ -101,39 +101,87 @@
                     <button type="button" class="btn" id="drinks-button">Drinks</button>
                 </div>
             </div>
-            <div class="container" id="small">
-                <div class="row" id="menu-items">
-                    <div class="col-sm" id="menu-cat">
-                        <ol class="menu-list">
-                            <li><b>Tuna Tartare</b><i class="fas fa-euro-sign">5</i>
-                                <button type="button" class="btn-secondary">Add to cart</button>
-                                <p>Avocado, Cucumber Sorbet, Mango & Pane Carasau</p>
-                            </li>
-                            <li><b>Scallop Gratin</b><i class="fas fa-euro-sign">4</i>
-                                <button type="button" class="btn-secondary">Add to cart</button>
-                                <p>Carrot, Ginger & Smoked Mackerel</p>
-                            </li>
-                            <li><b>Spicy Willy</b><i class="fas fa-euro-sign">8</i>
-                                <button type="button" class="btn-secondary">Add to cart</button>
-                                <p>Spicy Sausages Grilled And Served with Mint Mayo</p>
-                            </li>
-                            <li><b>Cheesy Willy's</b><i class="fas fa-euro-sign">9</i>
-                                <button type="button" class="btn-secondary">Add to cart</button>
-                                <p>Sausages Stuffed With Cheese & Onion</p>
-                            </li>
-                            <li><b>Loli...pop</b><i class="fas fa-euro-sign">7</i>
-                                <button type="button" class="btn-secondary">Add to cart</button>
-                                <p>Chicken Lollipops Marinated in Asian Spices</p>
-                            </li>
-                            <li><b>Schrimp Chips</b><i class="fas fa-euro-sign">5</i>
-                                <button type="button" class="btn-secondary">Add to cart</button>
-                                <p>large Basked of Scrimp Chips</p>
-                            </li>
-                        </ol>
+
+
+            <!-- Credit to Web Dev Simplified for below shopping section: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified -->
+
+            <section class="container content-section">
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Tuna Tartare</span>
+
+                        <div class="shop-item-details">
+                            <p>Avocado, Cucumber Sorbet, Mango & Pane
+                                Carasau</p>
+                            <span class="shop-item-price">£5</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Scallop Gratin</span>
+                        <div class="shop-item-details">
+                            <p>Carrot, Ginger & Smoked Mackerel... Yummmy</p>
+                            <span class="shop-item-price">£4</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Spicy Willy</span>
+
+                        <div class="shop-item-details">
+                            <p>Spicy Sausages Grilled And Served with Mint Mayo</p>
+                            <span class="shop-item-price">£8</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Cheesy Willy's</span>
+                        <p>Sausages Stuffed With Cheese & Onion</p>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">£9</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Loli...pop</span>
+                        <p>Chicken Lollipops Marinated in Asian Spices</p>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">£7</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Schrimp Chips</span>
+                        <p>large Basked of Scrimp Chips</p>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">£5</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+
+
+
+
         </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="cart-header"><i class="fas fa-shopping-basket"></i>CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">£0</span>
+        </div>
+        <button class="btn btn-success btn-purchase" type="button">PURCHASE</button>
     </section>
 
     <!-- Menu section /-->

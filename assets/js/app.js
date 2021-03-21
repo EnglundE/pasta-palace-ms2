@@ -1,17 +1,18 @@
 // Scroll to nav function
 
+
 $('a[href^="#menu"]').click(function () {
     let findPage = document.getElementById("menu-section");
-    findPage.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+    findPage.scrollIntoView();
 });
 $('a[href^="#gallery"]').click(function () {
     let findPage = document.getElementById("gallery-section");
-    findPage.scrollIntoView();
+    findPage.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
 });
 
 $('a[href^="#bookatable"]').click(function () {
     let findPage = document.getElementById("book-section");
-    findPage.scrollIntoView();
+    findPage.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
 });
 
 $('a[href^="#contact"]').click(function () {
@@ -30,381 +31,118 @@ $('.navbar-collapse a').click(function () {
 // Nav icon on smaller screens collapse when clicking a link //
 
 
-// menu choice section replacing innerhtml
+// Menu Section
 
-$("#main-button").click(function () {
-    const main = document.getElementById("main-button");
-    main.classList.add("btn-success");
-    document.getElementById("menu-cat").innerHTML = `<ol class="menu-list">
-<li><b>Saltimbocca</b><i class="fas fa-euro-sign">14</i>
-<button type="button" class="btn-secondary">Add to cart</button>                     
-    <p>Chicken Breast topped with Parma Ham, Mushrooms and White Wine Sauce</p>
-</li>
-<li><b>Panchetta</b><i class="fas fa-euro-sign">17</i>
-<button type="button" class="btn-secondary">Add to cart</button>                    
-    <p>Roasted Pork Belly with Roasted Beetroot, Lentils and Apple Sauce</p>
-</li>
-<li><b>Paccheri</b><i class="fas fa-euro-sign">15</i>
-<button type="button" class="btn-secondary">Add to cart</button>                   
-    <p>Large, Flat Pasta Tubes with Rabbit Ragû</p>
-</li>
-<li><b>Merluzzo</b><i class="fas fa-euro-sign">19</i>
-<button type="button" class="btn-secondary">Add to cart</button>                   
-    <p>Cod Fillet Wrapped in Parma Ham on a Bed of Mild Salsa</p>
-</li>
-</ol>`;
-    const starters = document.getElementById("starters-button");
-    starters.classList.remove("btn-success");
-    const dessert = document.getElementById("dessert-button");
-    dessert.classList.remove("btn-success");
-    const drinks = document.getElementById("drinks-button");
-    drinks.classList.remove("btn-success");
-});
+// Credit to Web Dev Simplified for below shopping functions: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified
+// add item to cart
 
-$("#dessert-button").click(function () {
-    const dessert = document.getElementById("dessert-button");
-    dessert.classList.remove("btn-light");
-    dessert.classList.add("btn-success");
-    document.getElementById("menu-cat").innerHTML = `<ol class="menu-list">
-    <li><b>Nutella Bella</b><i class="fas fa-euro-sign">5</i>
-    <button type="button" class="btn-secondary">Add to cart</button>             
-        <p>Buttery Nutella Filled Dough, Topped with Strawberries</p>
-    </li>
-    <li><b>Warm Salted Caramel Apple</b><i class="fas fa-euro-sign">4</i>
-    <button type="button" class="btn-secondary">Add to cart</button>               
-        <p>Warm Strudel Served With Vanilla Ice Cream</p>
-    </li>
-    <li><b>Nutella Donuts</b><i class="fas fa-euro-sign">8</i>
-    <button type="button" class="btn-secondary">Add to cart</button>                    
-        <p>Four Donuts Filled With Nutella</p>
-    </li>
-    <li><b>Key Lime Pie</b><i class="fas fa-euro-sign">9</i>
-    <button type="button" class="btn-secondary">Add to cart</button>                    
-        <p>Our Famous homemade Key Lime Pie</p>
-    </li>
-    <li><b>Cheesecake</b><i class="fas fa-euro-sign">7</i>
-    <button type="button" class="btn-secondary">Add to cart</button>              
-        <p>Rich and heavenly</p>
-    </li>
-</ol>`;
-    const main = document.getElementById("main-button");
-    main.classList.remove("btn-success");
-    const starters = document.getElementById("starters-button");
-    starters.classList.remove("btn-success");
-    const drinks = document.getElementById("drinks-button");
-    drinks.classList.remove("btn-success");
-
-});
-
-$("#drinks-button").click(function () {
-    const drinks = document.getElementById("drinks-button");
-    drinks.classList.remove("btn-light");
-    drinks.classList.add("btn-success");
-    document.getElementById("menu-cat").innerHTML = `<ol class="menu-list">
-    <li><b>Coca Cola 33cl</b><i class="fas fa-euro-sign">1</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-    </li>
-    <li><b>Pepsi 33cl</b><i class="fas fa-euro-sign">1</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-    </li>
-    <li><b>Fanta 33cl</b><i class="fas fa-euro-sign">1</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-    </li>
-    <li><b>Coca Cola Zero 33cl</b><i class="fas fa-euro-sign">1</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-    </li>
-    <li><b>Pepsi Max 33cl</b><i class="fas fa-euro-sign">1</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-    </li>
-    <li><b>Coca Cola 1.5L</b><i class="fas fa-euro-sign">2.5</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-    </li>
-    <li><b>Pepsi Max 1.5L</b><i class="fas fa-euro-sign">2.5</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-    </li>
-    <li><b>Fanta 1.5L</b><i class="fas fa-euro-sign">2.5</i>
-    <button type="button" class="btn-secondary">Add to cart</button>
-    </li>
-</ol>`;
-    const main = document.getElementById("main-button");
-    main.classList.remove("btn-success");
-    const starters = document.getElementById("starters-button");
-    starters.classList.remove("btn-success");
-    const dessert = document.getElementById("dessert-button");
-    dessert.classList.remove("btn-success");
-});
-
-$("#starters-button").click(function () {
-    const starters = document.getElementById("starters-button");
-    starters.classList.remove("btn-light");
-    starters.classList.add("btn-success");
-    document.getElementById("menu-cat").innerHTML = `<ol class="menu-list">
-    <li><b>Tuna Tartare</b><i class="fas fa-euro-sign">5</i>
-        <button type="button" class="btn-secondary">Add to cart</button>
-        <p>Avocado, Cucumber Sorbet, Mango & Pane Carasau</p>
-    </li>
-    <li><b>Scallop Gratin</b><i class="fas fa-euro-sign">4</i>
-        <button type="button" class="btn-secondary">Add to cart</button>
-        <p>Carrot, Ginger & Smoked Mackerel</p>
-    </li>
-    <li><b>Spicy Willy</b><i class="fas fa-euro-sign">8</i>
-        <button type="button" class="btn-secondary">Add to cart</button>
-        <p>Spicy Sausages Grilled And Served with Mint Mayo</p>
-    </li>
-    <li><b>Cheesy Willy's</b><i class="fas fa-euro-sign">9</i>
-        <button type="button" class="btn-secondary">Add to cart</button>
-        <p>Sausages Stuffed With Cheese & Onion</p>
-    </li>
-    <li><b>Loli...pop</b><i class="fas fa-euro-sign">7</i>
-        <button type="button" class="btn-secondary">Add to cart</button>
-        <p>Chicken Lollipops Marinated in Asian Spices</p>
-    </li>
-    <li><b>Schrimp Chips</b><i class="fas fa-euro-sign">5</i>
-        <button type="button" class="btn-secondary">Add to cart</button>
-        <p>large Basked of Scrimp Chips</p>
-    </li>
-</ol>`;
-    const main = document.getElementById("main-button");
-    main.classList.remove("btn-success");
-    const drinks = document.getElementById("drinks-button");
-    drinks.classList.remove("btn-success");
-    const dessert = document.getElementById("dessert-button");
-    dessert.classList.remove("btn-success");
-
-});
-
-
-// menu choice section replacing innerHTML //
-
-// add item to cart and local storage
-// Credit to Telmo Sampaio: https://www.youtube.com/watch?v=B20Getj_Zk4&ab_channel=TelmoSampaio 
-// https://www.youtube.com/watch?v=PoTGs38DR9E&ab_channel=TelmoSampaio 
-// https://www.youtube.com/watch?v=tEAl7L62GEw&ab_channel=TelmoSampaio 
-// https://www.youtube.com/watch?v=QNXQfdgIXLw&ab_channel=TelmoSampaio
-// https://www.youtube.com/watch?v=IY5UN82FZ2Q&ab_channel=TelmoSampaio 
-
-let products = [
-    {
-        name: "Tuna Tartare",
-        price: 5,
-        inCart: 0
-    },
-    {
-        name: "Scallop Gratin",
-        price: 4,
-        inCart: 0
-    },
-    {
-        name: "Spicy Willy",
-        price: 8,
-        inCart: 0
-    },
-    {
-        name: "Cheesy Willy's",
-        price: 9,
-        inCart: 0
-    },
-    {
-        name: "Loli...pop",
-        price: 7,
-        inCart: 0
-    },
-    {
-        name: "Schrimp Chips",
-        price: 5,
-        inCart: 0
-    },
-    {
-        name: "Saltimbocca",
-        price: 14,
-        inCart: 0
-    },
-    {
-        name: "Panchetta",
-        price: 17,
-        inCart: 0
-    },
-    {
-        name: "Paccheri",
-        price: 15,
-        inCart: 0
-    },
-    {
-        name: "Merluzzo",
-        price: 19,
-        inCart: 0
-    },
-    {
-        name: "Nutella Bella",
-        price: 5,
-        inCart: 0
-    },
-    {
-        name: "Warm Salted Caramel Apple",
-        price: 4,
-        inCart: 0
-    },
-    {
-        name: "Nutella Donuts",
-        price: 8,
-        inCart: 0
-    },
-    {
-        name: "Key Lime Pie",
-        price: 9,
-        inCart: 0
-    },
-    {
-        name: "Cheesecake",
-        price: 7,
-        inCart: 0
-    },
-    {
-        name: "Coca Cola 33cl",
-        price: 1,
-        inCart: 0
-    },
-    {
-        name: "Pepsi 33cl",
-        price: 1,
-        inCart: 0
-    },
-    {
-        name: "Fanta 33cl",
-        price: 1,
-        inCart: 0
-    },
-    {
-        name: "Coca Cola Zero 33cl",
-        price: 1,
-        inCart: 0
-    },
-    {
-        name: "Pepsi Max 33cl",
-        price: 1,
-        inCart: 0
-    },
-    {
-        name: "Coca Coal 1.5L",
-        price: 2.5,
-        inCart: 0
-    },
-    {
-        name: "Pepsi Max 1.5L",
-        price: 2.5,
-        inCart: 0
-    },
-    {
-        name: "Fanta 1.5L",
-        price: 2.5,
-        inCart: 0
-    },
-];
-
-let carts = document.querySelectorAll(".btn-secondary");
-
-for (let i = 0; i < carts.length; i++) {
-    carts[i].addEventListener("click", function () {
-        cartNumbers(products[i]);
-        totalCost(products[i]);
-    });
+if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', ready)
+} else {
+    ready()
 }
 
-function loadCartNumbers() {
-    let productNumbers = localStorage.getItem("cartNumbers");
-    if (productNumbers) {
-        document.querySelector(".cart span").textContent = productNumbers;
+function ready() {
+    var removeCartItemButtons = document.getElementsByClassName('btn-danger')
+    for (var i = 0; i < removeCartItemButtons.length; i++) {
+        var button = removeCartItemButtons[i]
+        button.addEventListener('click', removeCartItem)
     }
-}
 
-
-
-function cartNumbers(product) {
-    let productNumbers = localStorage.getItem("cartNumbers");
-    productNumbers = parseInt(productNumbers);
-    if (productNumbers) {
-        localStorage.setItem("cartNumbers", productNumbers + 1);
-        document.querySelector(".cart span").textContent = productNumbers + 1;
-    } else {
-        localStorage.setItem("cartNumbers", 1);
-        document.querySelector(".cart span").textContent = 1;
+    var quantityInputs = document.getElementsByClassName('cart-quantity-input')
+    for (var i = 0; i < quantityInputs.length; i++) {
+        var input = quantityInputs[i]
+        input.addEventListener('change', quantityChanged)
     }
-    setItems(product);
+
+    var addToCartButtons = document.getElementsByClassName('shop-item-button')
+    for (var i = 0; i < addToCartButtons.length; i++) {
+        var button = addToCartButtons[i]
+        button.addEventListener('click', addToCartClicked)
+    }
+
+    document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
 
+function purchaseClicked() {
+    alert('Thank you for your purchase')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    while (cartItems.hasChildNodes()) {
+        cartItems.removeChild(cartItems.firstChild)
+    }
+    updateCartTotal()
+}
 
-function setItems(product) {
-    let cartItems = localStorage.getItem("productsInCart");
-    cartItems = JSON.parse(cartItems);
-    if (cartItems != null) {
-        if (cartItems[product.name] == undefined) {
-            cartItems = {
-                ...cartItems,
-                [product.name]: product
-            };
+function removeCartItem(event) {
+    var buttonClicked = event.target
+    buttonClicked.parentElement.parentElement.remove()
+    updateCartTotal()
+}
+
+function quantityChanged(event) {
+    var input = event.target
+    if (isNaN(input.value) || input.value <= 0) {
+        input.value = 1
+    }
+    updateCartTotal()
+}
+
+function addToCartClicked(event) {
+    var button = event.target
+    var shopItem = button.parentElement.parentElement
+    var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
+    var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
+    addItemToCart(title, price)
+    updateCartTotal()
+}
+
+function addItemToCart(title, price) {
+    var cartRow = document.createElement('div')
+    cartRow.classList.add('cart-row')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
+    for (var i = 0; i < cartItemNames.length; i++) {
+        if (cartItemNames[i].innerText == title) {
+            alert('This item is already added to the cart')
+            return
         }
-        cartItems[product.name].inCart += 1;
-    } else {
-        product.inCart = 1;
-        cartItems = {
-            [product.name]: product
-        };
     }
-    localStorage.setItem("productsInCart", JSON.stringify(cartItems));
-}
-
-function totalCost(product) {
-
-    let cartCost = localStorage.getItem("totalCost");
-
-    console.log("My cartCost is", cartCost);
-    console.log(typeof cartCost);
-
-    if (cartCost != null) {
-        cartCost = parseInt(cartCost);
-        localStorage.setItem("totalCost", cartCost + product.price);
-    } else {
-        localStorage.setItem("totalCost", product.price);
-    }
-}
-
-function displayCart() {
-    let cartItems = localStorage.getItem("productsInCart");
-    cartItems = JSON.parse(cartItems);
-    let productContainer = document.querySelector(".products");
-    let cartCost = localStorage.getItem("totalCost");
-    if (cartItems && productContainer) {
-        productContainer.innerHTML = "";
-        Object.values(cartItems).map(item => {
-            productContainer.innerHTML += `
-        <div class="product">
-        <i class="fas fa-times-circle"></i>
-        <span>${item.name}</span>
-    <div class="price">£${item.price},00
-    </div>
-    <div class="quantity">
-        <i class="fas fa-minus-circle"></i>
-        <span>${item.inCart}</span>
-        <i class="fas fa-plus-circle"></i>
-    </div>
-    <div class="total">
-       <span>£${item.inCart * item.price},00</span>
-    </div>
-    </div>`
-
-        });
-        productContainer.innerHTML += `
-        <div class="basketTotalContainer">
-        <h4 class="basketTotalTitle">
-        Basket Total
-        </h4>
-        <h4 class="basketTotal">
-        £${cartCost},00
-        </h4>
+    var cartRowContents = `
+        <div class="cart-item cart-column">
+            <span class="cart-item-title">${title}</span>
         </div>
-        `
-    }
+        <span class="cart-price cart-column">${price}</span>
+        <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1">
+            <button class="btn btn-danger" type="button">REMOVE</button>
+        </div>`
+    cartRow.innerHTML = cartRowContents
+    cartItems.append(cartRow)
+    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
+    cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 }
+
+function updateCartTotal() {
+    var cartItemContainer = document.getElementsByClassName('cart-items')[0]
+    var cartRows = cartItemContainer.getElementsByClassName('cart-row')
+    var total = 0
+    for (var i = 0; i < cartRows.length; i++) {
+        var cartRow = cartRows[i]
+        var priceElement = cartRow.getElementsByClassName('cart-price')[0]
+        var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
+        var price = parseFloat(priceElement.innerText.replace('£', ''))
+        var quantity = quantityElement.value
+        total = total + (price * quantity)
+    }
+    total = Math.round(total * 100) / 100
+    document.getElementsByClassName('cart-total-price')[0].innerText = '£' + total
+}
+
+
+
+// Add Item to Cart //
+// Menu Section //
+
 
 
 // Gallery section
