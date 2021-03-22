@@ -134,6 +134,8 @@ font-weight: 500;
 /* CART */
 
 /* Credit to Web Dev Simplified for cart section: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified */
+
+
 .cart-header {
     font-weight: bold;
     font-size: x-large;
@@ -143,14 +145,13 @@ font-weight: 500;
 .cart-column {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid black;
-    margin-right: 1.5em;
     padding-bottom: 10px;
     margin-top: 10px;
 }
 
 .cart-row {
     display: flex;
+    width: 100%;
 }
 
 .cart-item {
@@ -163,20 +164,18 @@ font-weight: 500;
 
 .cart-price {
     width: 20%;
-    font-size: 1.2em;
     color: #333;
 }
 
 .cart-quantity {
     width: 35%;
-    font-size: 1.2em;
     color: #333;
 }
 
 .cart-item-title {
     color: #333;
     margin-left: .5em;
-    font-size: 1.2em;
+    max-width: 1em;;
 }
 
 .cart-item-image {
@@ -187,6 +186,7 @@ font-weight: 500;
 
 #removeBtn {
     margin: 0;
+    padding: 3px;
 }
 
 
@@ -197,7 +197,7 @@ font-weight: 500;
 
 .cart-quantity-input {
     height: 34px;
-    width: 50px;
+    width: 40px;
     border-radius: 5px;
     border: 1px solid #56CCF2;
     background-color: #eee;
@@ -255,7 +255,6 @@ font-weight: 500;
 }
 
 .shop-item-details {
-    
     align-items: center;
     padding: 5px;
     width: 20em;
@@ -273,6 +272,10 @@ font-weight: 500;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 /* CART /*/
 
@@ -517,9 +520,9 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
 #popUp-container {
     text-align: center;
     margin-top: 6em;
-    max-width: 40rem; 
-    
+    max-width: 40rem;  
 }
+
 
 
 

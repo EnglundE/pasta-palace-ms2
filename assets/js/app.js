@@ -193,7 +193,7 @@ $("#drinks-button").click(function () {
                         <span class="shop-item-title">Coca Cola 1.5L</span>
                         <div class="shop-item-details">
                         
-                            <span class="shop-item-price">£2.5</span>
+                            <span class="shop-item-price">£2</span>
                             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                         </div>
                     </div>
@@ -201,7 +201,7 @@ $("#drinks-button").click(function () {
                         <span class="shop-item-title">Coca Cola Zero 1.5L</span>
                         <div class="shop-item-details">
                         
-                            <span class="shop-item-price">£2.5</span>
+                            <span class="shop-item-price">£2</span>
                             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ $("#drinks-button").click(function () {
                         <span class="shop-item-title">Pepsi Max 1.5L</span>
                         <div class="shop-item-details">
                         
-                            <span class="shop-item-price">£2.5</span>
+                            <span class="shop-item-price">£2</span>
                             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                         </div>
                     </div>
@@ -217,7 +217,7 @@ $("#drinks-button").click(function () {
                         <span class="shop-item-title">Fanta 1.5L</span>
                         <div class="shop-item-details">
                         
-                            <span class="shop-item-price">£2.5</span>
+                            <span class="shop-item-price">£2</span>
                             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                         </div>
                     </div>
