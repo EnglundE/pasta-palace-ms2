@@ -39,7 +39,7 @@ window.onload = function () {
     $(".close").click(function () {
         document.getElementById("myPopUp").style.display = "none";
     });
-}
+};
 
 // Book a table form //
 

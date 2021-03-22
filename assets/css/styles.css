@@ -133,6 +133,8 @@ font-weight: 500;
     border: 1px solid black;
 }
 
+
+
 /* CART */
 
 /* Credit to Web Dev Simplified for cart section: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified */
@@ -238,9 +240,7 @@ font-weight: 500;
     font-size: 1.75em;
 }
 
-.shop-item {
-    margin: 30px;
-}
+
 
 .shop-item-title {
     display: block;
