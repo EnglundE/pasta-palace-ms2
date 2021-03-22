@@ -33,6 +33,55 @@ $('.navbar-collapse a').click(function () {
 
 // Menu Section
 
+$("#main-button").click(function () {
+    document.getElementById("main-button").classList.add("btn-success");
+    const starters = document.getElementById("starters-button");
+    starters.classList.remove("btn-success");
+    const dessert = document.getElementById("dessert-button");
+    dessert.classList.remove("btn-success");
+    const drinks = document.getElementById("drinks-button");
+    drinks.classList.remove("btn-success");
+    document.getElementById("shop-thing").innerHTML = `
+    <div class="shop-item">
+                        <span class="shop-item-title">Saltimbocca</span>
+                        <div class="shop-item-details">
+                            <p>Chicken Breast topped with Parma Ham, Mushrooms and White Wine Sauce</p>
+                            <span class="shop-item-price">£14</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Panchetta</span>
+                        <div class="shop-item-details">
+                            <p>Roasted Pork Belly with Roasted Beetroot, Lentils and Apple Sauce</p>
+                            <span class="shop-item-price">£17</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Paccheri</span>
+                        <div class="shop-item-details">
+                            <p>Large, Flat Pasta Tubes with Rabbit Ragû</p>
+                            <span class="shop-item-price">£15</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Merluzzo</span>
+                        <div class="shop-item-details">
+                        <p>Cod Fillet Wrapped in Parma Ham on a Bed of Mild Salsa</p>
+                            <span class="shop-item-price">£19</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    `
+});
+
+
+
+
+
+
 // Credit to Web Dev Simplified for below shopping functions: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified
 // add item to cart
 
