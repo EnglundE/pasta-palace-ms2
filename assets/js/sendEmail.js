@@ -87,18 +87,30 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     if (name == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Name cannot be empty";
+        setTimeout(function () {
+            document.getElementById("msg").classList.remove("errorMsg");
+            document.getElementById("msg").innerHTML = "";
+        }, 2500);
         return false;
     }
     let email = document.forms["myForm"]["contact-email"].value;
     if (email == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Email cannot be empty";
+        setTimeout(function () {
+            document.getElementById("msg").classList.remove("errorMsg");
+            document.getElementById("msg").innerHTML = "";
+        }, 2500);
         return false;
     }
     let message = document.forms["myForm"]["message"].value;
     if (message == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Message cannot be empty";
+        setTimeout(function () {
+            document.getElementById("msg").classList.remove("errorMsg");
+            document.getElementById("msg").innerHTML = "";
+        }, 2500);
         return false;
     }
     emailjs.sendForm('service_m3l5pe2', 'template_0alxi1v', this)
@@ -115,20 +127,10 @@ $(".close").click(function () {
 });
 
 
-
 // Contact form // 
 
 
-// function removeAlert() {
-//     document.getElementById("msg").classList.remove("errorMsg");
-//     document.getElementById("msg").innerHTML = "";
-// }
 
-
-// function alertRemove() {
-//     document.getElementById("booking-msg").classList.remove("errorMsg-booking");
-//     document.getElementById("booking-msg").innerHTML = "";
-// }
 
 
 
