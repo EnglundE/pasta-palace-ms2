@@ -61,7 +61,7 @@ $("#main-button").click(function () {
                     <div class="shop-item">
                         <span class="shop-item-title">Paccheri</span>
                         <div class="shop-item-details">
-                            <p>Large, Flat Pasta Tubes with Rabbit Ragû</p>
+                            <p>Large, Flat Pasta Tubes with Rabbit Ragû, servied with white wine saus</p>
                             <span class="shop-item-price">£15</span>
                             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                         </div>
@@ -78,8 +78,213 @@ $("#main-button").click(function () {
     ready();
 });
 
+$("#dessert-button").click(function () {
+    document.getElementById("dessert-button").classList.add("btn-success");
+    const starters = document.getElementById("starters-button");
+    starters.classList.remove("btn-success");
+    const main = document.getElementById("main-button");
+    main.classList.remove("btn-success");
+    const drinks = document.getElementById("drinks-button");
+    drinks.classList.remove("btn-success");
+    document.getElementById("shop-thing").innerHTML = `
+    <div class="shop-item">
+                        <span class="shop-item-title">Nutella Bella</span>
+                        <div class="shop-item-details">
+                            <p>Buttery Nutella Filled Dough, Topped with Strawberries</p>
+                            <span class="shop-item-price">£5</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Warm Salted Caramel Apple</span>
+                        <div class="shop-item-details">
+                            <p>Warm Strudel Served With Vanilla Ice Cream</p>
+                            <span class="shop-item-price">£4</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Nutella Donuts</span>
+                        <div class="shop-item-details">
+                            <p>Four Donuts Filled With warm Hazelnut Nutella</p>
+                            <span class="shop-item-price">£8</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Key Lime Pie</span>
+                        <div class="shop-item-details">
+                        <p>Our Famous homemade Key Lime Pie</p>
+                            <span class="shop-item-price">£9</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Cheesecake</span>
+                        <div class="shop-item-details">
+                        <p>Rich and heavenly</p>
+                            <span class="shop-item-price">£7</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Choclate Cake</span>
+                        <div class="shop-item-details">
+                        <p>Served with wipped cream and berries</p>
+                            <span class="shop-item-price">£8</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    `
+    ready();
+});
 
+$("#drinks-button").click(function () {
+    document.getElementById("drinks-button").classList.add("btn-success");
+    const starters = document.getElementById("starters-button");
+    starters.classList.remove("btn-success");
+    const main = document.getElementById("main-button");
+    main.classList.remove("btn-success");
+    const dessert = document.getElementById("dessert-button");
+    dessert.classList.remove("btn-success");
+    document.getElementById("shop-thing").innerHTML = `
+    <div class="shop-item">
+                        <span class="shop-item-title">Coca Cola 33cl</span>
+                        <div class="shop-item-details">
+                            
+                            <span class="shop-item-price">£1</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Pepsi 33cl</span>
+                        <div class="shop-item-details">
+                            
+                            <span class="shop-item-price">£1</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Fanta 33cl</span>
+                        <div class="shop-item-details">
+                            
+                            <span class="shop-item-price">£1</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Coca Cola Zero 33cl</span>
+                        <div class="shop-item-details">
+                        
+                            <span class="shop-item-price">£1</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Pepsi Max</span>
+                        <div class="shop-item-details">
+                        
+                            <span class="shop-item-price">£1</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Coca Cola 1.5L</span>
+                        <div class="shop-item-details">
+                        
+                            <span class="shop-item-price">£2.5</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Coca Cola Zero 1.5L</span>
+                        <div class="shop-item-details">
+                        
+                            <span class="shop-item-price">£2.5</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Pepsi Max 1.5L</span>
+                        <div class="shop-item-details">
+                        
+                            <span class="shop-item-price">£2.5</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Fanta 1.5L</span>
+                        <div class="shop-item-details">
+                        
+                            <span class="shop-item-price">£2.5</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    `
+    ready();
+});
 
+$("#starters-button").click(function () {
+    document.getElementById("starters-button").classList.add("btn-success");
+    const dessert = document.getElementById("dessert-button");
+    dessert.classList.remove("btn-success");
+    const main = document.getElementById("main-button");
+    main.classList.remove("btn-success");
+    const drinks = document.getElementById("drinks-button");
+    drinks.classList.remove("btn-success");
+    document.getElementById("shop-thing").innerHTML = `
+    <div class="shop-item">
+                        <span class="shop-item-title">Tuna Tartare</span>
+                        <div class="shop-item-details">
+                            <p>Avocado, Cucumber Sorbet, Mango & Pane
+                                Carasau</p>
+                            <span class="shop-item-price">£5</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Scallop Gratin</span>
+                        <div class="shop-item-details">
+                            <p>Carrot, Ginger & Smoked Mackerel... Yummmy</p>
+                            <span class="shop-item-price">£4</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Spicy Willy</span>
+                        <div class="shop-item-details">
+                            <p>Spicy Sausages Grilled And Served with Mint Mayo</p>
+                            <span class="shop-item-price">£8</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Cheesy Willy's</span>
+                        <div class="shop-item-details">
+                            <p>Sausages Stuffed With Cheese & Onion served with toppings</p>
+                            <span class="shop-item-price">£9</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Loli...pop</span>
+                        <div class="shop-item-details">
+                            <p>Chicken Lollipops Marinated in Asian Spices</p>
+                            <span class="shop-item-price">£7</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Schrimp Chips</span>
+                        <div class="shop-item-details">
+                            <p>A large Basked of Scrimp Chips for up to four people</p>
+                            <span class="shop-item-price">£5</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    `
+    ready();
+});
 
 
 
