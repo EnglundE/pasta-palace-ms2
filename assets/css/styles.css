@@ -511,13 +511,14 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
 
 .alert {
     color: black;
-    width: 25%;
+    width: 50%;
 }
 
 #popUp-container {
     text-align: center;
     margin-top: 6em;
     max-width: 40rem; 
+    
 }
 
 
