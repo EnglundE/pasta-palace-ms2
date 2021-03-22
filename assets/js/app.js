@@ -364,7 +364,7 @@ function addItemToCart(title, price) {
             setTimeout(function () {
                 document.getElementById("cart-msg").classList.remove("errorMsg-cart");
                 document.getElementById("cart-msg").innerHTML = "";
-            }, 3000);
+            }, 2500);
             return;
         }
     }
