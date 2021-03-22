@@ -75,6 +75,7 @@ $("#main-button").click(function () {
                         </div>
                     </div>
                     `
+    ready();
 });
 
 
