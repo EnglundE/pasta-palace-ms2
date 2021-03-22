@@ -27,6 +27,18 @@ window.onload = function () {
             document.getElementById("booking-msg").innerHTML = "Phone Number cannot be empty";
             return false;
         }
+        let tableFor = document.forms["booking-form"]["tableFor"].value;
+        if (tableFor == "") {
+            document.getElementById("booking-msg").classList.add("errorMsg-booking");
+            document.getElementById("booking-msg").innerHTML = "Table for cannot be empty";
+            return false;
+        }
+        let time = document.forms["booking-form"]["time"].value;
+        if (time == "") {
+            document.getElementById("booking-msg").classList.add("errorMsg-booking");
+            document.getElementById("booking-msg").innerHTML = "Time cannot be empty";
+            return false;
+        }
         emailjs.sendForm('service_ozpd38n', 'template_n6jlbls', this)
             .then(function () {
                 document.getElementById("myPopUp").style.display = "block";
@@ -47,13 +59,13 @@ window.onload = function () {
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault();
-    let name = document.forms["myForm"]["name"].value;
+    let name = document.forms["myForm"]["contact-name"].value;
     if (name == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Name cannot be empty";
         return false;
     }
-    let email = document.forms["myForm"]["email"].value;
+    let email = document.forms["myForm"]["contact-email"].value;
     if (email == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Email cannot be empty";

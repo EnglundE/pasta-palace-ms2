@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Pasta Restaurant">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="keywords" content="Restaurant, Pasta, Dessert, Starters, Main courses, Drinks, Stockholm, Food">
     <meta name="author" content="Erik Englund">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -93,6 +93,7 @@
                 <p>We offer authentic dishes with a fusion from the Italian and the Swedish kitchen. <br>
                     A tasty experience with pasta in the center.</p>
             </div>
+            <p class="alert text-center w-responsive mx-auto mb-5" id="cart-msg"></P>
         </div>
         <div class="container menu-choice">
             <div class="row">
@@ -115,7 +116,7 @@
                             <p>Avocado, Cucumber Sorbet, Mango & Pane
                                 Carasau</p>
                             <span class="shop-item-price">£5</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -123,7 +124,7 @@
                         <div class="shop-item-details">
                             <p>Carrot, Ginger & Smoked Mackerel... Yummmy</p>
                             <span class="shop-item-price">£4</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -139,7 +140,7 @@
                         <div class="shop-item-details">
                             <p>Sausages Stuffed With Cheese & Onion served with toppings</p>
                             <span class="shop-item-price">£9</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -147,7 +148,7 @@
                         <div class="shop-item-details">
                             <p>Chicken Lollipops Marinated in Asian Spices</p>
                             <span class="shop-item-price">£7</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -155,24 +156,21 @@
                         <div class="shop-item-details">
                             <p>A large Basked of Scrimp Chips for up to four people</p>
                             <span class="shop-item-price">£5</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
-
-
         </div>
     </section>
+
+
     <section class="container content-section">
-        <h2 class="cart-header"><i class="fas fa-shopping-basket"></i>CART</h2>
+        <h2 class="cart-header"><i class="fas fa-shopping-basket"></i>Cart</h2>
         <div class="cart-row">
-            <span class="cart-item cart-header cart-column">ITEM</span>
-            <span class="cart-price cart-header cart-column">PRICE</span>
-            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            <span class="cart-item cart-header cart-column">Item</span>
+            <span class="cart-price cart-header cart-column">Price</span>
+            <span class="cart-quantity cart-header cart-column">Quantity</span>
         </div>
         <div class="cart-items">
 
@@ -181,7 +179,7 @@
             <strong class="cart-total-title">Total</strong>
             <span class="cart-total-price">£0</span>
         </div>
-        <button class="btn btn-success btn-purchase" type="button">PURCHASE</button>
+        <button class="btn btn-success btn-purchase" type="button">Purchase</button>
     </section>
 
     <!-- Menu section /-->
@@ -235,7 +233,6 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
                                 <h2 class="book-header">Book a table</h2>
                             </div>
                         </div>
-
                         <div class="datePicker">
                             <p><label for="start">Choose a date:</label></p>
                             <input type="date" id="start" name="trip-start" min="2021-20-03" max="2022-12-31"
@@ -277,8 +274,8 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
                             </div>
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <label for="inputState" class="form-label">Time</label>
-                                    <select id="inputState" class="form-select" name="inputState">
+                                    <label for="time" class="form-label">Time</label>
+                                    <select id="time" class="form-select" name="time" onmousedown="alertRemove()">
                                         <option selected></option>
                                         <option>16.30</option>
                                         <option>17.00</option>

@@ -32,6 +32,7 @@ $('.navbar-collapse a').click(function () {
 
 
 // Menu Section
+// Browsing between Starters, Main Courses, Dessert and Drinks.
 
 $("#main-button").click(function () {
     document.getElementById("main-button").classList.add("btn-success");
@@ -358,7 +359,12 @@ function addItemToCart(title, price) {
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title');
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
-            alert('This item is already added to the cart');
+            document.getElementById("cart-msg").classList.add("errorMsg-cart");
+            document.getElementById("cart-msg").innerHTML = "This item is already added to the cart";
+            setTimeout(function () {
+                document.getElementById("cart-msg").classList.remove("errorMsg-cart");
+                document.getElementById("cart-msg").innerHTML = "";
+            }, 3000);
             return;
         }
     }
