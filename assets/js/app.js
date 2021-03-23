@@ -403,9 +403,6 @@ function updateCartTotal() {
 // Menu Section //
 
 
-
-
-
 // Gallery section
 
 // Credit to freeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org

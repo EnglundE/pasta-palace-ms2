@@ -237,7 +237,7 @@ All credits are also in the code above each code snippet.
 #### General
 
 > * W3Schools.com for overall guidance how to solve some parts.
-> * 
+> * Stack overflow for general problem solving and guidance: https://stackoverflow.com/questions
 
 #### Code
 
@@ -262,8 +262,8 @@ All credits are also in the code above each code snippet.
 > * Credit for slideshow image to Lgh_9 at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-lunch-maltid-1256875/
 > * Credit for slideshow image to Engin Akyurt at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-halsosam-italienska-1487511/
 > * Credit for contact image to Louis Hansel at Unsplash: https://unsplash.com/photos/qbC9hh0aRiY
-> * 
-> * 
+> * Credit for slideshow image to Klaus Nielsen at pexel: https://www.pexels.com/sv-se/foto/mat-italienska-kvinna-middag-6287447/
+> * Credit for slideshow image to Engin Akyurt at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-halsosam-restaurang-2347311/
 > * 
 > * 
 > * 

@@ -156,7 +156,6 @@ font-weight: 500;
 
 .cart-item {
     width: 45%;
-    font-size: 1.2em;
     color: #333;
 }
 
@@ -165,11 +164,13 @@ font-weight: 500;
 .cart-price {
     width: 20%;
     color: #333;
+    font-size: 1.2em;
 }
 
 .cart-quantity {
     width: 35%;
     color: #333;
+    font-size: 1.2em;
 }
 
 .cart-item-title {
@@ -178,11 +179,7 @@ font-weight: 500;
     max-width: 1em;;
 }
 
-.cart-item-image {
-    width: 75px;
-    height: auto;
-    border-radius: 10px;
-}
+
 
 #removeBtn {
     margin: 0;
@@ -352,6 +349,14 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   .slide:nth-child(4) {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url("../images/slideshow4.jpg") center/cover no-repeat;
+  }
+  .slide:nth-child(5) {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../images/slideshow5.jpg") center/cover no-repeat;
+  }
+  .slide:nth-child(6) {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../images/slideshow6.jpg") center/cover no-repeat;
   }
 
 
