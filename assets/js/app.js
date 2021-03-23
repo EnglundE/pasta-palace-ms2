@@ -318,13 +318,17 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase');
+    document.getElementById("myPurchase").style.display = "block";
     var cartItems = document.getElementsByClassName('cart-items')[0];
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild);
     }
     updateCartTotal();
 }
+
+$(".close").click(function () {
+    document.getElementById("myPurchase").style.display = "none";
+});
 
 function removeCartItem(event) {
     var buttonClicked = event.target;
