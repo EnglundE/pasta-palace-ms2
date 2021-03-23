@@ -2,26 +2,25 @@
 
 
 $('a[href^="#menu"]').click(function () {
-    let findPage = document.getElementById("menu-section");
+    let findPage = document.getElementById("scrollToMenu");
     findPage.scrollIntoView();
 });
 $('a[href^="#gallery"]').click(function () {
-    let findPage = document.getElementById("gallery-section");
-    findPage.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+    let findPage = document.getElementById("scrollToGallery");
+    findPage.scrollIntoView();
 });
 
 $('a[href^="#bookatable"]').click(function () {
-    let findPage = document.getElementById("book-section");
-    findPage.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+    let findPage = document.getElementById("scrollToBook");
+    findPage.scrollIntoView();
 });
 
 $('a[href^="#contact"]').click(function () {
-    let findPage = document.getElementById("contact-section");
+    let findPage = document.getElementById("scrollToContact");
     findPage.scrollIntoView();
 });
 
 // Scroll to nav function //
-
 
 // Nav icon on smaller screens collapse when clicking a link
 // credit to Marta Szymanska at Mdbootstrap for hamburger collapse code: https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/
@@ -286,8 +285,6 @@ $("#starters-button").click(function () {
                     `;
     ready();
 });
-
-
 
 // Credit to Web Dev Simplified for below shopping functions: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified
 // add item to cart

@@ -19,8 +19,7 @@ html > body {
 }
 
 .navbar {
-    background-color: #f0f0f0; 
-    
+  background-color: #f0f0f0;
 }
 
 .nav-link {
@@ -77,6 +76,10 @@ a:hover {
 .menu-header {
     font-weight: bold;
     font-size: x-large;
+}
+
+#menu-section {
+  margin-top: 10em;
 }
 
 .menu-choice {
@@ -291,6 +294,10 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
     text-align: center;
 }
 
+#gallery-section {
+  margin-top: 10em;
+}
+
 .slider-container {
     border: 5px solid var(--clr-primary-5);
     width: 80vw;
@@ -407,6 +414,10 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
     margin-top: 2em;
 }
 
+#book-section {
+  margin-top: 10em;
+}
+
 .book-header {
     font-weight: bold;
     font-size: x-large;
@@ -486,6 +497,10 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
     
 }
 
+#contact-section {
+  margin-top: 11em;
+}
+
 .contact-header {
     font-weight: bold;
     font-size: x-large;
@@ -528,10 +543,28 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
     max-width: 40rem;  
 }
 
+/* Footer */
 
+.p-3 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
+.facebook {
+  background-color: #3b5998 !important;
+}
 
+.twitter {
+  color: #fff;
+  background-color: #55acee;
+  border-color: #0d6efd;
+}
 
+.instagram {
+background-color: #ac2bac !important;
+}
 
+.linkedin {
+background-color: #0082ca !important;
+}
 
 
