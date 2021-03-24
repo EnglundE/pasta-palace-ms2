@@ -29,12 +29,14 @@ html > body {
     font-size: x-large;
 }
 
+.fa-home, .fa-utensils, .fa-image, .fa-calendar, .fa-id-badge {
+  margin-right: 0.5em;
+} 
+
 a:hover {
     color: #3E4945 !important;
     text-decoration: underline;
 }
-
-
 
 /* Credit for Hero image to adam dehaven at Github: https://gist.github.com/adamdehaven/dceabb07450295fec6fc */
 .bgimage {
@@ -379,7 +381,6 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url("../images/slideshow6.jpg") center/cover no-repeat;
   }
-
 
   .btn-container {
     display: flex;
