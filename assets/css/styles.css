@@ -262,7 +262,8 @@ font-weight: 500;
   background-color: yellow;
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 3px solid black;
+    border-radius: 2em;
   width: 80%;
 }
 
@@ -401,9 +402,9 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
     transition: var(--transition);
   }
 
-  .prevBtn:hover,
-  .nextBtn:hover {
-    color: var(--clr-grey-3);
+  .prevBtn:hover, .nextBtn:hover {
+    color: #295C5D;
+    text-decoration: underline;
   }
   
   @media screen and (min-width: 576px) {
@@ -478,11 +479,12 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   }
 
   .popUp-content {
-    background-color: green;
+    background-color: rgb(73, 246, 73);
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 100%;
+    border: 3px solid black;
+    border-radius: 2em;
+    width: 80%;
   }
 
   .popUp {
@@ -530,16 +532,21 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   margin-top: 11em;
 }
 
+.mb-5 {
+  margin-top: 2em;
+}
+
 .contact-header {
     font-weight: bold;
     font-size: x-large;
 }
 
 .contact-content {
-    background-color: green;
+    background-color: rgb(73, 246, 73);
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 3px solid black;
+    border-radius: 2em;
     width: 80%;
   }
 
