@@ -123,7 +123,11 @@
 > * W3C Markup Validator - [Link](https://validator.w3.org/nu/)
 > * W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en)
 
-
+| User Story        | Action           | Expected result  | Result        | Corrective action |
+| ----------------- |:----------------:| ----------------:| -------------:|------------------:|
+|                   |                  |                  |               |                   |
+|                   |                  |                  |               |                   |
+|                   |                  |                  |               |                   |
 
 
 - ### Testing of User Stories from the User Story Section
