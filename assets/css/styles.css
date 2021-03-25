@@ -540,6 +540,10 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   margin-top: 2em;
 }
 
+#contact-image {
+  align-items: flex-start; 
+}
+
 .contact-header {
     font-weight: bold;
     font-size: x-large;
