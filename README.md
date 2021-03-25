@@ -33,16 +33,16 @@
 > 4. As a first time visitor i want to look at the gallery.
 
 - ### Returning Visitor Goals
-> 1. As a returning visitor i want book a table.
-> 2. As a returning visitor i want to make a purchase for take away.
-> 3. As a returning visitor i want to browse the menu.
-> 4. As a returning visitor i want to be able to contact the restaurant with questions and/or feedback.
+> 5. As a returning visitor i want book a table.
+> 6. As a returning visitor i want to make a purchase for take away.
+> 7. As a returning visitor i want to browse the menu.
+> 8. As a returning visitor i want to be able to contact the restaurant with questions and/or feedback.
 
 - ### Site Owner Goals
-> 1. As a site owner i want to expose the restaurant to the local community.
-> 2. As a site owner i want to expose our menu and buy options in an intuitive way.
-> 3. As a site owner i want customers to be able to contact us with feedback or questions.
-> 4. As a site owner i want customers to book a table directly on the site instead of calling.
+> 9. As a site owner i want to expose the restaurant to the local community.
+> 10. As a site owner i want to expose our menu and buy options in an intuitive way.
+> 11. As a site owner i want customers to be able to contact us with feedback or questions.
+> 12. As a site owner i want customers to book a table directly on the site instead of calling.
 
 
 - ### Business Goals
@@ -137,30 +137,43 @@
 
 > 1. As a first time visitor i want to browse the menu:
 
-| Feature                                       | Action                                      | expected result                            | Actual result              |
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
-| Scroll to Menu section on click from Nav-bar  | Clicked on Menu in the navbar               | To end up in the menu section of the page  | Works as expected          |
+| Scroll to section from nav-bar                | Clicked on Menu in the navbar               | To end up in the menu section of the page  | Works as expected          |
 | Browse through the different Menus            | Clicked on the menu tabs in menu section    | To see new menu according to tab choice    | Works as expected          |
 
 > 2. As a first time visitor i want check out the opening hours:
 
-| Feature                                       | Action                                      | expected result                            | Actual result              |
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
 | Opening hours to be statically present        | Scroll down to the bottom of the website    | Easy to find and read the opening hours    | Works as expected          |
 
 > 3. As a first time visitor i want to check out the location:
 
-| Feature                                       | Action                                      | expected result                            | Actual result              |
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
 | Location to be statically present             | Scroll down to the bottom of the website    | Easy to find and read the location         | Works as expected          |
 
 > 4. As a first time visitor i want to look at the gallery:
 
-| Feature                                       | Action                                      | expected result                            | Actual result              |
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
-| Click Gallery in Nav-bar to scroll to section | Clicked on Gallery in the navbar            | To end up in the Gallery section           | Works as expected          |
+| Scroll to section from nav-bar                | Clicked on Gallery in the navbar            | To end up in the Gallery section           | Works as expected          |
 | Prev/Next button to start slideshow           | Clicked on next/prev button in Gallery      | A new image after clicking next/prev button| Works as expected          |
 
+> 5. As a returning visitor i want book a table:
+
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Scroll to section from nav-bar                | Clicked on book a table in the navbar       | To end up in the Book a table section      | Works as expected          |
+| Choose a date                                 | Clicked on calender to select a date        | The date chosen to be seen in the calender | Works as expected          |
+| Insert name                                   | Wrote my name                               | My name shown when moving to next input    | Works as expected          |
+| Insert email                                  | Wrote my email                              | My email shown when moving to next input   | Works as expected          |
+| decide how many you will book a table for     | typed a number                              | Number shown when moving to next input     | Works as expected          |
+| Insert phone number                           | Wrote my phone number                       | Number shown when moving to next input     | Works as expected          |
+| Choose time                                   | Selected a time in the predefined time      | The time shown when moving to next input   | Works as expected          |
+| Button Book                                   | Click the button Book                       | Modal shown with information               | Works as expected          |
+| Not choosing date/name/email/number/table/time| Book without filling in the fields          | Alert for 2.5 sec with action required     | Works as expected          |
 
 - ### First time Visitors Goals
 > 1.
