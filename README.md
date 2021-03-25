@@ -234,6 +234,14 @@
 
 > * Developer comment: A fully functional and dynamic booking section with real time times/days available etc to be implemented in the future instead of only generating an email as of today.
 
+### Bugs found and fixed during development:
+> * scollIntoView function scrolled too far due fixed navbar. Fixed by creating a div above the section to scroll to instead.
+> * When changing menu from starters it wasn't possible to add the new items to cart. Solved by calling the ready function after changing menu.
+> * Alert displayed when forms not filled in stayed without getting removed. First fixed by setting a onKeyDown function to remove the alert. Later fixed with setTimeout function to 2.5 sec.
+> * onKeyDown error in console in index.html for the contact form. onKeyDown function calling was still in the form in index.html even if the function was replaced by setTimeout function. Fixed by removing onKeyDown from index.html contact form.
+> * Label had the same name in two places. Fixed by changing one of them to get accessibility score to 100.
+
+
 
 
 ---
@@ -256,7 +264,7 @@ The project was deployed to GitHub Pages using these steps...
 By forking the GitHub repository you can make a copy of the original repository to view and/or make changes without affecting the original repository byt using the following steps...
 
 > 1. Log in to GitHub and locate this [Repository](Link to project on Github)
-> 2. On the far right in the repository (opposite side from EnglundE/ms1-tonysbakery), locate the "Fork" button.
+> 2. On the far right in the repository (opposite side from EnglundE/pasta-palace-ms2), locate the "Fork" button.
 > 3. You should now have a copy of the original repository in your GitHub account.
 
 - ### Making a Local Clone
