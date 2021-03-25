@@ -606,3 +606,9 @@ background-color: #0082ca !important;
 }
 
 
+/* 404 page */
+
+.error-page {
+  margin-top: 20em;
+  text-align: center;
+}
