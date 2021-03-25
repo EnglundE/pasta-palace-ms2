@@ -61,10 +61,16 @@
 > Features in scope for the first release:
 > * Navigation Scroll to function.
 > * Interactive Menu to view only the section of your choice (Starter, Main courses, Dessert, Drinks).
-> * Add to basket function for the menu.
+> * Add to cart function for the menu.
 > * Showcase a Gallery of images in a slide show.
 > * Book a table function generating an email to the restaurant.
 > * EmailJS function to the contact form.
+> * Modal showing when contact form is filled out and sent.
+> * Modal showing when book a table form is filled out and sent.
+> * Modal showing when Purchase is clicked.
+> * "Alert" are shown when trying to add same item to cart more than once.
+> * "Alert shown when trying to book a table without filling in all inputs.
+> * "Alert shown when trying to send the contact form without filling in all inputs.
 
 > Features out of scope for the first release:
 > * The possibility to actually make the purchase from the basket.
@@ -114,7 +120,10 @@
 > - Balsamiq was used to create wireframes during the design process.
 > 7. Ami responsivedesign: [Link](http://ami.responsivedesign.is/)
 > - was used to create mockups of the deployed website.
-> 8. Visual Studio Code: IDE used to create the code for this project.
+> 8. Visual Studio Code: [link](https://code.visualstudio.com/)
+> - IDE used to create the code for this project.
+> 9. jQuery: [link](https://jquery.com/)
+> - jQuery used to speed up the speed up the Javascript development.
   
 ---
 
@@ -126,13 +135,12 @@
 
 - ### Testing of User Stories from the User Story Section
 
-
-| User Story                | Action                     | Expected result  | Result        | Corrective action |
-| ------------------------- |:--------------------------:| ----------------:| -------------:|------------------:|
-| As a first time visitor 
-  i want to browse the menu                                                                                  
-|                           |                            |                  |               |                   |
-|                           |                            |                  |               |                   |
+> 1. As a first time visitor i want to browse the menu.
+| Feature                                       | Action                                      | expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Scroll to Menu section on click from Nav-bar  | Clicked on Menu in the navbar               | To end up in the menu section of the page  | Works as expected          |
+| Browse through the different Menus            | Clicked on the menu tabs in menu section    | To see new menu according to tab choice    | Works as expected          |
+| zebra stripes                                 | are neat                                    |    $1                                      |                            |
 
 
 
