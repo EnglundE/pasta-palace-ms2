@@ -130,7 +130,7 @@
 | User Story                | Action                     | Expected result  | Result        | Corrective action |
 | ------------------------- |:--------------------------:| ----------------:| -------------:|------------------:|
 | As a first time visitor 
-  i want to browse the menu                              |                  |               |                   |
+  i want to browse the menu                                                                                  
 |                           |                            |                  |               |                   |
 |                           |                            |                  |               |                   |
 
