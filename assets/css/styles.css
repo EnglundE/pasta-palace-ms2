@@ -56,9 +56,13 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #DFECE7;
+    color: white;
     font-family: "Akaya Telivigala", cursive;
   }
+
+ .address-opening  > p {
+   text-align: center;
+ }
 
 /* Nav + Hero image /*/
 
@@ -75,7 +79,7 @@ a:hover {
 }
 
 #menu-section {
-  margin-top: 10em;
+  margin-top: 5em;
 }
 
 .menu-choice {

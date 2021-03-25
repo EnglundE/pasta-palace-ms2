@@ -136,6 +136,7 @@
 - ### Testing of User Stories from the User Story Section
 
 > 1. As a first time visitor i want to browse the menu.
+
 | Feature                                       | Action                                      | expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
 | Scroll to Menu section on click from Nav-bar  | Clicked on Menu in the navbar               | To end up in the menu section of the page  | Works as expected          |
