@@ -135,15 +135,31 @@
 
 - ### Testing of User Stories from the User Story Section
 
-> 1. As a first time visitor i want to browse the menu.
+> 1. As a first time visitor i want to browse the menu:
 
 | Feature                                       | Action                                      | expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
 | Scroll to Menu section on click from Nav-bar  | Clicked on Menu in the navbar               | To end up in the menu section of the page  | Works as expected          |
 | Browse through the different Menus            | Clicked on the menu tabs in menu section    | To see new menu according to tab choice    | Works as expected          |
-| zebra stripes                                 | are neat                                    |    $1                                      |                            |
 
+> 2. As a first time visitor i want check out the opening hours:
 
+| Feature                                       | Action                                      | expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Opening hours to be statically present        | Scroll down to the bottom of the website    | Easy to find and read the opening hours    | Works as expected          |
+
+> 3. As a first time visitor i want to check out the location:
+
+| Feature                                       | Action                                      | expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Location to be statically present             | Scroll down to the bottom of the website    | Easy to find and read the location         | Works as expected          |
+
+> 4. As a first time visitor i want to look at the gallery:
+
+| Feature                                       | Action                                      | expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Click Gallery in Nav-bar to scroll to section | Clicked on Gallery in the navbar            | To end up in the Gallery section           | Works as expected          |
+| Prev/Next button to start slideshow           | Clicked on next/prev button in Gallery      | A new image after clicking next/prev button| Works as expected          |
 
 
 - ### First time Visitors Goals
