@@ -148,11 +148,15 @@
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
 | Opening hours to be statically present        | Scroll down to the bottom of the website    | Easy to find and read the opening hours    | Works as expected          |
 
+> * Developer comment: After testing of opening hours a new paragraph was added under the hero image to get the opening hours more visible to the user sooner.
+
 > 3. As a first time visitor i want to check out the location:
 
 | Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
 | Location to be statically present             | Scroll down to the bottom of the website    | Easy to find and read the location         | Works as expected          |
+
+> * Developer comment: After testing of location a new paragraph was added under the hero image to get the location more visible to the user sooner.
 
 > 4. As a first time visitor i want to look at the gallery:
 
@@ -175,6 +179,8 @@
 | Button Book                                   | Click the button Book                       | Modal shown with information               | Works as expected          |
 | Not choosing date/name/email/number/table/time| Book without filling in the fields          | Alert for 2.5 sec with action required     | Works as expected          |
 
+> * Developer comment: No email validator implemented at this stage.
+
 > 6. As a returning visitor i want to make a purchase for take away:
 
 | Feature                                       | Action                                      | Expected result                            | Actual result              |
@@ -194,6 +200,8 @@
 | Write message                                 | Write your message                          | Message shown when moving to next input    | Works as expected          |
 | Not writing name/email/message                | Click send without filling in the fields    | Alert for 2.5 sec with action required     | Works as expected          |
 
+> * Developer comment: No email validator implemented at this stage.
+
 
 > 8. As a site owner i want to expose the restaurant to the local community:
 
@@ -202,12 +210,14 @@
 | Website is live                               | Make sure the website is deployed and live  | Possible to reach the website              | Works as expected          |
 | High SEO score                                | Make sure the website have a high SEO score | Higher chance to get customer to the site  | Evaluated later            |
 
+> * Developer comment: Not sure if SEO have any impact on sites deployed on Github but cant be bad to have a high score.
+
 > 9. As a site owner i want to expose our menu and buy options in an intuitive way:
 
 | Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
 | Clear menu in the website                     | Scroll to Menu section via navbar or manual | Clear header for dishes and description    | Works as expected          |
-| Selected menu category highlighted            | Browse between the menu tabs                | Easy to se which menu your on              | Works as expected          |
+| Selected menu category highlighted            | Browse between the menu tabs                | Easy to see which menu your on             | Works as expected          |
 
 > 10. As a site owner i want customers to be able to contact us with feedback or questions:
 
@@ -222,6 +232,7 @@
 | Book a table option on the website            | Fill out book a table form and click Book   | Table is booked and all is set             | User get modal feedback and a mail get sent to restaurant         |
 | Selected menu category highlighted            | Browse between the menu tabs                | Easy to se which menu your on              | Works as expected          |
 
+> * Developer comment: A fully functional and dynamic booking section with real time times/days available etc to be implemented in the future instead of only generating an email as of today.
 
 
 
