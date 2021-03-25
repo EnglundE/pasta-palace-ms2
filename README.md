@@ -33,16 +33,15 @@
 > 4. As a first time visitor i want to look at the gallery.
 
 - ### Returning Visitor Goals
-> 5. As a returning visitor i want book a table.
+> 5. As a returning visitor i want to book a table.
 > 6. As a returning visitor i want to make a purchase for take away.
-> 7. As a returning visitor i want to browse the menu.
-> 8. As a returning visitor i want to be able to contact the restaurant with questions and/or feedback.
+> 7. As a returning visitor i want to be able to contact the restaurant with questions and/or feedback.
 
 - ### Site Owner Goals
-> 9. As a site owner i want to expose the restaurant to the local community.
-> 10. As a site owner i want to expose our menu and buy options in an intuitive way.
-> 11. As a site owner i want customers to be able to contact us with feedback or questions.
-> 12. As a site owner i want customers to book a table directly on the site instead of calling.
+> 8. As a site owner i want to expose the restaurant to the local community.
+> 9. As a site owner i want to expose our menu and buy options in an intuitive way.
+> 10. As a site owner i want customers to be able to contact us with feedback or questions.
+> 11. As a site owner i want customers to book a table directly on the site instead of calling.
 
 
 - ### Business Goals
@@ -161,7 +160,7 @@
 | Scroll to section from nav-bar                | Clicked on Gallery in the navbar            | To end up in the Gallery section           | Works as expected          |
 | Prev/Next button to start slideshow           | Clicked on next/prev button in Gallery      | A new image after clicking next/prev button| Works as expected          |
 
-> 5. As a returning visitor i want book a table:
+> 5. As a returning visitor i want to book a table:
 
 | Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
@@ -174,6 +173,16 @@
 | Choose time                                   | Selected a time in the predefined time      | The time shown when moving to next input   | Works as expected          |
 | Button Book                                   | Click the button Book                       | Modal shown with information               | Works as expected          |
 | Not choosing date/name/email/number/table/time| Book without filling in the fields          | Alert for 2.5 sec with action required     | Works as expected          |
+
+> 6. As a returning visitor i want to make a purchase for take away:
+
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Add items to cart                             | Click add to cart in menu section           | Item added to cart with how many and amount| Works as expected          |
+| total amount when adding more items to cart   | Click add to cart to add more items to cart | Add another item and update total amount   | Works as expected          |
+| Remove item from cart                         | Click remove button after item in cart      | Removed from cart with updated total amount| Works as expected          |
+| Make a purchase                               | Click purchase button in cart               | Get to a checkout page to confirm and pay  | Modal with info feature not available          |
+
 
 - ### First time Visitors Goals
 > 1.
