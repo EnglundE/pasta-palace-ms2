@@ -73,6 +73,7 @@
 
 > Features out of scope for the first release:
 > * The possibility to actually make the purchase from the basket.
+> * Add information about purchase, how long it will take and maybe real time update.
 > * The possibility to see available slots to book a table function in real time.
 
 - ### Structure
@@ -138,8 +139,8 @@
 
 | Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
-| Scroll to section from nav-bar                | Clicked on Menu in the navbar               | To end up in the menu section of the page  | Works as expected          |
-| Browse through the different Menus            | Clicked on the menu tabs in menu section    | To see new menu according to tab choice    | Works as expected          |
+| Scroll to section from navbar                 | Click on Menu in the navbar                 | To end up in the menu section of the page  | Works as expected          |
+| Browse through the different Menus            | Click on the menu tabs in menu section      | To see new menu according to tab choice    | Works as expected          |
 
 > 2. As a first time visitor i want check out the opening hours:
 
@@ -157,20 +158,20 @@
 
 | Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
-| Scroll to section from nav-bar                | Clicked on Gallery in the navbar            | To end up in the Gallery section           | Works as expected          |
-| Prev/Next button to start slideshow           | Clicked on next/prev button in Gallery      | A new image after clicking next/prev button| Works as expected          |
+| Scroll to section from navbar                 | Click on Gallery in the navbar              | To end up in the Gallery section           | Works as expected          |
+| Prev/Next button to start slideshow           | Click on next/prev button in Gallery        | A new image after clicking next/prev button| Works as expected          |
 
 > 5. As a returning visitor i want to book a table:
 
 | Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
-| Scroll to section from nav-bar                | Clicked on book a table in the navbar       | To end up in the Book a table section      | Works as expected          |
-| Choose a date                                 | Clicked on calender to select a date        | The date chosen to be seen in the calender | Works as expected          |
-| Insert name                                   | Wrote my name                               | My name shown when moving to next input    | Works as expected          |
-| Insert email                                  | Wrote my email                              | My email shown when moving to next input   | Works as expected          |
-| decide how many you will book a table for     | typed a number                              | Number shown when moving to next input     | Works as expected          |
-| Insert phone number                           | Wrote my phone number                       | Number shown when moving to next input     | Works as expected          |
-| Choose time                                   | Selected a time in the predefined time      | The time shown when moving to next input   | Works as expected          |
+| Scroll to section from navbar                 | Click on book a table in the navbar         | To end up in the Book a table section      | Works as expected          |
+| Choose a date                                 | Click on calender to select a date          | The date chosen to be seen in the calender | Works as expected          |
+| Insert name                                   | Write your name                             | Name shown when moving to next input       | Works as expected          |
+| Insert email                                  | Write your email                            | Email shown when moving to next input      | Works as expected          |
+| decide how many you will book a table for     | type a number                               | Number shown when moving to next input     | Works as expected          |
+| Insert phone number                           | Write your phone number                     | Number shown when moving to next input     | Works as expected          |
+| Choose time                                   | Select a time in the predefined selections  | The time shown when moving to next input   | Works as expected          |
 | Button Book                                   | Click the button Book                       | Modal shown with information               | Works as expected          |
 | Not choosing date/name/email/number/table/time| Book without filling in the fields          | Alert for 2.5 sec with action required     | Works as expected          |
 
@@ -183,73 +184,45 @@
 | Remove item from cart                         | Click remove button after item in cart      | Removed from cart with updated total amount| Works as expected          |
 | Make a purchase                               | Click purchase button in cart               | Get to a checkout page to confirm and pay  | Modal with info feature not available          |
 
+> 7. As a returning visitor i want to be able to contact the restaurant with questions and/or feedback:
 
-- ### First time Visitors Goals
-> 1.
-> * 
-> * 
-> * 
-> * 
-> 2. 
-> * 
-> 3. 
-> * 
-> 4. 
-> * 
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Scroll to section from navbar                 | Click on contact in the navbar              | To end up in the contact section           | Works as expected          |
+| Insert name                                   | Write your name                             | Name shown when moving to next input       | Works as expected          |
+| Insert email                                  | Write your email                            | Email shown when moving to next input      | Works as expected          |
+| Write message                                 | Write your message                          | Message shown when moving to next input    | Works as expected          |
+| Not writing name/email/message                | Click send without filling in the fields    | Alert for 2.5 sec with action required     | Works as expected          |
 
-- ### Returning Visitor Goals  
-> 1. 
-> * 
-> 2. 
-> * 
-> 3. 
-> * 
 
-- ### Frequent User Goals
-> 1. 
-> * 
-> 2. 
-> *  
+> 8. As a site owner i want to expose the restaurant to the local community:
 
-- ### Site Owner Goals
-> 1. 
-> * 
-> 2. 
-> * 
-> 3. 
-> * 
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Website is live                               | Make sure the website is deployed and live  | Possible to reach the website              | Works as expected          |
+| High SEO score                                | Make sure the website have a high SEO score | Higher chance to get customer to the site  | Evaluated later            |
 
-- ### Manual testing
-   
+> 9. As a site owner i want to expose our menu and buy options in an intuitive way:
 
-> * 
-> * 
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Clear menu in the website                     | Scroll to Menu section via navbar or manual | Clear header for dishes and description    | Works as expected          |
+| Selected menu category highlighted            | Browse between the menu tabs                | Easy to se which menu your on              | Works as expected          |
 
-> 1. 
-> 2. 
-> 3. 
-> 4. 
-> 5. 
-> 6. 
-> 7. 
-> 8. 
-> 9. 
-> 10. 
-> 11. 
-> 12. 
-> 13. 
-> 14. 
-> 15. 
-> 16. 
-> * 
-> * 
+> 10. As a site owner i want customers to be able to contact us with feedback or questions:
 
-- #### problems/bugs
-> 1. 
-> 2. 
-> 3.  
-> 4. 
-> 5. 
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Short and easy form to fill out               | Fill out contact form and click Send        | Email sent to restaurant with feedback to user    | Works as expected          |
+
+> 11. As a site owner i want customers to book a table directly on the site instead of calling:
+| Feature                                       | Action                                      | Expected result                            | Actual result              |
+| --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
+| Book a table option on the website            | Fill out book a table form and click Book   | Table is booked and all is set             | User get modal feedback and a mail get sent to restaurant         |
+| Selected menu category highlighted            | Browse between the menu tabs                | Easy to se which menu your on              | Works as expected          |
+
+
+
 
 ---
 
