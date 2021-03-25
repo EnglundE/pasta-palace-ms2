@@ -216,9 +216,10 @@
 | Short and easy form to fill out               | Fill out contact form and click Send        | Email sent to restaurant with feedback to user    | Works as expected          |
 
 > 11. As a site owner i want customers to book a table directly on the site instead of calling:
+
 | Feature                                       | Action                                      | Expected result                            | Actual result              |
 | --------------------------------------------- |:-------------------------------------------:| ------------------------------------------:| --------------------------:|
-| Book a table option on the website            | Fill out book a table form and click Book   | Table is booked and all is set             | Mail get sent to restaurant|
+| Book a table option on the website            | Fill out book a table form and click Book   | Table is booked and all is set             | User get modal feedback and a mail get sent to restaurant         |
 | Selected menu category highlighted            | Browse between the menu tabs                | Easy to se which menu your on              | Works as expected          |
 
 
