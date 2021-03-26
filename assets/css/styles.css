@@ -47,7 +47,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    align-items: flex-start; 
+    flex-direction: column;
   }
   
 
@@ -80,7 +80,7 @@ a:hover {
 }
 
 #menu-section {
-  margin-top: 5em;
+  margin-top: 4em;
 }
 
 .menu-choice {
@@ -307,7 +307,7 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
 }
 
 #gallery-section {
-  margin-top: 10em;
+  margin-top: 6em;
 }
 
 .slider-container {
@@ -319,7 +319,7 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
     position: relative;
     border-radius: 0.5rem;
     overflow: hidden;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   .slide {
@@ -440,7 +440,7 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
 }
 
 #book-section {
-  margin-top: 10em;
+  margin-top: 4em;
 }
 
 .book-header {
