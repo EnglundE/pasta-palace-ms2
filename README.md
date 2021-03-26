@@ -7,6 +7,28 @@
 
 [View the live project here!](Link to live project)
 
+
+1.  [Description](#description)
+2.  [Project Goals](#project-goals)
+3.  [Business Goals](#business-goals)
+4.  [User experience](#user-experience)
+5.  [Strategy](#strategy)
+6.  [Scope](#scope)
+7.  [Structure](#structure)
+8.  [Skeleton](#skeleton)
+9.  [Surface](#surface)
+10. [Wireframes](#wireframes)
+11. [Technologies Used](#technologies-used)
+12. [Testing](#testing)
+13. [Deployment](#deployment)
+14. [Credits](#credits)
+15. [Support](#support)
+
+
+
+
+
+
 ## Description
 
 > This is my second Milestone Project at Code Institute. In this project i will create an interactive website with HTML5, CSS and Javascript. 
@@ -19,6 +41,9 @@
 
 > The main goal for this project is to create a well designed, structured and interactive website with key features within the scope (HTML, CSS and Javascript) to meet the customer needs. Structured and with high quality code.
 > These goals will align with the overall business goals.
+
+- ### Business Goals
+> To reach more potential customers in the area of Stockholm with our products and services to book a table, order take away food and look into our menu with a clean, responsive and intuitive way for a good user experience and willingness to buy and visit the restaurant.
 
 ---
 
@@ -43,9 +68,6 @@
 > 10. As a site owner i want customers to be able to contact us with feedback or questions.
 > 11. As a site owner i want customers to book a table directly on the site instead of calling.
 
-
-- ### Business Goals
-> To reach more potential customers in the area of Stockholm with our products and services to book a table, order take away food and look into our menu with a clean, responsive and intuitive way for a good user experience and willingness to buy and visit the restaurant.
 
 - ### Strategy
 > To align with the Business goals potential customer research has been done to answer some questions:
