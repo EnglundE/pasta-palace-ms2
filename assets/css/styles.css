@@ -47,6 +47,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
     flex-direction: column;
   }
   
