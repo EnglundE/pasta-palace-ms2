@@ -40,14 +40,12 @@ a:hover {
 
 /* Credit for Hero image to adam dehaven at Github: https://gist.github.com/adamdehaven/dceabb07450295fec6fc */
 .bgimage {
-    width: auto;
+    width: 100%;
     height:80%;
     background: url('../images/hero-image.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-    align-items:flex-start;
   }
   
 
