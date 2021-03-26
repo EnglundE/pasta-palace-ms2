@@ -47,7 +47,7 @@ $("#main-button").click(function () {
                         <div class="shop-item-details">
                             <p>Chicken Breast topped with Parma Ham, Mushrooms and White Wine Sauce</p>
                             <span class="shop-item-price">£14</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -55,7 +55,7 @@ $("#main-button").click(function () {
                         <div class="shop-item-details">
                             <p>Roasted Pork Belly with Roasted Beetroot, Lentils and Apple Sauce</p>
                             <span class="shop-item-price">£17</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -63,7 +63,7 @@ $("#main-button").click(function () {
                         <div class="shop-item-details">
                             <p>Large, Flat Pasta Tubes with Rabbit Ragû, servied with white wine saus</p>
                             <span class="shop-item-price">£15</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -71,7 +71,7 @@ $("#main-button").click(function () {
                         <div class="shop-item-details">
                         <p>Cod Fillet Wrapped in Parma Ham on a Bed of Mild Salsa</p>
                             <span class="shop-item-price">£19</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     `;
@@ -92,7 +92,7 @@ $("#dessert-button").click(function () {
                         <div class="shop-item-details">
                             <p>Buttery Nutella Filled Dough, Topped with Strawberries</p>
                             <span class="shop-item-price">£5</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -100,7 +100,7 @@ $("#dessert-button").click(function () {
                         <div class="shop-item-details">
                             <p>Warm Strudel Served With Vanilla Ice Cream</p>
                             <span class="shop-item-price">£4</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -108,7 +108,7 @@ $("#dessert-button").click(function () {
                         <div class="shop-item-details">
                             <p>Four Donuts Filled With warm Hazelnut Nutella</p>
                             <span class="shop-item-price">£8</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -116,7 +116,7 @@ $("#dessert-button").click(function () {
                         <div class="shop-item-details">
                         <p>Our Famous homemade Key Lime Pie</p>
                             <span class="shop-item-price">£9</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -124,7 +124,7 @@ $("#dessert-button").click(function () {
                         <div class="shop-item-details">
                         <p>Rich and heavenly</p>
                             <span class="shop-item-price">£7</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -132,7 +132,7 @@ $("#dessert-button").click(function () {
                         <div class="shop-item-details">
                         <p>Served with wipped cream and berries</p>
                             <span class="shop-item-price">£8</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     `;
@@ -153,7 +153,7 @@ $("#drinks-button").click(function () {
                         <div class="shop-item-details">
                             
                             <span class="shop-item-price">£1</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -161,7 +161,7 @@ $("#drinks-button").click(function () {
                         <div class="shop-item-details">
                             
                             <span class="shop-item-price">£1</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -169,7 +169,7 @@ $("#drinks-button").click(function () {
                         <div class="shop-item-details">
                             
                             <span class="shop-item-price">£1</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -177,7 +177,7 @@ $("#drinks-button").click(function () {
                         <div class="shop-item-details">
                         
                             <span class="shop-item-price">£1</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -185,7 +185,7 @@ $("#drinks-button").click(function () {
                         <div class="shop-item-details">
                         
                             <span class="shop-item-price">£1</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -193,7 +193,7 @@ $("#drinks-button").click(function () {
                         <div class="shop-item-details">
                         
                             <span class="shop-item-price">£2</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -201,7 +201,7 @@ $("#drinks-button").click(function () {
                         <div class="shop-item-details">
                         
                             <span class="shop-item-price">£2</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -209,7 +209,7 @@ $("#drinks-button").click(function () {
                         <div class="shop-item-details">
                         
                             <span class="shop-item-price">£2</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -217,7 +217,7 @@ $("#drinks-button").click(function () {
                         <div class="shop-item-details">
                         
                             <span class="shop-item-price">£2</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     `;
@@ -239,7 +239,7 @@ $("#starters-button").click(function () {
                             <p>Avocado, Cucumber Sorbet, Mango & Pane
                                 Carasau</p>
                             <span class="shop-item-price">£5</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -247,7 +247,7 @@ $("#starters-button").click(function () {
                         <div class="shop-item-details">
                             <p>Carrot, Ginger & Smoked Mackerel... Yummmy</p>
                             <span class="shop-item-price">£4</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -255,7 +255,7 @@ $("#starters-button").click(function () {
                         <div class="shop-item-details">
                             <p>Spicy Sausages Grilled And Served with Mint Mayo</p>
                             <span class="shop-item-price">£8</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -263,7 +263,7 @@ $("#starters-button").click(function () {
                         <div class="shop-item-details">
                             <p>Sausages Stuffed With Cheese & Onion served with toppings</p>
                             <span class="shop-item-price">£9</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -271,7 +271,7 @@ $("#starters-button").click(function () {
                         <div class="shop-item-details">
                             <p>Chicken Lollipops Marinated in Asian Spices</p>
                             <span class="shop-item-price">£7</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     <div class="shop-item">
@@ -279,7 +279,7 @@ $("#starters-button").click(function () {
                         <div class="shop-item-details">
                             <p>A large Basked of Scrimp Chips for up to four people</p>
                             <span class="shop-item-price">£5</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
                     </div>
                     `;

@@ -234,12 +234,19 @@
 
 > * Developer comment: A fully functional and dynamic booking section with real time times/days available etc to be implemented in the future instead of only generating an email as of today.
 
-### Bugs found and fixed during development:
+- ### Bugs found and fixed during development:
 > * scollIntoView function scrolled too far due fixed navbar. Fixed by creating a div above the section to scroll to instead.
 > * When changing menu from starters it wasn't possible to add the new items to cart. Solved by calling the ready function after changing menu.
 > * Alert displayed when forms not filled in stayed without getting removed. First fixed by setting a onKeyDown function to remove the alert. Later fixed with setTimeout function to 2.5 sec.
 > * onKeyDown error in console in index.html for the contact form. onKeyDown function calling was still in the form in index.html even if the function was replaced by setTimeout function. Fixed by removing onKeyDown from index.html contact form.
 > * Label had the same name in two places. Fixed by changing one of them to get accessibility score to 100.
+
+- ### Browser testing
+> * Safari: The hero image and contact image stretched out in Safari. After some research it seems to be a bug in Safari that caused the issue. I needed to add !important to hero image height and align-items: flex-start; to contact image to fix the problem in Safari. Also scrollIntoView function in Safari isn't scrolling, its jumping directly to the section instead of a soft scrolling. Otherwise everything works as expected according to the test of user stories. 
+> * Google Chrome:
+> * Mozilla Firefox: 
+> * Microsoft Edge:
+
 
 
 
