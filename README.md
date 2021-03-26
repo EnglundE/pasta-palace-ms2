@@ -8,6 +8,8 @@
 [View the live project here!](Link to live project)
 
 
+## Table of Content
+
 1.  [Description](#description)
 2.  [Project Goals](#project-goals)
 3.  [Business Goals](#business-goals)
@@ -37,7 +39,7 @@
 
 
 ------------
-## Project Goal
+## Project Goals
 
 > The main goal for this project is to create a well designed, structured and interactive website with key features within the scope (HTML, CSS and Javascript) to meet the customer needs. Structured and with high quality code.
 > These goals will align with the overall business goals.
@@ -47,7 +49,7 @@
 
 ---
 
-## User Experience (UX)
+## User Experience
 
 ## User stories
   
