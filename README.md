@@ -141,10 +141,12 @@
 > - Balsamiq was used to create wireframes during the design process.
 > 7. Ami responsivedesign: [Link](http://ami.responsivedesign.is/)
 > - was used to create mockups of the deployed website.
-> 8. Visual Studio Code: [link](https://code.visualstudio.com/)
+> 8. Visual Studio Code: [Link](https://code.visualstudio.com/)
 > - IDE used to create the code for this project.
-> 9. jQuery: [link](https://jquery.com/)
+> 9. jQuery: [Link](https://jquery.com/)
 > - jQuery used to speed up the speed up the Javascript development.
+> 10. EmailJs: [Link](https://www.emailjs.com/)
+> - EmailJs used to generate email to forms on the website.
   
 ---
 
@@ -282,7 +284,7 @@
 
 - ### Functional tests on different devices
 > * Iphone 7, Iphone 11 Pro, Iphone SE, Ipad. Samsung Galaxy S10e, Xiaomi Mi Note 10. Laptop, PC.
-> 1. All functionality, overall performance and responsiveness was tested on all devices.
+> 1. All functionality, overall performance, link and responsiveness was tested on all devices.
 
 
 ---
@@ -354,19 +356,12 @@ All credits are also in the code above each code snippet.
 > * Credit for contact image to Louis Hansel at Unsplash: https://unsplash.com/photos/qbC9hh0aRiY
 > * Credit for slideshow image to Klaus Nielsen at pexel: https://www.pexels.com/sv-se/foto/mat-italienska-kvinna-middag-6287447/
 > * Credit for slideshow image to Engin Akyurt at Pexels: https://www.pexels.com/sv-se/foto/mat-tallrik-halsosam-restaurang-2347311/
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
-> * 
 
 
 #### Styling 
 
-> * 
-> * 
+> * Credit to Web Dev Simplified for cart section: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified
+> * Credit tofreeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org, https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
 
 ---
 
