@@ -152,9 +152,13 @@
 ---
 
 ## Testing
- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.  
-> * W3C Markup Validator - [Link](https://validator.w3.org/nu/)
-> * W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en)
+ The W3C Markup Validator, W3C CSS Validator Services and Jshint were used to validate every page of the project to ensure there were no syntax errors in the project.  
+> * W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool. [Link](link to result) to the result.
+> * W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en) to the tool. [Link](link to result) to the result.
+> * Jshint - [Link](https://jshint.com/) to the tool. [Link](link to result)  to the result.
+
+ Tools to test Performance, Accessibility, Best Practices and SEO.
+ > * Web.dev/measure [Link](https://web.dev/measure/) - [Link](Link to result) to the result
 
 
 - ### Testing of User Stories from the User Story Section
@@ -266,7 +270,9 @@
 > * Label had the same name in two places. Fixed by changing one of them to get accessibility score to 100.
 
 - ### Browser testing
-> * Safari: The hero image and contact image stretched out in Safari. After some research it seems to be a bug in Safari that caused the issue. I needed to add !important to hero image height and align-items: flex-start; to contact image to fix the problem in Safari. Also scrollIntoView function in Safari isn't scrolling, its jumping directly to the section instead of a soft scrolling. Otherwise everything works as expected according to the test of user stories. 
+> * Safari: 
+> 1. The hero image and contact image stretched out in Safari. After some research it seems to be a bug in Safari that caused the issue. I needed to add !important to hero image height and align-items: flex-start; to contact image to fix the problem in Safari.
+> 2. ScrollIntoView function in Safari isn't scrolling, its jumping directly to the section instead of a soft scrolling. Otherwise everything works as expected according to the test of user stories. 
 > * Google Chrome:
 > * Mozilla Firefox: 
 > * Microsoft Edge:
