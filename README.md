@@ -1,7 +1,7 @@
 # Ms2 Pasta Palace
 ------------
 
-![Mockup image of the project](Link to mockup)
+![Mockup image of the project](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/mockup/mockup.JPG)
 
 
 
