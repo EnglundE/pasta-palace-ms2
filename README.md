@@ -300,7 +300,7 @@ By forking the GitHub repository you can make a copy of the original repository 
 
 - ### Making a Local Clone
 
-> 1. Log in to GitHub and locate the Repository.
+> 1. Log in to GitHub and locate the [Repository](https://github.com/EnglundE/pasta-palace-ms2).
 > 2. Below "settings", click on the "Code" dropdown.
 > 3. To clone the repository using HTTPS, under clone with HTTPS, copy the link.
 > 4. Open Git Bash.
