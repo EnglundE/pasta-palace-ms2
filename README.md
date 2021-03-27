@@ -153,12 +153,14 @@
 
 ## Testing
  The W3C Markup Validator, W3C CSS Validator Services and Jshint were used to validate every page of the project to ensure there were no syntax errors in the project.  
-> * W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool. [Link](link to result) to the result.
+> * W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool.  [Link](link to result) to the result.
 > * W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en) to the tool. [Link](link to result) to the result.
-> * Jshint - [Link](https://jshint.com/) to the tool. [Link](link to result)  to the result.
+> * Jshint - [Link](https://jshint.com/) to the tool.
 
  Tools to test Performance, Accessibility, Best Practices and SEO.
- > * Web.dev/measure [Link](https://web.dev/measure/) - [Link](Link to result) to the result
+ > * Web.dev/measure [Link](https://web.dev/measure/) - [Link](Link to result) to the result.
+ > * Chrome dev tool - Lighthouse [Link](Link to result) to the result.
+ > * Web accessibility evaluation tool [Link](Link to the tool). [Link](link to result) to the result.
 
 
 - ### Testing of User Stories from the User Story Section
