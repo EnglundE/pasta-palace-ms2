@@ -28,9 +28,6 @@
 
 
 
-
-
-
 ## Description
 
 > This is my second Milestone Project at Code Institute. In this project i will create an interactive website with HTML5, CSS and Javascript. 
@@ -153,14 +150,14 @@
 
 ## Testing
  The W3C Markup Validator, W3C CSS Validator Services and Jshint were used to validate every page of the project to ensure there were no syntax errors in the project.  
-> * W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool.  [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/markup-validator.JPG) to the result.
-> * W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en) to the tool. [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/W3C-css-validator.JPG) to the result.
-> * Jshint - [Link](https://jshint.com/) to the tool.
+> * W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool.  [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/markup-validator.JPG) to the result. To perform the test paste in the HTML code in the tool.
+> * W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en) to the tool. [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/W3C-css-validator.JPG) to the result. To perform the test paste in the CSS code in the tool.
+> * Jshint - [Link](https://jshint.com/) to the tool. To perform the test paste in the Javascript code in the tool.
 
  Tools to test Performance, Accessibility, Best Practices and SEO.
- > * Web.dev/measure [Link](https://web.dev/measure/) - [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/web-dev-test.JPG) to the result.
- > * Chrome dev tool - Lighthouse [Link](Link to result) to the result.
- > * Web accessibility evaluation tool [Link](https://wave.webaim.org/). [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/wave-test.JPG) to the result.
+ > * Web.dev/measure [Link](https://web.dev/measure/) to the tool. [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/web-dev-test.JPG) to the result. To perform the test paste in the URL for the website in the tool.
+ > * Chrome dev tool - Lighthouse [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/chrome-lighthouse.JPG) to the result. To perform the test open the website, right click anywhere on the site and choose "inspect". Navigate to Lighthouse and click generate report.
+ > * Web accessibility evaluation tool [Link](https://wave.webaim.org/). [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/wave-test.JPG) to the result. To perform the test paste in the URL for the website in the tool.
 
 
 - ### Testing of User Stories from the User Story Section
@@ -275,12 +272,17 @@
 > * Safari: 
 > 1. The hero image and contact image stretched out in Safari. After some research it seems to be a bug in Safari that caused the issue. I needed to add !important to hero image height and align-items: flex-start; to contact image to fix the problem in Safari.
 > 2. ScrollIntoView function in Safari isn't scrolling, its jumping directly to the section instead of a soft scrolling. Otherwise everything works as expected according to the test of user stories. 
-> * Google Chrome:
+
+> * Google Chrome: Nothing to address, works according to test of user stories.
+
 > * Mozilla Firefox: 
-> * Microsoft Edge:
+> 1. Not the same smooth scrolling when using the nav-tabs to scroll to section as in Google Chrome and as intended.
 
+> * Microsoft Edge: Nothing to address, works according to test of user stories.
 
-
+- ### Functional tests on different devices
+> * Iphone 7, Iphone 11 Pro, Iphone SE, Ipad. Samsung Galaxy S10e, Xiaomi Mi Note 10. Laptop, PC.
+> 1. All functionality, overall performance and responsiveness was tested on all devices.
 
 
 ---
