@@ -81,6 +81,7 @@ window.onload = function () {
 
 // Contact form
 
+
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault();
     let name = document.forms["myForm"]["contact-name"].value;
@@ -125,6 +126,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 $(".close").click(function () {
     document.getElementById("myContact").style.display = "none";
 });
+
 
 
 
