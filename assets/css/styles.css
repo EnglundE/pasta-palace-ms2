@@ -94,12 +94,12 @@ p {
 font-weight: 500;
 }
 
-.btn {
-    margin: 0.5em;
-}
-
 .fa-euro-sign {
     margin-left: 1em;
+}
+
+#starters-button, #main-button, #dessert-button, #drinks-button {
+  margin: 1em;
 }
 
 /* CART */
@@ -133,7 +133,10 @@ font-weight: 500;
     color: #333;
 }
 
-
+.shop-item-button {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
 
 .cart-price {
     width: 20%;
@@ -520,6 +523,9 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   max-width: 40rem;  
 }
 
+#bookBtn {
+  margin-top: 0.5em;
+}
 
 /* Book a table section /*/
 
@@ -584,6 +590,10 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
 .alert {
     color: black;
     width: 50%;
+}
+
+.text-md-left > button {
+  margin-top: 0.5em;
 }
 
 /* Contact section */
