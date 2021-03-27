@@ -153,14 +153,14 @@
 
 ## Testing
  The W3C Markup Validator, W3C CSS Validator Services and Jshint were used to validate every page of the project to ensure there were no syntax errors in the project.  
-> * W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool.  [Link](link to result) to the result.
-> * W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en) to the tool. [Link](link to result) to the result.
+> * W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool.  [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/markup-validator.JPG) to the result.
+> * W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en) to the tool. [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/W3C-css-validator.JPG) to the result.
 > * Jshint - [Link](https://jshint.com/) to the tool.
 
  Tools to test Performance, Accessibility, Best Practices and SEO.
- > * Web.dev/measure [Link](https://web.dev/measure/) - [Link](Link to result) to the result.
+ > * Web.dev/measure [Link](https://web.dev/measure/) - [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/web-dev-test.JPG) to the result.
  > * Chrome dev tool - Lighthouse [Link](Link to result) to the result.
- > * Web accessibility evaluation tool [Link](Link to the tool). [Link](link to result) to the result.
+ > * Web accessibility evaluation tool [Link](https://wave.webaim.org/). [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/wave-test.JPG) to the result.
 
 
 - ### Testing of User Stories from the User Story Section
