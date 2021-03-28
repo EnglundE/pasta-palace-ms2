@@ -266,7 +266,7 @@ function ready() {
     }
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked);
 }
-
+// Modal after purchase clicked
 function purchaseClicked() {
     document.getElementById("myPurchase").style.display = "block";
     let cartItems = document.getElementsByClassName('cart-items')[0];
@@ -275,17 +275,17 @@ function purchaseClicked() {
     }
     updateCartTotal();
 }
-
+// Closing modal after purchased click
 $(".close").click(function () {
     document.getElementById("myPurchase").style.display = "none";
 });
-
+//Remove item from cart when remove button clicked
 function removeCartItem(event) {
     let buttonClicked = event.target;
     buttonClicked.parentElement.parentElement.remove();
     updateCartTotal();
 }
-
+// Set quantity to 1 if NaN or negative number is inserted
 function quantityChanged(event) {
     let input = event.target;
     if (isNaN(input.value) || input.value <= 0) {
@@ -293,7 +293,7 @@ function quantityChanged(event) {
     }
     updateCartTotal();
 }
-
+// Get item title and price when add to cart is clicked
 function addToCartClicked(event) {
     let button = event.target;
     let shopItem = button.parentElement.parentElement;
@@ -302,7 +302,7 @@ function addToCartClicked(event) {
     addItemToCart(title, price);
     updateCartTotal();
 }
-
+// Add item to cart and show alert when same item tried to added more than once
 function addItemToCart(title, price) {
     let cartRow = document.createElement('div');
     cartRow.classList.add('cart-row');
@@ -333,7 +333,7 @@ function addItemToCart(title, price) {
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem);
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged);
 }
-
+// Adding cart item price together and updates total amount
 function updateCartTotal() {
     let cartItemContainer = document.getElementsByClassName('cart-items')[0];
     let cartRows = cartItemContainer.getElementsByClassName('cart-row');

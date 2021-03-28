@@ -20,7 +20,7 @@ $('a[href^="#contact"]').click(function () {
 // Scroll to nav function //
 
 // Nav icon on smaller screens collapse when clicking a link
-// credit to Marta Szymanska at Mdbootstrap for hamburger collapse code: https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/
+// Credit to Marta Szymanska at Mdbootstrap for hamburger collapse code: https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/
 $('.navbar-collapse a').click(function () {
     $(".navbar-collapse").collapse('hide');
 });
