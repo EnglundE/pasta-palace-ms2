@@ -266,6 +266,7 @@ function ready() {
     }
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked);
 }
+
 // Modal after purchase clicked
 function purchaseClicked() {
     document.getElementById("myPurchase").style.display = "block";
@@ -275,16 +276,19 @@ function purchaseClicked() {
     }
     updateCartTotal();
 }
+
 // Closing modal after purchased click
 $(".close").click(function () {
     document.getElementById("myPurchase").style.display = "none";
 });
+
 //Remove item from cart when remove button clicked
 function removeCartItem(event) {
     let buttonClicked = event.target;
     buttonClicked.parentElement.parentElement.remove();
     updateCartTotal();
 }
+
 // Set quantity to 1 if NaN or negative number is inserted
 function quantityChanged(event) {
     let input = event.target;
@@ -293,6 +297,7 @@ function quantityChanged(event) {
     }
     updateCartTotal();
 }
+
 // Get item title and price when add to cart is clicked
 function addToCartClicked(event) {
     let button = event.target;
@@ -302,6 +307,7 @@ function addToCartClicked(event) {
     addItemToCart(title, price);
     updateCartTotal();
 }
+
 // Add item to cart and show alert when same item tried to added more than once
 function addItemToCart(title, price) {
     let cartRow = document.createElement('div');
@@ -335,6 +341,7 @@ function addItemToCart(title, price) {
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem);
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged);
 }
+
 // Adding cart item price together and updates total amount
 function updateCartTotal() {
     let cartItemContainer = document.getElementsByClassName('cart-items')[0];

@@ -1,9 +1,8 @@
 // Book a table form
-
 window.onload = function () {
     document.getElementById('booking-form').addEventListener('submit', function (event) {
         event.preventDefault();
-        let date = document.forms["booking-form"]["trip-start"].value;
+        let date = document.getElementById("start").value;
         if (date === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "date cannot be empty";
@@ -13,7 +12,8 @@ window.onload = function () {
             }, 2500);
             return false;
         }
-        let name = document.forms["booking-form"]["name"].value;
+
+        let name = document.getElementById("name").value;
         if (name === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Name cannot be empty";
@@ -23,7 +23,8 @@ window.onload = function () {
             }, 2500);
             return false;
         }
-        let email = document.forms["booking-form"]["email"].value;
+
+        let email = document.getElementById("email").value;
         if (email === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Email cannot be empty";
@@ -33,8 +34,9 @@ window.onload = function () {
             }, 2500);
             return false;
         }
+
         // Credit to simplilearn for email validator: https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
-        let mail = document.forms["booking-form"]["email"].value;
+        let mail = document.getElementById("email").value;
         let validMail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
         if (mail.match(validMail)) {
 
@@ -48,7 +50,7 @@ window.onload = function () {
             return false;
         }
 
-        let phone = document.forms["booking-form"]["phone"].value;
+        let phone = document.getElementById("phone").value;
         if (phone === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Phone Number cannot be empty";
@@ -58,7 +60,8 @@ window.onload = function () {
             }, 2500);
             return false;
         }
-        let tableFor = document.forms["booking-form"]["tableFor"].value;
+
+        let tableFor = document.getElementById("tableFor").value;
         if (tableFor === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Table for cannot be empty";
@@ -68,7 +71,8 @@ window.onload = function () {
             }, 2500);
             return false;
         }
-        let time = document.forms["booking-form"]["time"].value;
+
+        let time = document.getElementById("time").value;
         if (time === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Time cannot be empty";
@@ -82,7 +86,7 @@ window.onload = function () {
             .then(function () {
                 document.getElementById("myPopUp").style.display = "block";
             }, function (error) {
-                console.log('FAILED...', error);
+
             });
         document.getElementById("booking-form").reset();
     });
@@ -96,10 +100,9 @@ window.onload = function () {
 
 // Contact form
 
-
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault();
-    let name = document.forms["myForm"]["contact-name"].value;
+    let name = document.getElementById("contact-name").value;
     if (name == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Name cannot be empty";
@@ -109,7 +112,8 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         }, 2500);
         return false;
     }
-    let email = document.forms["myForm"]["contact-email"].value;
+
+    let email = document.getElementById("contact-email").value;
     if (email == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Email cannot be empty";
@@ -119,8 +123,9 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         }, 2500);
         return false;
     }
+
     // Credit to simplilearn for email validator: https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
-    let mail = document.forms["myForm"]["contact-email"].value;
+    let mail = document.getElementById("contact-email").value;
     let validMail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (mail.match(validMail)) {
 
@@ -133,7 +138,8 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         }, 2500);
         return false;
     }
-    let message = document.forms["myForm"]["message"].value;
+
+    let message = document.getElementById("message").value;
     if (message == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Message cannot be empty";
@@ -143,6 +149,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         }, 2500);
         return false;
     }
+
     emailjs.sendForm('service_m3l5pe2', 'template_0alxi1v', this)
         .then(function () {
             document.getElementById("myContact").style.display = "block";

@@ -3,6 +3,7 @@ $('a[href^="#menu"]').click(function () {
     let findPage = document.getElementById("scrollToMenu");
     findPage.scrollIntoView();
 });
+
 $('a[href^="#gallery"]').click(function () {
     let findPage = document.getElementById("scrollToGallery");
     findPage.scrollIntoView();
