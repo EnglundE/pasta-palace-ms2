@@ -284,7 +284,13 @@
 
 - ### Functional tests on different devices
 > * Iphone 7, Iphone 11 Pro, Iphone SE, Ipad. Samsung Galaxy S10e, Xiaomi Mi Note 10. Laptop, PC.
-> 1. All functionality, overall performance, link and responsiveness was tested on all devices.
+> * All functionality, overall performance, link and responsiveness was tested as below description.
+> 1. 
+> 2. 
+> 3. 
+> 4. 
+> 5. 
+> 6. 
 
 
 ---

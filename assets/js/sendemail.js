@@ -218,10 +218,6 @@ $(".close").click(function () {
     document.getElementById("myContact").style.display = "none";
 });
 
-
-
-
-
 // Contact form // 
 
 
