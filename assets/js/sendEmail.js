@@ -33,6 +33,21 @@ window.onload = function () {
             }, 2500);
             return false;
         }
+        // Credit to simplilearn for email validator: https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
+        let mail = document.forms["booking-form"]["email"].value;
+        let validMail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        if (mail.match(validMail)) {
+
+        } else {
+            document.getElementById("booking-msg").classList.add("errorMsg-booking");
+            document.getElementById("booking-msg").innerHTML = "Invalid email address!";
+            setTimeout(function () {
+                document.getElementById("booking-msg").classList.remove("errorMsg-booking");
+                document.getElementById("booking-msg").innerHTML = "";
+            }, 2500);
+            return false;
+        }
+
         let phone = document.forms["booking-form"]["phone"].value;
         if (phone === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
@@ -98,6 +113,20 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     if (email == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Email cannot be empty";
+        setTimeout(function () {
+            document.getElementById("msg").classList.remove("errorMsg");
+            document.getElementById("msg").innerHTML = "";
+        }, 2500);
+        return false;
+    }
+    // Credit to simplilearn for email validator: https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
+    let mail = document.forms["myForm"]["contact-email"].value;
+    let validMail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if (mail.match(validMail)) {
+
+    } else {
+        document.getElementById("msg").classList.add("errorMsg");
+        document.getElementById("msg").innerHTML = "Invalid email address!";
         setTimeout(function () {
             document.getElementById("msg").classList.remove("errorMsg");
             document.getElementById("msg").innerHTML = "";

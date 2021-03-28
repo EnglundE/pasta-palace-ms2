@@ -338,6 +338,7 @@ All credits are also in the code above each code snippet.
 > * Credit tofreeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org, https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider
 > * Credit to Web Dev Simplified for shopping functions: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified
 > * Credit to Dani Krossing for how to create a 404 page: https://www.youtube.com/watch?v=kPtS4vO42II&ab_channel=DaniKrossing
+> * Credit to simplilearn for email validator: https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
 
 
 #### Content
