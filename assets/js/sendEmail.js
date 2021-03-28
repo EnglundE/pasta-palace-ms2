@@ -6,6 +6,11 @@ window.onload = function () {
         if (date === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "date cannot be empty";
+            let screen = window.matchMedia("(max-width: 570px)");
+            if (screen.matches) {
+                let findPage = document.getElementById("scrollToBook");
+                findPage.scrollIntoView();
+            }
             setTimeout(function () {
                 document.getElementById("booking-msg").classList.remove("errorMsg-booking");
                 document.getElementById("booking-msg").innerHTML = "";
@@ -17,6 +22,11 @@ window.onload = function () {
         if (name === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Name cannot be empty";
+            let screen = window.matchMedia("(max-width: 570px)");
+            if (screen.matches) {
+                let findPage = document.getElementById("scrollToBook");
+                findPage.scrollIntoView();
+            }
             setTimeout(function () {
                 document.getElementById("booking-msg").classList.remove("errorMsg-booking");
                 document.getElementById("booking-msg").innerHTML = "";
@@ -28,6 +38,11 @@ window.onload = function () {
         if (email === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Email cannot be empty";
+            let screen = window.matchMedia("(max-width: 570px)");
+            if (screen.matches) {
+                let findPage = document.getElementById("scrollToBook");
+                findPage.scrollIntoView();
+            }
             setTimeout(function () {
                 document.getElementById("booking-msg").classList.remove("errorMsg-booking");
                 document.getElementById("booking-msg").innerHTML = "";
@@ -43,6 +58,11 @@ window.onload = function () {
         } else {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Invalid email address!";
+            let screen = window.matchMedia("(max-width: 570px)");
+            if (screen.matches) {
+                let findPage = document.getElementById("scrollToBook");
+                findPage.scrollIntoView();
+            }
             setTimeout(function () {
                 document.getElementById("booking-msg").classList.remove("errorMsg-booking");
                 document.getElementById("booking-msg").innerHTML = "";
@@ -54,6 +74,11 @@ window.onload = function () {
         if (phone === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Phone Number cannot be empty";
+            let screen = window.matchMedia("(max-width: 570px)");
+            if (screen.matches) {
+                let findPage = document.getElementById("scrollToBook");
+                findPage.scrollIntoView();
+            }
             setTimeout(function () {
                 document.getElementById("booking-msg").classList.remove("errorMsg-booking");
                 document.getElementById("booking-msg").innerHTML = "";
@@ -65,6 +90,11 @@ window.onload = function () {
         if (tableFor === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Table for cannot be empty";
+            let screen = window.matchMedia("(max-width: 570px)");
+            if (screen.matches) {
+                let findPage = document.getElementById("scrollToBook");
+                findPage.scrollIntoView();
+            }
             setTimeout(function () {
                 document.getElementById("booking-msg").classList.remove("errorMsg-booking");
                 document.getElementById("booking-msg").innerHTML = "";
@@ -76,6 +106,11 @@ window.onload = function () {
         if (time === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Time cannot be empty";
+            let screen = window.matchMedia("(max-width: 570px)");
+            if (screen.matches) {
+                let findPage = document.getElementById("scrollToBook");
+                findPage.scrollIntoView();
+            }
             setTimeout(function () {
                 document.getElementById("booking-msg").classList.remove("errorMsg-booking");
                 document.getElementById("booking-msg").innerHTML = "";
@@ -106,6 +141,11 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     if (name == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Name cannot be empty";
+        let screen = window.matchMedia("(max-width: 570px)");
+        if (screen.matches) {
+            let findPage = document.getElementById("contact-image");
+            findPage.scrollIntoView();
+        }
         setTimeout(function () {
             document.getElementById("msg").classList.remove("errorMsg");
             document.getElementById("msg").innerHTML = "";
@@ -117,6 +157,11 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     if (email == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Email cannot be empty";
+        let screen = window.matchMedia("(max-width: 570px)");
+        if (screen.matches) {
+            let findPage = document.getElementById("contact-image");
+            findPage.scrollIntoView();
+        }
         setTimeout(function () {
             document.getElementById("msg").classList.remove("errorMsg");
             document.getElementById("msg").innerHTML = "";
@@ -132,6 +177,11 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     } else {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Invalid email address!";
+        let screen = window.matchMedia("(max-width: 570px)");
+        if (screen.matches) {
+            let findPage = document.getElementById("contact-image");
+            findPage.scrollIntoView();
+        }
         setTimeout(function () {
             document.getElementById("msg").classList.remove("errorMsg");
             document.getElementById("msg").innerHTML = "";
@@ -143,6 +193,11 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     if (message == "") {
         document.getElementById("msg").classList.add("errorMsg");
         document.getElementById("msg").innerHTML = "Message cannot be empty";
+        let screen = window.matchMedia("(max-width: 570px)");
+        if (screen.matches) {
+            let findPage = document.getElementById("contact-image");
+            findPage.scrollIntoView();
+        }
         setTimeout(function () {
             document.getElementById("msg").classList.remove("errorMsg");
             document.getElementById("msg").innerHTML = "";
