@@ -270,7 +270,7 @@
 > * onKeyDown error in console in index.html for the contact form. onKeyDown function calling was still in the form in index.html even if the function was replaced by setTimeout function. Fixed by removing onKeyDown from index.html contact form.
 > * Label had the same name in two places. Fixed by changing one of them to get accessibility score to 100.
 
-- ### Browser testing
+- ### Browser compatibility
 > * Safari: 
 > 1. The hero image and contact image stretched out in Safari. After some research it seems to be a bug in Safari that caused the issue. I needed to add !important to hero image height and align-items: flex-start; to contact image to fix the problem in Safari.
 > 2. ScrollIntoView function in Safari isn't scrolling, its jumping directly to the section instead of a soft scrolling. Otherwise everything works as expected according to the test of user stories. 

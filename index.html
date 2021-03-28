@@ -32,7 +32,6 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -63,11 +62,9 @@
             </div>
         </nav>
     </header>
-
     <!-- Navigation /-->
 
-    <!-- Hero Image -->
-
+    <!------------------------------- Hero Image and Hero text -->
     <!--Credit for Hero image to adamdehaven at Github: https://gist.github.com/adamdehaven/dceabb07450295fec6fc-->
     <section class="bgimage">
         <div class="container-fluid">
@@ -78,22 +75,30 @@
             </div>
         </div>
     </section>
+    <!------------------------------- Hero Image and Hero text /-->
 
-    <!-- Hero Image /-->
-
-    <!-- Menu section -->
+    <!------------------------------- Menu section -->
+    <!------------------------------- Address, opening hours, Menu description  -->
     <div id="scrollToMenu"></div>
     <div class="address-opening">
-        <p>Address: Hagalundsgatan 20, 169 63, Solna <br>
-            Opening Hours: Mon-Sun 10.30 - 20.30</p>
+        <p>
+            Address: Hagalundsgatan 20, 169 63, Solna
+            <br>
+            Opening Hours: Mon-Sun 10.30 - 20.30
+        </p>
     </div>
     <section id="menu-section">
         <div class="container menu-container">
             <div class="row">
                 <h2 class="menu-header"><i class="fas fa-utensils"></i>Menu</h2>
-                <p>We offer authentic dishes with a fusion from the Italian and the Swedish kitchen. <br>
-                    A tasty experience with pasta in the center.</p>
+                <p>
+                    We offer authentic dishes with a fusion from the Italian and the Swedish kitchen.
+                    <br>
+                    A tasty experience with pasta in the center.
+                </p>
             </div>
+            <!------------------------------- Address, opening hours, Menu description  /-->
+            <!------------------------------- Alert and Menu buttons -->
             <p class="alert text-center w-responsive mx-auto mb-5" id="cart-msg"></P>
         </div>
         <div class="container menu-choice">
@@ -105,19 +110,19 @@
                     <button type="button" class="btn" id="drinks-button">Drinks</button>
                 </div>
             </div>
+            <!------------------------------- Alert and Menu buttons -->
 
-
-
-
+            <!------------------------------- Menu items -->
             <!-- Credit to Web Dev Simplified for below shopping section: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified -->
-
             <div class="container content-section">
                 <div class="shop-items" id="shop-thing">
                     <div class="shop-item">
                         <span class="shop-item-title">Tuna Tartare</span>
                         <div class="shop-item-details">
-                            <p>Avocado, Cucumber Sorbet, Mango & Pane
-                                Carasau</p>
+                            <p>
+                                Avocado, Cucumber Sorbet, Mango & Pane
+                                Carasau
+                            </p>
                             <span class="shop-item-price">£5</span>
                             <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
                         </div>
@@ -164,12 +169,12 @@
                     </div>
                 </div>
             </div>
+            <!------------------------------- Menu items /-->
         </div>
     </section>
+    <!----------------------------------- Menu section /-->
 
-
-
-
+    <!----------------------------------- Cart -->
     <section class="container content-section">
         <h2 class="cart-header"><i class="fas fa-shopping-basket"></i>Cart</h2>
         <div class="cart-row">
@@ -189,7 +194,9 @@
             <div class="purchase" id="myPurchase">
                 <div class="purchase-content">
                     <span class="close">&times;</span>
-                    <p>At the moment it is not possible to make a purchase on the website. This feature will be added in
+                    <p>
+                        At the moment it is not possible to make a purchase on the website. This feature will be added
+                        in
                         the future.
                         Please call us to order. +46738441224
                     </p>
@@ -197,15 +204,13 @@
             </div>
         </div>
     </section>
+    <!----------------------------------- Cart /-->
 
-    <!-- Menu section /-->
-
-    <!-- Gallery section -->
-
-
+    <!----------------------------------- Gallery Slider section -->
     <!-- Credit tofreeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org
 https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -->
-    <div id="scrollToGallery"></div>
+    <div id="scrollToGallery">
+    </div>
     <section id="gallery-section">
         <div class="slider-container">
             <h2 class="gallery-header"><i class="fas fa-image"></i>Gallery</h2>
@@ -231,16 +236,12 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
             </button>
         </div>
     </section>
+    <!----------------------------------- Gallery Slider section /-->
 
-
-
-    <!-- Gallery section /-->
-
-    <!-- Book a table section -->
+    <!------------------------------------ Book a table section -->
     <div id="scrollToBook"></div>
     <section id="book-section">
-        <!-- Credit to mdbootstrap for below form: https://mdbootstrap.com/docs/b4/jquery/forms/contact/-->
-
+        <!-- Credit to mdbootstrap for below form: https://mdbootstrap.com/docs/b4/jquery/forms/contact/ -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 mb-md-0 mb-5">
@@ -310,13 +311,14 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
             </div>
         </div>
 
-
+        <!-------------------------------------------- modal when completing the form -->
         <!--Modal credit: https://www.w3schools.com/howto/howto_css_modals.asp-->
         <div class="container popUp-container" id="popUp-container">
             <div class="popUp" id="myPopUp">
                 <div class="popUp-content">
                     <span class="close">&times;</span>
-                    <p>Thanks for you booking. We will confirm your booking as soon as possible by sending a
+                    <p>
+                        Thanks for you booking. We will confirm your booking as soon as possible by sending a
                         confirmation
                         email to you.
                         Welcome!
@@ -325,18 +327,19 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
                         In case of any questions please contact us on +46738441224
                         <br>
                         <br>
-                        Best Regards <br>
+                        Best Regards
+                        <br>
                         Stockholm Pasta Palace!
                     </p>
                 </div>
             </div>
         </div>
+        <!-------------------------------------------- modal when completing the form /-->
     </section>
+    <!------------------------------------ Book a table section /-->
 
-
-    <!-- Book a table section /-->
-
-    <!--Contact section -->
+    <!------------------------------- Contact section -->
+    <!------------------------------- Contact header and image -->
     <div id="scrollToContact"></div>
     <section id="contact-section">
         <div class="container" id="contact-container">
@@ -347,16 +350,18 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
                 <img src="assets/images/contact-image.jpg" alt="...">
             </div>
         </div>
+        <!------------------------------- Contact header and image  /-->
 
-
-
+        <!------------------------------- Contact information and contact Form -->
         <!-- Credit to mdbootstrap for below form: https://mdbootstrap.com/docs/b4/jquery/forms/contact/-->
-
-        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+        <p class="text-center w-responsive mx-auto mb-5">
+            Do you have any questions? Please do not hesitate to
             contact us
-            directly. <br> Our team will come back to you within
-            a matter of hours to help you.</p>
-
+            directly.
+            <br>
+            Our team will come back to you within
+            a matter of hours to help you.
+        </p>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 mb-md-0 mb-5">
@@ -389,58 +394,48 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
                     </form>
                 </div>
             </div>
+            <!------------------------------- Contact information and contact Form /-->
 
+            <!------------------------------- Modal after completing the form -->
         </div>
         <div class="container">
             <div class="contact" id="myContact">
                 <div class="contact-content">
                     <span class="close">&times;</span>
-                    <p>Thank you for your email. <br> We will get back to you as soon as possible.
+                    <p>
+                        Thank you for your email.
+                        <br>
+                        We will get back to you as soon as possible.
                     </p>
                 </div>
             </div>
         </div>
     </section>
+    <!------------------------------- Modal after completing the form /-->
 
-
-    <!-- Footer -->
+    <!------------------------------- Footer -->
 
     <!--Credit to MDbootstrap for footer: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
     <footer class="text-center text-white">
-        <!-- Grid container -->
         <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
             <div class="mb-4">
-                <!-- Facebook -->
                 <a class="btn btn-primary m-1 facebook" href="https://www.facebook.com" target="_blank" rel="noopener"
                     aria-label="Facebook link icon"><i class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
                 <a class="btn btn-primary m-1 twitter" href="https://www.twitter.com" target="_blank" rel="noopener"
                     aria-label="Twitter link icon"><i class="fab fa-twitter"></i></a>
-
-                <!-- Instagram -->
                 <a class="btn btn-primary m-1 instagram" href="https://www.instagram.com" target="_blank" rel="noopener"
                     aria-label="Instagram link icon"><i class="fab fa-instagram"></i></a>
-
-                <!-- Linkedin -->
                 <a class="btn btn-primary m-1 linkedin" href="https://www.linkedin.com" target="_blank" rel="noopener"
                     aria-label="Linkedin link icon"><i class="fab fa-linkedin-in"></i></a>
-
             </div>
-            <!-- Section: Social media /-->
         </div>
-
         <div class="text-center p-3 text-dark">
             <p>You can find us at: Hagalundsgatan 20, 169 63, Solna</p>
             <p>Opening Hours: Mon-Sun 10.30 - 20.30</p>
             <p>Phone Number: +46738441224</p>
         </div>
-
     </footer>
-
-    <!-- Footer /-->
-
+    <!------------------------------- Footer /-->
 
     <script src="assets/js/app.js"></script>
     <script src="assets/js/sendEmail.js"></script>
