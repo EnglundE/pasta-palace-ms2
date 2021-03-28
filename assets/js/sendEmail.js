@@ -4,7 +4,7 @@ window.onload = function () {
     document.getElementById('booking-form').addEventListener('submit', function (event) {
         event.preventDefault();
         let date = document.forms["booking-form"]["trip-start"].value;
-        if (date == "") {
+        if (date === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "date cannot be empty";
             setTimeout(function () {
@@ -14,7 +14,7 @@ window.onload = function () {
             return false;
         }
         let name = document.forms["booking-form"]["name"].value;
-        if (name == "") {
+        if (name === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Name cannot be empty";
             setTimeout(function () {
@@ -24,7 +24,7 @@ window.onload = function () {
             return false;
         }
         let email = document.forms["booking-form"]["email"].value;
-        if (email == "") {
+        if (email === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Email cannot be empty";
             setTimeout(function () {
@@ -34,7 +34,7 @@ window.onload = function () {
             return false;
         }
         let phone = document.forms["booking-form"]["phone"].value;
-        if (phone == "") {
+        if (phone === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Phone Number cannot be empty";
             setTimeout(function () {
@@ -44,7 +44,7 @@ window.onload = function () {
             return false;
         }
         let tableFor = document.forms["booking-form"]["tableFor"].value;
-        if (tableFor == "") {
+        if (tableFor === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Table for cannot be empty";
             setTimeout(function () {
@@ -54,7 +54,7 @@ window.onload = function () {
             return false;
         }
         let time = document.forms["booking-form"]["time"].value;
-        if (time == "") {
+        if (time === "") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Time cannot be empty";
             setTimeout(function () {

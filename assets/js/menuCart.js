@@ -312,6 +312,8 @@ function addItemToCart(title, price) {
         if (cartItemNames[i].innerText == title) {
             document.getElementById("cart-msg").classList.add("errorMsg-cart");
             document.getElementById("cart-msg").innerHTML = "This item is already added to the cart";
+            let findPage = document.getElementById("scrollToMenu");
+            findPage.scrollIntoView();
             setTimeout(function () {
                 document.getElementById("cart-msg").classList.remove("errorMsg-cart");
                 document.getElementById("cart-msg").innerHTML = "";
