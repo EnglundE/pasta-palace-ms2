@@ -208,7 +208,7 @@
 | Button Book                                   | Click the button Book                       | Modal shown with information               | Works as expected          |
 | Not choosing date/name/email/number/table/time| Book without filling in the fields          | Alert for 2.5 sec with action required     | Works as expected          |
 
-> * Developer comment: No email validator implemented at this stage.
+> * Developer comment: Email format validator implemented as well.
 
 > 6. As a returning visitor i want to make a purchase for take away:
 
