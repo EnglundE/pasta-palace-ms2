@@ -103,7 +103,7 @@ window.onload = function () {
         }
 
         let time = document.getElementById("time").value;
-        if (time === "") {
+        if (time === "Select") {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Time cannot be empty";
             let screen = window.matchMedia("(max-width: 570px)");
