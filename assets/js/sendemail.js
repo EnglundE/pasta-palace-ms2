@@ -8,7 +8,7 @@ window.onload = function () {
             document.getElementById("booking-msg").innerHTML = "date cannot be empty";
             let screen = window.matchMedia("(max-width: 570px)");
             if (screen.matches) {
-                let findPage = document.getElementById("scrollToBook");
+                let findPage = document.getElementById("book");
                 findPage.scrollIntoView();
             }
             setTimeout(function () {
@@ -24,7 +24,7 @@ window.onload = function () {
             document.getElementById("booking-msg").innerHTML = "Name cannot be empty";
             let screen = window.matchMedia("(max-width: 570px)");
             if (screen.matches) {
-                let findPage = document.getElementById("scrollToBook");
+                let findPage = document.getElementById("book");
                 findPage.scrollIntoView();
             }
             setTimeout(function () {
@@ -40,7 +40,7 @@ window.onload = function () {
             document.getElementById("booking-msg").innerHTML = "Email cannot be empty";
             let screen = window.matchMedia("(max-width: 570px)");
             if (screen.matches) {
-                let findPage = document.getElementById("scrollToBook");
+                let findPage = document.getElementById("book");
                 findPage.scrollIntoView();
             }
             setTimeout(function () {
@@ -61,7 +61,7 @@ window.onload = function () {
             //    Credit to Sahil Gupta on Stacloverflow for Javascript only on smaller screens: https://stackoverflow.com/questions/31874551/javascript-on-different-screen-sizes
             let screen = window.matchMedia("(max-width: 570px)");
             if (screen.matches) {
-                let findPage = document.getElementById("scrollToBook");
+                let findPage = document.getElementById("book");
                 findPage.scrollIntoView();
             }
             setTimeout(function () {
@@ -77,7 +77,7 @@ window.onload = function () {
             document.getElementById("booking-msg").innerHTML = "Phone Number cannot be empty";
             let screen = window.matchMedia("(max-width: 570px)");
             if (screen.matches) {
-                let findPage = document.getElementById("scrollToBook");
+                let findPage = document.getElementById("book");
                 findPage.scrollIntoView();
             }
             setTimeout(function () {
@@ -93,7 +93,7 @@ window.onload = function () {
             document.getElementById("booking-msg").innerHTML = "Table for cannot be empty";
             let screen = window.matchMedia("(max-width: 570px)");
             if (screen.matches) {
-                let findPage = document.getElementById("scrollToBook");
+                let findPage = document.getElementById("book");
                 findPage.scrollIntoView();
             }
             setTimeout(function () {
@@ -109,7 +109,7 @@ window.onload = function () {
             document.getElementById("booking-msg").innerHTML = "Time cannot be empty";
             let screen = window.matchMedia("(max-width: 570px)");
             if (screen.matches) {
-                let findPage = document.getElementById("scrollToBook");
+                let findPage = document.getElementById("book");
                 findPage.scrollIntoView();
             }
             setTimeout(function () {
