@@ -1,5 +1,5 @@
 // Menu Section
-// Browsing between Starters, Main Courses, Dessert and Drinks
+// Browsing between Starters, Main Courses, Dessert and Drinks by click tab button and set new innterHTML
 $("#main-button").click(function () {
     document.getElementById("main-button").classList.add("btn-success");
     const starters = document.getElementById("starters-button");
@@ -267,7 +267,7 @@ function ready() {
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked);
 }
 
-// Modal after purchase clicked
+// Modal after purchase clicked and items removed from cart.
 function purchaseClicked() {
     document.getElementById("myPurchase").style.display = "block";
     let cartItems = document.getElementsByClassName('cart-items')[0];

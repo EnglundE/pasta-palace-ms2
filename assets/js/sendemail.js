@@ -55,10 +55,10 @@ window.onload = function () {
         let validMail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
         if (mail.match(validMail)) {
 
-            //    Credit to Sahil Gupta on Stacloverflow for Javascript only on smaller screens: https://stackoverflow.com/questions/31874551/javascript-on-different-screen-sizes    
         } else {
             document.getElementById("booking-msg").classList.add("errorMsg-booking");
             document.getElementById("booking-msg").innerHTML = "Invalid email address!";
+            //    Credit to Sahil Gupta on Stacloverflow for Javascript only on smaller screens: https://stackoverflow.com/questions/31874551/javascript-on-different-screen-sizes
             let screen = window.matchMedia("(max-width: 570px)");
             if (screen.matches) {
                 let findPage = document.getElementById("scrollToBook");
