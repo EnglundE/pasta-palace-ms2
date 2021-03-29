@@ -269,6 +269,8 @@
 > * Alert displayed when forms not filled in stayed without getting removed. First fixed by setting a onKeyDown function to remove the alert. Later fixed with setTimeout function to 2.5 sec.
 > * onKeyDown error in console in index.html for the contact form. onKeyDown function calling was still in the form in index.html even if the function was replaced by setTimeout function. Fixed by removing onKeyDown from index.html contact form.
 > * Label had the same name in two places. Fixed by changing one of them to get accessibility score to 100.
+> * Sometimes when trying to add items to cart twice you are too far scrolled down to see the alert. This issue was fixed to always scrollIntoView to the alert when this happens.
+> * On mobile size screens its easy to be to far scrolled down on the page to see the alerts when not filling out the forms correctly. This was fixed to scrollIntoView to alert section when this happens. This only applies to screens with max-width of 570px.
 
 - ### Browser compatibility
 > * Safari: 
@@ -345,6 +347,7 @@ All credits are also in the code above each code snippet.
 > * Credit to Web Dev Simplified for shopping functions: https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified
 > * Credit to Dani Krossing for how to create a 404 page: https://www.youtube.com/watch?v=kPtS4vO42II&ab_channel=DaniKrossing
 > * Credit to simplilearn for email validator: https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
+> * Credit to Sahil Gupta on Stacloverflow for Javascript only on smaller screens: https://stackoverflow.com/questions/31874551/javascript-on-different-screen-sizes
 
 
 #### Content
