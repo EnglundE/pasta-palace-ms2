@@ -1,21 +1,21 @@
 // Scroll to nav function
 $('a[href^="#menu"]').click(function () {
-    let findPage = document.getElementById("scrollToMenu");
+    let findPage = document.getElementById("menu");
     findPage.scrollIntoView();
 });
 
 $('a[href^="#gallery"]').click(function () {
-    let findPage = document.getElementById("scrollToGallery");
+    let findPage = document.getElementById("gallery");
     findPage.scrollIntoView();
 });
 
-$('a[href^="#bookatable"]').click(function () {
-    let findPage = document.getElementById("scrollToBook");
+$('a[href^="#book"]').click(function () {
+    let findPage = document.getElementById("book");
     findPage.scrollIntoView();
 });
 
 $('a[href^="#contact"]').click(function () {
-    let findPage = document.getElementById("scrollToContact");
+    let findPage = document.getElementById("contact");
     findPage.scrollIntoView();
 });
 // Scroll to nav function //

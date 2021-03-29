@@ -120,8 +120,6 @@ window.onload = function () {
         emailjs.sendForm('service_ozpd38n', 'template_n6jlbls', this)
             .then(function () {
                 document.getElementById("myPopUp").style.display = "block";
-            }, function (error) {
-
             });
         document.getElementById("booking-form").reset();
     });
@@ -208,8 +206,6 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     emailjs.sendForm('service_m3l5pe2', 'template_0alxi1v', this)
         .then(function () {
             document.getElementById("myContact").style.display = "block";
-        }, function (error) {
-            console.log('FAILED...', error);
         });
     document.getElementById("contactForm").reset();
 });
