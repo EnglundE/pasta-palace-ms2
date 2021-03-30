@@ -14,12 +14,12 @@
 2. [Project Goals](#project-goals)
 3. [Business Goals](#business-goals)
 4. [User experience](#user-experience)
-  1. [User Stories](#user-stories)
-  2. [Strategy](#strategy)
-  3. [Scope](#scope)
-  4. [Structure](#structure)
-  5. [Skeleton](#skeleton)
-  6. [Surface](#surface)
+    1. [User Stories](#user-stories)
+    2. [Strategy](#strategy)
+    3. [Scope](#scope)
+    4. [Structure](#structure)
+    5. [Skeleton](#skeleton)
+    6. [Surface](#surface)
 5. [Wireframes](#wireframes)
 6. [Technologies Used](#technologies-used)
 7. [Testing](#testing)
@@ -309,7 +309,7 @@
 > 13. Checked that social media links in the bottom of the website works and takes you to a new tab in the browser and to correct website.
 
 </details>
----
+
 
 ## Deployment
 
