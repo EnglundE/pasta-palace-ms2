@@ -292,10 +292,10 @@
 - ### Functional tests on different devices
 > * Iphone 7, Iphone 11 Pro, Iphone SE, Ipad. Samsung Galaxy S10e, Xiaomi Mi Note 10. Laptop, PC. Below test was performed on all devices:
 > 1. All Navigation links were tested to see if they work as intended including the collapsed navbar on phones.
-> 2. 
-> 3. 
-> 4. 
-> 5. 
+> 2. All Menu tabs were clicked to test if the new content show.
+> 3. All Menu items were clicked twice to check that it gets added to cart and on second click that the alert is shown.
+> 4. Remove button and change quantity on items in the cart was tested. 
+> 5. Total amount in cart checked so it gets updated accordingly.
 > 6. 
 
 
