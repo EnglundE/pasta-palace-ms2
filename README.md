@@ -148,6 +148,8 @@
 > - jQuery used to speed up the speed up the Javascript development.
 > 10. EmailJs: [Link](https://www.emailjs.com/)
 > - EmailJs used to generate email to forms on the website.
+> 11. compressjpeg: [Link](https://compressjpeg.com/)
+> - compressjpeg used to compress images to make site load and perform faster.
   
 ---
 
