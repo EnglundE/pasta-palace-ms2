@@ -584,11 +584,13 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   margin-top: 0.5em;
 }
 
+@media screen and (min-width: 750px) {
 .contact-border {
   border: 2px solid #295C5D;
   padding-bottom: 2rem;
   background-color: #fafafa;
   box-shadow: 5px 5px 5px;
+  }
 }
 
 /* Contact section */

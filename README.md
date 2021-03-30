@@ -290,13 +290,19 @@
 > * Microsoft Edge: Nothing to address, works according to test of user stories.
 
 - ### Functional tests on different devices
-> * Iphone 7, Iphone 11 Pro, Iphone SE, Ipad. Samsung Galaxy S10e, Xiaomi Mi Note 10. Laptop, PC. Below test was performed on all devices:
+> * Iphone 7, Iphone 11 Pro, Iphone SE, Ipad. Samsung Galaxy S10e, Xiaomi Mi Note 10. Laptop, PC. Below tests was performed on all devices:
 > 1. All Navigation links were tested to see if they work as intended including the collapsed navbar on phones.
 > 2. All Menu tabs were clicked to test if the new content show.
 > 3. All Menu items were clicked twice to check that it gets added to cart and on second click that the alert is shown.
 > 4. Remove button and change quantity on items in the cart was tested. 
 > 5. Total amount in cart checked so it gets updated accordingly.
-> 6. 
+> 6. Check that image slider shows the images and that next/prev button works as intended
+> 7. Checked that date picker in book a table section works. 
+> 8. Checked that correct alert shown when book button is i clicked when something in the book a table form isn't filled out or email filled out with wrong format.
+> 9. Checked that modal shown with correct information when book a table form is filled out correctly and button Book is clicked.
+> 10. Checked that correct alert shown when Send button is i clicked when something in the contact form isn't filled out or email filled out with wrong format.
+> 11. Checked that modal shown with correct information when contact form is filled out correctly and button Send is clicked.
+> 12. Checked that the book at table and contact form generates the intended email when filled out correctly.
 
 
 ---
