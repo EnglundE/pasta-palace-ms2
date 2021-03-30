@@ -1,4 +1,5 @@
 // Book a table form
+// Show alert when field is empty or wrong format on email. Else email sent with modal feedback.
 window.onload = function () {
     document.getElementById('booking-form').addEventListener('submit', function (event) {
         event.preventDefault();
@@ -133,7 +134,7 @@ window.onload = function () {
 // Book a table form //
 
 // Contact form
-
+// Show alert when field is empty or wrong format on email. Else email sent with modal feedback.
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault();
     let name = document.getElementById("contact-name").value;

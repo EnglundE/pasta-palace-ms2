@@ -14,17 +14,18 @@
 2.  [Project Goals](#project-goals)
 3.  [Business Goals](#business-goals)
 4.  [User experience](#user-experience)
-5.  [Strategy](#strategy)
-6.  [Scope](#scope)
-7.  [Structure](#structure)
-8.  [Skeleton](#skeleton)
-9.  [Surface](#surface)
-10. [Wireframes](#wireframes)
-11. [Technologies Used](#technologies-used)
-12. [Testing](#testing)
-13. [Deployment](#deployment)
-14. [Credits](#credits)
-15. [Support](#support)
+  * [User Stories](#user-stories)
+  * [Strategy](#strategy)
+  * [Scope](#scope)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+  * [Surface](#surface)
+5. [Wireframes](#wireframes)
+6. [Technologies Used](#technologies-used)
+7. [Testing](#testing)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Support](#support)
 
 
 
@@ -271,6 +272,8 @@
 > * Label had the same name in two places. Fixed by changing one of them to get accessibility score to 100.
 > * Sometimes when trying to add items to cart twice you are too far scrolled down to see the alert. This issue was fixed to always scrollIntoView to the alert when this happens.
 > * On mobile size screens its easy to be to far scrolled down on the page to see the alerts when not filling out the forms correctly. This was fixed to scrollIntoView to alert section when this happens. This only applies to screens with max-width of 570px.
+> * On Tablet size one item in Drinks menu is centralized instead of aligning with the rest of the items. This bug is left unfixed.
+> * Social media links takes you to main page of social media platform. This is because the restaurant is not real and have no social media.
 
 - ### Browser compatibility
 > * Safari: 
@@ -285,9 +288,8 @@
 > * Microsoft Edge: Nothing to address, works according to test of user stories.
 
 - ### Functional tests on different devices
-> * Iphone 7, Iphone 11 Pro, Iphone SE, Ipad. Samsung Galaxy S10e, Xiaomi Mi Note 10. Laptop, PC.
-> * All functionality, overall performance, link and responsiveness was tested as below description.
-> 1. 
+> * Iphone 7, Iphone 11 Pro, Iphone SE, Ipad. Samsung Galaxy S10e, Xiaomi Mi Note 10. Laptop, PC. Below test was performed on all devices:
+> 1. All Navigation links were tested to see if they work as intended including the collapsed navbar on phones.
 > 2. 
 > 3. 
 > 4. 

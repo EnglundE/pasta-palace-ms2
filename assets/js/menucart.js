@@ -289,7 +289,7 @@ function removeCartItem(event) {
     updateCartTotal();
 }
 
-// Set quantity to 1 if NaN or negative number is inserted
+// Set quantity to 1 if NaN, 0 or negative number is inserted
 function quantityChanged(event) {
     let input = event.target;
     if (isNaN(input.value) || input.value <= 0) {
