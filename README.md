@@ -10,16 +10,16 @@
 
 ## Table of Content
 
-1.  [Description](#description)
-2.  [Project Goals](#project-goals)
-3.  [Business Goals](#business-goals)
-4.  [User experience](#user-experience)
-  * [User Stories](#user-stories)
-  * [Strategy](#strategy)
-  * [Scope](#scope)
-  * [Structure](#structure)
-  * [Skeleton](#skeleton)
-  * [Surface](#surface)
+1. [Description](#description)
+2. [Project Goals](#project-goals)
+3. [Business Goals](#business-goals)
+4. [User experience](#user-experience)
+  1. [User Stories](#user-stories)
+  2. [Strategy](#strategy)
+  3. [Scope](#scope)
+  4. [Structure](#structure)
+  5. [Skeleton](#skeleton)
+  6. [Surface](#surface)
 5. [Wireframes](#wireframes)
 6. [Technologies Used](#technologies-used)
 7. [Testing](#testing)
@@ -154,6 +154,9 @@
 ---
 
 ## Testing
+
+<details>
+<summary>Click to expand!</summary>
  The W3C Markup Validator, W3C CSS Validator Services and Jshint were used to validate every page of the project to ensure there were no syntax errors in the project.  
 > * W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool.  [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/markup-validator.JPG) to the result. To perform the test paste in the HTML code in the tool.
 > * W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en) to the tool. [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/W3C-css-validator.JPG) to the result. To perform the test paste in the CSS code in the tool.
@@ -303,8 +306,9 @@
 > 10. Checked that correct alert shown when Send button is i clicked when something in the contact form isn't filled out or email filled out with wrong format.
 > 11. Checked that modal shown with correct information when contact form is filled out correctly and button Send is clicked.
 > 12. Checked that the book at table and contact form generates the intended email when filled out correctly.
+> 13. Checked that social media links in the bottom of the website works and takes you to a new tab in the browser and to correct website.
 
-
+</details>
 ---
 
 ## Deployment
