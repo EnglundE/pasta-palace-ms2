@@ -1,5 +1,5 @@
 // Menu Section
-// Browsing between Starters, Main Courses, Dessert and Drinks by click tab button and set new innterHTML
+// Get main courses button and on click change to main course menu
 $("#main-button").click(function () {
     document.getElementById("main-button").classList.add("btn-success");
     const starters = document.getElementById("starters-button");
@@ -44,6 +44,7 @@ $("#main-button").click(function () {
     ready();
 });
 
+// Get dessert button and on click change to dessert menu
 $("#dessert-button").click(function () {
     document.getElementById("dessert-button").classList.add("btn-success");
     const starters = document.getElementById("starters-button");
@@ -104,6 +105,7 @@ $("#dessert-button").click(function () {
     ready();
 });
 
+// Get drinks button and on click change to drinks menu
 $("#drinks-button").click(function () {
     document.getElementById("drinks-button").classList.add("btn-success");
     const starters = document.getElementById("starters-button");
@@ -179,6 +181,7 @@ $("#drinks-button").click(function () {
     ready();
 });
 
+// Get starters button and on click change back to starters menu
 $("#starters-button").click(function () {
     document.getElementById("starters-button").classList.add("btn-success");
     const dessert = document.getElementById("dessert-button");

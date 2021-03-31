@@ -31,7 +31,7 @@
 
 ## Description
 
-> This is my second Milestone Project at Code Institute. In this project i will create an interactive website with HTML5, CSS and Javascript. 
+> This is my second Milestone Project at Code Institute. In this project I will create an interactive website with HTML5, CSS and Javascript. 
 
 > Pasta Palace is a restaurant with the goal to reach out to the local community to showcase their menu and to add the possibility for customers to book a table or order food for take away. This is reached with a neat design with only relevant features and intuitive interactivity to get a clear and good user experience. 
 
@@ -52,21 +52,21 @@
 ## User stories
   
 - ### First time Visitors Goals
-> 1. As a first time visitor i want to browse the menu.
-> 2. As a first time visitor i want check out the opening hours.
-> 3. As a first time visitor i want to check out the location.
-> 4. As a first time visitor i want to look at the gallery.
+> 1. As a first time visitor I want to browse the menu.
+> 2. As a first time visitor I want check out the opening hours.
+> 3. As a first time visitor I want to check out the location.
+> 4. As a first time visitor I want to look at the gallery.
 
 - ### Returning Visitor Goals
-> 5. As a returning visitor i want to book a table.
-> 6. As a returning visitor i want to make a purchase for take away.
-> 7. As a returning visitor i want to be able to contact the restaurant with questions and/or feedback.
+> 5. As a returning visitor I want to book a table.
+> 6. As a returning visitor I want to make a purchase for take away.
+> 7. As a returning visitor I want to be able to contact the restaurant with questions and/or feedback.
 
 - ### Site Owner Goals
-> 8. As a site owner i want to expose the restaurant to the local community.
-> 9. As a site owner i want to expose our menu and buy options in an intuitive way.
-> 10. As a site owner i want customers to be able to contact us with feedback or questions.
-> 11. As a site owner i want customers to book a table directly on the site instead of calling.
+> 8. As a site owner I want to expose the restaurant to the local community.
+> 9. As a site owner I want to expose our menu and buy options in an intuitive way.
+> 10. As a site owner I want customers to be able to contact us with feedback or questions.
+> 11. As a site owner I want customers to book a table directly on the site instead of calling.
 
 
 - ### Strategy
@@ -148,7 +148,7 @@
 > - jQuery used to speed up the speed up the Javascript development.
 > 10. EmailJs: [Link](https://www.emailjs.com/)
 > - EmailJs used to generate email to forms on the website.
-> 11. compressjpeg: [Link](https://compressjpeg.com/)
+> 11. Compressjpeg: [Link](https://compressjpeg.com/)
 > - compressjpeg used to compress images to make site load and perform faster.
   
 ---
@@ -309,6 +309,8 @@
 > 12. Checked that the book at table and contact form generates the intended email when filled out correctly.
 > 13. Checked that social media links in the bottom of the website works and takes you to a new tab in the browser and to correct website.
 
+> * No error in console at any stage of the testing.
+
 > * Note: All testing was performed throughout the project and multiple times in the end and last but not least after all development was finished.
 
 </details>
@@ -323,7 +325,7 @@ The project was deployed to GitHub Pages using these steps...
 > 1. Log in to GitHub and locate the [Repository](Link to project on Github)
 > 2. Go to Settings in this repository.
 > 3. Scroll down to the GitHub Pages section.
-> 4. Under source, klick the "none" dropdown and choose the main branch.
+> 4. Under source, click the "none" dropdown and choose the main branch.
 > 5. The page will automatically refresh.
 > 6. Under GitHub Pages section in settings you can now locate the published site link.
 
