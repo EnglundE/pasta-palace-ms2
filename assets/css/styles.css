@@ -7,9 +7,7 @@ html > body {
   background-color: #f0f0f0;
 }
 
-
 /* Nav + Hero image */
-
 .navbar-toggler {
   float: left;
 }
@@ -514,11 +512,9 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
 #bookBtn {
   margin-top: 0.5em;
 }
-
 /* Book a table section /*/
 
 /* Contact section */
-
 #contact-container {
   text-align: center;
   margin-top: 6em;
@@ -595,11 +591,9 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   box-shadow: 5px 5px 5px;
   }
 }
-
 /* Contact section */
 
 /* Footer */
-
 .p-3 {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -624,7 +618,6 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
 
 
 /* 404 page */
-
 .error-page {
   margin-top: 20em;
   text-align: center;
