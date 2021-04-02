@@ -350,7 +350,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 
 The project was deployed to GitHub Pages using these steps...
 
-> 1. Log in to GitHub and locate the [Repository](https://github.com/EnglundE/pasta-palace-ms2)
+> 1. Log in to GitHub and locate the [Repository](https://github.com/EnglundE/pasta-palace-ms2).
 > 2. Go to Settings in this repository.
 > 3. Scroll down to the GitHub Pages section.
 > 4. Under source, click the "none" dropdown and choose the main branch.
@@ -361,7 +361,7 @@ The project was deployed to GitHub Pages using these steps...
 
 By forking the GitHub repository you can make a copy of the original repository to view and/or make changes without affecting the original repository byt using the following steps...
 
-> 1. Log in to GitHub and locate this [Repository](https://github.com/EnglundE/pasta-palace-ms2)
+> 1. Log in to GitHub and locate this [Repository](https://github.com/EnglundE/pasta-palace-ms2).
 > 2. On the far right in the repository (opposite side from EnglundE/pasta-palace-ms2), locate the "Fork" button.
 > 3. You should now have a copy of the original repository in your GitHub account.
 
