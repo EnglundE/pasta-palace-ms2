@@ -1,5 +1,6 @@
 // Menu Section
 // Get main courses button and on click change to main course menu
+// Credit to Johnstatesofitaly for main course dish content: https://johnstastesofitaly.com/johns-recipes/
 $("#main-button").click(function () {
     document.getElementById("main-button").classList.add("btn-success");
     const starters = document.getElementById("starters-button");
@@ -45,6 +46,7 @@ $("#main-button").click(function () {
 });
 
 // Get dessert button and on click change to dessert menu
+// Credit to shakersbarandgrill for some part of the content for dessert menu: https://www.shakersbarandgrill.com/dessert-menu/
 $("#dessert-button").click(function () {
     document.getElementById("dessert-button").classList.add("btn-success");
     const starters = document.getElementById("starters-button");
