@@ -127,9 +127,9 @@
 
 - ### Languages Used
 
-  > - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-  > - [CSS3](https://en.wikipedia.org/wiki/CSS)
-  > - [Javascript](https://sv.wikipedia.org/wiki/Javascript)
+> - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+> - [CSS3](https://en.wikipedia.org/wiki/CSS)
+> - [Javascript](https://sv.wikipedia.org/wiki/Javascript)
 
 - ### Frameworks, Libraries & Programs Used
   > 1. Bootstrap: [Link](https://getbootstrap.com/docs/5.0/getting-started/download/)
@@ -297,26 +297,27 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 
 - ### Bugs found and fixed during development:
 
-  > - scollIntoView function scrolled too far due fixed navbar. Fixed by creating a div above the section to scroll to instead.
-  > - When changing menu from starters it wasn't possible to add the new items to cart. Solved by calling the ready function after changing menu.
-  > - Alert displayed when forms not filled in stayed without getting removed. First fixed by setting a onKeyDown function to remove the alert. Later fixed with setTimeout function to 2.5 sec.
-  > - onKeyDown error in console in index.html for the contact form. onKeyDown function calling was still in the form in index.html even if the function was replaced by setTimeout function. Fixed by removing onKeyDown from index.html contact form.
-  > - Label had the same name in two places. Fixed by changing one of them to get accessibility score to 100.
-  > - Sometimes when trying to add items to cart twice you are too far scrolled down to see the alert. This issue was fixed to always scrollIntoView to the alert when this happens.
-  > - On mobile size screens its easy to be to far scrolled down on the page to see the alerts when not filling out the forms correctly. This was fixed to scrollIntoView to alert section when this happens. This only applies to screens with max-width of 570px.
-  > - On Tablet size one item in Drinks menu is centralized instead of aligning with the rest of the items. This bug is left unfixed.
-  > - Social media links takes you to main page of social media platform. This is because the restaurant is not real and have no social media.
+> - scollIntoView function scrolled too far due fixed navbar. Fixed by creating a div above the section to scroll to instead.
+> - When changing menu from starters it wasn't possible to add the new items to cart. Solved by calling the ready function after changing menu.
+> - Alert displayed when forms not filled in stayed without getting removed. First fixed by setting a onKeyDown function to remove the alert. Later fixed with setTimeout function to 2.5 sec.
+> - onKeyDown error in console in index.html for the contact form. onKeyDown function calling was still in the form in index.html even if the function was replaced by setTimeout function. Fixed by removing onKeyDown from index.html contact form.
+> - Label had the same name in two places. Fixed by changing one of them to get accessibility score to 100.
+> - Sometimes when trying to add items to cart twice you are too far scrolled down to see the alert. This issue was fixed to always scrollIntoView to the alert when this happens.
+> - On mobile size screens its easy to be to far scrolled down on the page to see the alerts when not filling out the forms correctly. This was fixed to scrollIntoView to alert section when this happens. This only applies to screens with max-width of 570px.
+> - On Tablet size one item in Drinks menu is centralized instead of aligning with the rest of the items. This bug is left unfixed.
+> - Social media links takes you to main page of social media platform. This is because the restaurant is not real and have no social media.
 
 - ### Browser compatibility
-  > - Safari:
-  >
-  > 1. The hero image and contact image stretched out in Safari. After some research it seems to be a bug in Safari that caused the issue. I needed to add !important to hero image height and align-items: flex-start; to contact image to fix the problem in Safari.
-  > 2. ScrollIntoView function in Safari isn't scrolling, its jumping directly to the section instead of a soft scrolling. Otherwise everything works as expected according to the test of user stories.
+
+> - Safari:
+>
+> 1. The hero image and contact image stretched out in Safari. After some research it seems to be a bug in Safari that caused the issue. I needed to add !important to hero image height and align-items: flex-start; to contact image to fix the problem in Safari.
+> 2. ScrollIntoView function in Safari isn't scrolling, its jumping directly to the section instead of a soft scrolling. Otherwise everything works as expected according to the test of user stories.
 
 > - Google Chrome: Nothing to address, works according to test of user stories.
 
 > - Mozilla Firefox:
->
+
 > 1. Not the same smooth scrolling when using the nav-tabs to scroll to section as in Google Chrome and as intended.
 
 > - Microsoft Edge: Nothing to address, works according to test of user stories.

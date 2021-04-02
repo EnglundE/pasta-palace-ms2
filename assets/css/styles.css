@@ -525,6 +525,11 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   max-width: 50rem;
 }
 
+img {
+  height: auto;
+  width: 100%;
+}
+
 #contact-section {
   margin-top: 11em;
 }
