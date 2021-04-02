@@ -23,7 +23,8 @@
 7. [Testing](#testing)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
-10. [Support](#support)
+10. [Acknowledgements](#acknowledgements)
+11. [Support](#support)
 
 ## Description
 
