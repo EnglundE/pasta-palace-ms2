@@ -525,10 +525,13 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   max-width: 50rem;
 }
 
-img {
+#contact-image {
+  align-items: flex-start;
+}
+
+#contact-image > img {
   height: auto;
   width: 100%;
-  align-items: flex-start;
 }
 
 #contact-section {
