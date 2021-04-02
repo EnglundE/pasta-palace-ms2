@@ -306,7 +306,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 > - On mobile size screens its easy to be to far scrolled down on the page to see the alerts when not filling out the forms correctly. This was fixed to scrollIntoView to alert section when this happens. This only applies to screens with max-width of 570px.
 > - On Tablet size one item in Drinks menu is centralized instead of aligning with the rest of the items. This bug is left unfixed.
 > - Social media links takes you to main page of social media platform. This is because the restaurant is not real and have no social media.
-> - Bad performance while testing the sites performance. Tried multiple things to try to fix this. Maker images smaller, compress images and gzip compression.
+> - Bad performance result while testing the site performance. Tried multiple things to try to fix this. Make images smaller, compress images and gzip compression.
 
 - ### Browser compatibility
 
