@@ -90,14 +90,14 @@
   > - Modal showing when contact form is filled out and sent.
   > - Modal showing when book a table form is filled out and sent.
   > - Modal showing when Purchase is clicked.
-  > - "Alert" are shown when trying to add same item to cart more than once.
-  > - "Alert shown when trying to book a table without filling in all inputs.
-  > - "Alert shown when trying to send the contact form without filling in all inputs.
+  > - Alert are shown when trying to add same item to cart more than once.
+  > - Alert shown when trying to book a table without filling in all inputs.
+  > - Alert shown when trying to send the contact form without filling in all inputs.
 
 > Features out of scope for the first release:
 >
 > - The possibility to actually make the purchase from the basket.
-> - Add information about purchase, how long it will take and maybe real time update.
+> - Add information about purchase, how long it will take and real time update.
 > - The possibility to see available slots to book a table function in real time.
 
 - ### Structure
@@ -113,7 +113,7 @@
   > - Some content will only be visible upon user actions to make the site less busy and only showing what the user decide to show to create a neat and smooth experience.
 
 - ### Surface
-  > - A light color scheme is be used throughout the website as background and darker colors for the text and content.
+  > - A light color scheme is be used throughout the website as background and darker colors for the text and content. Background color for the entire site is: #f0f0f0.
   > - Roboto is used as font, an easy to read and very common font for websites.
   > - A cursive Akaya Telivigala is used for title/name of the restaurant to stand out.
   > - The order of the content is based on what i think is expected from a website like this.
@@ -176,6 +176,10 @@
   > 11. Compressjpeg: [Link](https://compressjpeg.com/)
   >
   > - compressjpeg used to compress images to make site load and perform faster.
+  >
+  > 12. We dev: [Link](https://web.dev/measure/)
+  >
+  > - Wev dev were used to test the sites performance, best practice, accessibility and SEO.
 
 ---
 
@@ -211,7 +215,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | -------------------------------------- | :--------------------------------------: | --------------------------------------: | ----------------: |
 | Opening hours to be statically present | Scroll down to the bottom of the website | Easy to find and read the opening hours | Works as expected |
 
-> - Developer comment: After testing of opening hours a new paragraph was added under the hero image to get the opening hours more visible to the user sooner.
+> - Developer comment: After testing of opening hours a new paragraph was added under the hero image to get the opening hours visible to the user sooner.
 
 > 3. As a first time visitor i want to check out the location:
 
@@ -263,7 +267,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | Write message                  |            Write your message            | Message shown when moving to next input | Works as expected |
 | Not writing name/email/message | Click send without filling in the fields |  Alert for 2.5 sec with action required | Works as expected |
 
-> - Developer comment: No email validator implemented at this stage.
+> - Developer comment: Email format validator implemented as well.
 
 > 8. As a site owner i want to expose the restaurant to the local community:
 
