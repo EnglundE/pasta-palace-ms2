@@ -399,7 +399,9 @@ All credits are also in the code above each code snippet.
 
 #### Content
 
-> - All content was written by the developer.
+> - Credit to zomato.com for starters Menu: https://www.zomato.com/pune/starters-fillers-wakad/menu
+> - Credit to shakersbarandgrill for some part of the content for dessert menu: https://www.shakersbarandgrill.com/dessert-menu/
+> - Credit to Johnstatesofitaly for main course dish content: https://johnstastesofitaly.com/johns-recipes/
 
 #### Media
 
