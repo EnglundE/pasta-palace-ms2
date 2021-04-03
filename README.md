@@ -96,6 +96,7 @@
 > - Alert are shown when trying to add same item to cart more than once.
 > - Alert shown when trying to book a table without filling in all inputs.
 > - Alert shown when trying to send the contact form without filling in all inputs.
+> - A 404 page that redirect user back to index.html without having to use the browser navigation buttons.
 
 > Features out of scope for the first release:
 >
@@ -351,6 +352,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 > 12. Checked that the book at table and contact form generates the intended email when filled out correctly.
 > 13. Checked that social media links in the bottom of the website works and takes you to a new tab in the browser and to correct website.
 > 14. Responsiveness checked on all devices and all kind of screen sizes.
+> 15. Enter wrong path when trying to enter the website to check if the 404 page is working and that button there takes the user back to index.html.
 
 > - No error in console at any stage of the testing.
 
