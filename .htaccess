@@ -1,4 +1,4 @@
-ErrorDocument 404 /index.html
+ErrorDocument 404 index.html
 
 # compress text, html, javascript, css, xml:
 AddOutputFilterByType DEFLATE text/plain
