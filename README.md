@@ -302,7 +302,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 
 - ### Bugs found and fixed during development:
 
-> - scollIntoView function scrolled too far due fixed navbar. Fixed by creating a div above the section to scroll to instead.
+> - scrollIntoView function scrolled too far due fixed navbar. Fixed by creating a div above the section to scroll to instead.
 > - When changing menu from starters it wasn't possible to add the new items to cart. Solved by calling the ready function after changing menu.
 > - Alert displayed when forms not filled in stayed without getting removed. First fixed by setting a onKeyDown function to remove the alert. Later fixed with setTimeout function to 2.5 sec.
 > - onKeyDown error in console in index.html for the contact form. onKeyDown function calling was still in the form in index.html even if the function was replaced by setTimeout function. Fixed by removing onKeyDown from index.html contact form.
