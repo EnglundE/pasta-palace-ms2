@@ -206,7 +206,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 > - Chrome dev tool - Lighthouse [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/chrome-lighthouse.JPG) to the result. To perform the test open the website, right click anywhere on the site and choose "inspect". Navigate to Lighthouse and click generate report.
 > - Web accessibility evaluation tool [Link](https://wave.webaim.org/). [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/wave-test.JPG) to the result. To perform the test paste in the URL for the website in the tool.
 
-- ### Testing of User Stories from the User Story Section
+### Testing of User Stories from the User Story Section
 
 > 1. As a first time visitor i want to browse the menu:
 
@@ -362,7 +362,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 
 ## Deployment
 
-- ### GitHub Pages
+### GitHub Pages
 
 The project was deployed to GitHub Pages using these steps...
 
@@ -373,7 +373,7 @@ The project was deployed to GitHub Pages using these steps...
 > 5. The page will automatically refresh.
 > 6. Under GitHub Pages section in settings you can now locate the published site link.
 
-- ### Forking the GitHub Repository
+### Forking the GitHub Repository
 
 By forking the GitHub repository you can make a copy of the original repository to view and/or make changes without affecting the original repository byt using the following steps...
 
@@ -381,7 +381,7 @@ By forking the GitHub repository you can make a copy of the original repository 
 > 2. On the far right in the repository (opposite side from EnglundE/pasta-palace-ms2), locate the "Fork" button.
 > 3. You should now have a copy of the original repository in your GitHub account.
 
-- ### Making a Local Clone
+### Making a Local Clone
 
 > 1. Log in to GitHub and locate the [Repository](https://github.com/EnglundE/pasta-palace-ms2).
 > 2. Below "settings", click on the "Code" dropdown.
@@ -393,7 +393,7 @@ By forking the GitHub repository you can make a copy of the original repository 
 
 ---
 
-- ### Credits
+### Credits
 
 All credits are also in the code above each code snippet.
 
