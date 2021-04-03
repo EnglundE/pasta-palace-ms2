@@ -215,11 +215,15 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | Scroll to section from navbar      |      Click on Menu in the navbar       | To end up in the menu section of the page | Works as expected |
 | Browse through the different Menus | Click on the menu tabs in menu section |   To see new menu according to tab choice | Works as expected |
 
+> [Screenshots to support user story testing above]()
+
 > 2. As a first time visitor i want check out the opening hours:
 
 | Feature                                |                  Action                  |                         Expected result |     Actual result |
 | -------------------------------------- | :--------------------------------------: | --------------------------------------: | ----------------: |
 | Opening hours to be statically present | Scroll down to the bottom of the website | Easy to find and read the opening hours | Works as expected |
+
+> [Screenshots to support user story testing above]()
 
 > - Developer comment: After testing of opening hours a new paragraph was added under the hero image to get the opening hours visible to the user sooner.
 
@@ -229,6 +233,8 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | --------------------------------- | :--------------------------------------: | ---------------------------------: | ----------------: |
 | Location to be statically present | Scroll down to the bottom of the website | Easy to find and read the location | Works as expected |
 
+> [Screenshots to support user story testing above]()
+
 > - Developer comment: After testing of location a new paragraph was added under the hero image to get the location more visible to the user sooner.
 
 > 4. As a first time visitor i want to look at the gallery:
@@ -237,6 +243,8 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | ----------------------------------- | :----------------------------------: | ------------------------------------------: | ----------------: |
 | Scroll to section from navbar       |    Click on Gallery in the navbar    |            To end up in the Gallery section | Works as expected |
 | Prev/Next button to start slideshow | Click on next/prev button in Gallery | A new image after clicking next/prev button | Works as expected |
+
+> [Screenshots to support user story testing above]()
 
 > 5. As a returning visitor i want to book a table:
 
@@ -252,7 +260,9 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | Button Book                                    |           Click the button Book            |               Modal shown with information | Works as expected |
 | Not choosing date/name/email/number/table/time |     Book without filling in the fields     |     Alert for 2.5 sec with action required | Works as expected |
 
-> - Developer comment: Email format validator implemented as well.
+> [Screenshots to support user story testing above]()
+
+> - Developer comment: Email format validator implemented and tested as well.
 
 > 6. As a returning visitor i want to make a purchase for take away:
 
@@ -263,6 +273,8 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | Remove item from cart                       |   Click remove button after item in cart    | Removed from cart with updated total amount |                     Works as expected |
 | Make a purchase                             |        Click purchase button in cart        |   Get to a checkout page to confirm and pay | Modal with info feature not available |
 
+> [Screenshots to support user story testing above]()
+
 > 7. As a returning visitor i want to be able to contact the restaurant with questions and/or feedback:
 
 | Feature                        |                  Action                  |                         Expected result |     Actual result |
@@ -272,6 +284,9 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | Insert email                   |             Write your email             |   Email shown when moving to next input | Works as expected |
 | Write message                  |            Write your message            | Message shown when moving to next input | Works as expected |
 | Not writing name/email/message | Click send without filling in the fields |  Alert for 2.5 sec with action required | Works as expected |
+| Modal when sending email       |  Click send after filling in the fields  |            Modal shown with information | Works as expected |
+
+> [Screenshots to support user story testing above]()
 
 > - Developer comment: Email format validator implemented as well.
 
@@ -282,6 +297,8 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | Website is live | Make sure the website is deployed and live  |             Possible to reach the website | Works as expected |
 | High SEO score  | Make sure the website have a high SEO score | Higher chance to get customer to the site |   Evaluated later |
 
+> [Screenshots to support user story testing above]()
+
 > - Developer comment: Not sure if SEO have any impact on sites deployed on Github but cant be bad to have a high score.
 
 > 9. As a site owner i want to expose our menu and buy options in an intuitive way:
@@ -291,18 +308,23 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 | Clear menu in the website          | Scroll to Menu section via navbar or manual | Clear header for dishes and description | Works as expected |
 | Selected menu category highlighted |        Browse between the menu tabs         |          Easy to see which menu your on | Works as expected |
 
+> [Screenshots to support user story testing above]()
+
 > 10. As a site owner i want customers to be able to contact us with feedback or questions:
 
 | Feature                         |                Action                |                                Expected result |     Actual result |
 | ------------------------------- | :----------------------------------: | ---------------------------------------------: | ----------------: |
 | Short and easy form to fill out | Fill out contact form and click Send | Email sent to restaurant with feedback to user | Works as expected |
 
+> [Screenshots to support user story testing above]()
+
 > 11. As a site owner i want customers to book a table directly on the site instead of calling:
 
 | Feature                            |                  Action                   |                Expected result |                                             Actual result |
 | ---------------------------------- | :---------------------------------------: | -----------------------------: | --------------------------------------------------------: |
 | Book a table option on the website | Fill out book a table form and click Book | Table is booked and all is set | User get modal feedback and a mail get sent to restaurant |
-| Selected menu category highlighted |       Browse between the menu tabs        |  Easy to se which menu your on |                                         Works as expected |
+
+> [Screenshots to support user story testing above]()
 
 > - Developer comment: A fully functional and dynamic booking section with real time times/days available etc to be implemented in the future instead of only generating an email as of today.
 
