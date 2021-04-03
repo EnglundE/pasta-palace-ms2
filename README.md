@@ -305,7 +305,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 
 > - Developer comment: A fully functional and dynamic booking section with real time times/days available etc to be implemented in the future instead of only generating an email as of today.
 
-- ### Bugs found and fixed during development:
+### Bugs found and fixed during development:
 
 > - scrollIntoView function scrolled too far due fixed navbar. Fixed by creating a div above the section to scroll to instead.
 > - When changing menu from starters it wasn't possible to add the new items to cart. Solved by calling the ready function after changing menu.
