@@ -198,7 +198,7 @@ The W3C Markup Validator, W3C CSS Validator Services and Jshint were used to val
 
 > - W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool. [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/markup-validator.JPG) to the result. To perform the test paste in the HTML code in the tool.
 > - W3C CSS Validator - [Link](https://jigsaw.w3.org/css-validator/validator.html.en) to the tool. [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/W3C-css-validator.JPG) to the result. To perform the test paste in the CSS code in the tool.
-> - Jshint - [Link](https://jshint.com/) to the tool. To perform the test paste in the Javascript code in the tool.
+> - Jshint - [Link](https://jshint.com/) to the tool. [Link](https://github.com/EnglundE/pasta-palace-ms2/blob/master/assets/docs/testing/js-hint.jpg) to the result. To perform the test paste in the Javascript code in the tool.
 
 Tools to test Performance, Accessibility, Best Practices and SEO.
 
