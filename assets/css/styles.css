@@ -431,6 +431,10 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   margin-top: 2em;
 }
 
+.md-form > label {
+  margin-bottom: 0;
+}
+
 #book-section {
   margin-top: 4em;
 }
@@ -580,8 +584,6 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider*/
   color: black;
   width: 50%;
 }
-
-
 
 .text-md-left > button {
   margin-top: 0.5em;
