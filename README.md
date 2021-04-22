@@ -340,6 +340,7 @@ Tools to test Performance, Accessibility, Best Practices and SEO.
 > - On Tablet size one item in Drinks menu is centralized instead of aligning with the rest of the items. This bug is left unfixed.
 > - Social media links takes you to main page of social media platform. This is because the restaurant is not real and have no social media.
 > - Bad performance result while testing the site performance. Tried multiple things to try to fix this. Make images smaller, compress images and gzip compression.
+> - Noticed that bootstrap added a margin-bottom .5rem in the labels in the book a table form. Removed this to align with margin on the rest of the form.
 
 ### Browser compatibility
 
